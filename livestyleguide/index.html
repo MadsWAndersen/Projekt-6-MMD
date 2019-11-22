@@ -1,0 +1,688 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>FTZ Style Guide</title>
+    <link rel="stylesheet" href="css/inspo.css" />
+    <link rel="icon" type="image.png" href="HoC_icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <div class="flexWrapper">
+      <aside class="asideWrapper">
+        <img src="HoC-logo.svg" alt="" id="logo" />
+        <nav class="navWrapper">
+          <ul>
+			<li><a href="#atomicSection">ATOMIC DESIGN</a></li>
+            <li><a href="#farveSection">COLORS</a></li>
+            <li><a href="#logoSection">LOGO</a></li>
+            <li><a href="#knapperSection">BUTTONS</a></li>
+            <li><a href="#typoSection">TYPOGRAPHY</a></li>
+            <li><a href="#inputSection">INPUTS/FORMS</a></li>
+            <li><a href="#iconerSection">ICONS</a></li>
+            <li><a href="#navigationSection">NAVIGATION</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="mainWrapper">
+        <section class="landingSection">
+          <h1>MULTIKEY - NHS GROUP</h1>
+          <h3>GROUP 3</h3>
+          <br />
+          <p>
+            THIS STYLE GUIDE WAS MADE AND USED FOR THE PRODUCT <br>
+            THAT WAS CREATED FOR NHS GROUP. <br>
+            HERE YOU CAN FIND EVERYTHING YOU NEED CONCERNING BOTH DESIGN & CODE.
+          </p>
+        </section>
+
+		  <section class="atomicSection" id="atomicSection">
+		  <h1>ATOMIC DESIGN</h1>
+
+      <h3>ATOMS<h3>
+      <table class="iconTable">
+        <tr>
+          <th style="font-size: 20px;">ATOM</th>
+          <th style="font-size: 20px;">HTML</th>
+        </tr>
+        <tr>
+          <th>LOGO</th>
+          <th>img</th>
+        </tr>
+        <tr>
+          <th>ICON</th>
+          <th>i</th>
+        </tr>
+        <tr>
+          <th>TITLE</th>
+          <th>h1</th>
+        </tr>
+        <tr>
+          <th>TEXT</th>
+          <th>p</th>
+        </tr>
+        <tr>
+          <th>LINK</th>
+          <th>a</th>
+        </tr>
+        <tr>
+          <th>LABEL</th>
+          <th>label</th>
+        </tr>
+		  <tr>
+          <th>INPUT</th>
+          <th>input</th>
+        </tr>
+		  <tr>
+          <th>INPUT CHECKBOX</th>
+          <th>input type="checkbox"</th>
+        </tr>
+		   <tr>
+          <th>INPUT CHECK BOX WITH ICON</th>
+          <th>input type="checkbox" + i/img</th>
+        </tr>
+		   <tr>
+          <th>CHECKMARK</th>
+          <th></th>
+        </tr>
+		  <tr>
+          <th>BUTTON</th>
+          <th>button</th>
+        </tr>
+		   <tr>
+          <th>KEYCARD</th>
+          <th>div</th>
+        </tr>
+		  <tr>
+          <th>BORDER</th>
+          <th>span</th>
+        </tr>
+		  <tr>
+          <th>BURGER MENU</th>
+          <th></th>
+        </tr>
+
+
+      </table>
+
+	<h3>MOLECULES<h3>
+      <table class="iconTable">
+        <tr>
+          <th style="font-size: 20px;">MOLECULE</th>
+          <th style="font-size: 20px;">ATOMS</th>
+        </tr>
+        <tr>
+          <th>BACK BUTTON</th>
+          <th>icon + link</th>
+        </tr>
+        <tr>
+          <th>LOGIN RE-DIRECT</th>
+          <th>text + link</th>
+        </tr>
+        <tr>
+          <th>SIGN UP RE-DIRECT</th>
+          <th>text + link</th>
+        </tr>
+        <tr>
+          <th>STANDARD BUTTON</th>
+          <th> button + link</th>
+        </tr>
+        <tr>
+          <th>COLOR PICK BUTTON</th>
+          <th>button + link</th>
+        </tr>
+        <tr>
+          <th>LIST PICK BUTTON</th>
+          <th>button + link</th>
+        </tr>
+		  <tr>
+          <th>LIST BUTTON HOME</th>
+          <th>button + icon</th>
+        </tr>
+		  <tr>
+          <th>LIST BUTTON WORK</th>
+          <th>button + icon</th>
+        </tr>
+		   <tr>
+          <th>LIST BUTTON SCHOOL</th>
+          <th>button + icon</th>
+        </tr>
+		   <tr>
+          <th>LIST BUTTON NEW LIST</th>
+          <th>button + icon</th>
+        </tr>
+		  <tr>
+          <th>ADD KEY BUTTON</th>
+          <th>button + icon</th>
+        </tr>
+		   <tr>
+          <th>BURGER MENU BUTTON</th>
+          <th>burger menu icon + link</th>
+        </tr>
+		  <tr>
+          <th>PROFILE NAV LINK</th>
+          <th>text + link</th>
+        </tr>
+		  <tr>
+          <th>YOUR KEYS NAV LINK</th>
+          <th>text + link</th>
+        </tr>
+		   <tr>
+          <th>HELP NAV LINK</th>
+          <th>text + link</th>
+        </tr>
+		   <tr>
+          <th>LOG OUT NAV LINK</th>
+          <th>text + link</th>
+        </tr>
+		  <tr>
+          <th>PLACEHOLDER BOX</th>
+          <th>div + link</th>
+        </tr>
+		<th>STANDARD INPUT</th>
+          <th>input + text + icon</th>
+        </tr>
+
+
+      </table>
+
+	<h3>ORGANISMS<h3>
+      <table class="iconTable">
+        <tr>
+          <th style="font-size: 20px;">ORGANISM</th>
+          <th style="font-size: 20px;">MOLECULES</th>
+        </tr>
+        <tr>
+          <th>MENU</th>
+          <th>icon + link + profile, your keys, help, logout nav links</th>
+        </tr>
+        <tr>
+          <th>KEY LIST</th>
+          <th>add new, home, work, school list buttons</th>
+        </tr>
+        <tr>
+          <th>PROFILE EDIT FORM</th>
+          <th>standard input x3 + standard button</th>
+        </tr>
+        <tr>
+          <th>LOGIN INPUT FROM</th>
+          <th>standard input x2</th>
+        </tr>
+        <tr>
+          <th>SIGN UP INPUT FORM</th>
+          <th>standard input x3 + checkbox</th>
+        </tr>
+        <tr>
+          <th>SIGN UP BUTTON</th>
+          <th>standard button + login re-direct</th>
+        </tr>
+		  <tr>
+          <th>LOGIN BUTTON</th>
+          <th>standard button + sign up re-direct</th>
+        </tr>
+		  <tr>
+          <th>KEY CAROUSEL</th>
+          <th>keycard x3</th>
+        </tr>
+		   <tr>
+          <th>PROFILE IMAGE</th>
+          <th>icon + icon</th>
+        </tr>
+		   <tr>
+          <th>COLOR PICKER</th>
+          <th>color pick button x5</th>
+        </tr>
+		  <tr>
+          <th>LIST ICON PICKER</th>
+          <th>icon button x5</th>
+        </tr>
+		   <tr>
+          <th>KEY CARD GRID</th>
+          <th>keycard x12</th>
+        </tr>
+		  <tr>
+          <th>EDIT KEYS FORM</th>
+          <th>standard form + standard button x2</th>
+        </tr>
+
+      </table>
+
+	<h3>TEMPLATES<h3>
+      <table class="iconTable">
+        <tr>
+          <th style="font-size: 20px;">TEMPLATE</th>
+          <th style="font-size: 20px;">ORGANISMS</th>
+        </tr>
+        <tr>
+          <th>INDEX/LOGO PAGE</th>
+          <th>logo (atom)</th>
+        </tr>
+        <tr>
+          <th>SIGN UP PAGE</th>
+          <th>logo + sign up form + sign up button</th>
+        </tr>
+        <tr>
+          <th>LOGIN PAGE</th>
+          <th>logo + login form + login button</th>
+        </tr>
+        <tr>
+          <th>MAIN PAGE</th>
+          <th>menu + add key button + keycard carousel + key list</th>
+        </tr>
+        <tr>
+          <th>PROFILE PAGE</th>
+          <th>back button + title + profile image + profile edit form + standard button</th>
+        </tr>
+        <tr>
+          <th>YOUR KEYS PAGE</th>
+          <th>back button + title + keycard grid</th>
+        </tr>
+		  <tr>
+          <th>EDIT KEYS PAGE</th>
+          <th>back button + title + keycard + edit keys form + color picker + list icon picker + standard button x2 </th>
+        </tr>
+		  <tr>
+          <th>HELP PAGE</th>
+          <th>back button + title + placeholder</th>
+        </tr>
+
+
+      </table>
+
+	<h3>PAGES<h3>
+      <table class="iconTable">
+        <tr>
+          <th style="font-size: 20px;">PAGE</th>
+          <th style="font-size: 20px;"></th>
+        </tr>
+        <tr>
+          <th>INDEX/LOGO PAGE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>SIGN UP PAGE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>LOGIN PAGE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>MAIN PAGE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>PROFILE PAGE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>YOUR KEYS PAGE</th>
+          <th></th>
+        </tr>
+		  <tr>
+          <th>EDIT KEYS PAGE</th>
+          <th></th>
+        </tr>
+		  <tr>
+          <th>HELP PAGE</th>
+          <th></th>
+        </tr>
+
+      </table>
+
+		  </section>
+
+
+        <section class="farveSection" id="farveSection">
+          <h1>COLORS</h1>
+          <article class="color" style="background-color: #2B3E56; border: 1px solid white;">
+            <div class="colorInfo white">
+              <div class="firstColon">
+                <p>Hex:</p>
+                <p>RGB:</p>
+                <p>CMYK:</p>
+              </div>
+              <div>
+                <p>#2B3E56</p>
+                <p>R:43 G:62 B:86</p>
+                <p>17% 9% 0% 66%</p>
+              </div>
+            </div>
+          </article>
+          <article class="color" style="background-color: #62bdba;">
+            <div class="colorInfo white">
+              <div>
+                <p>Hex:</p>
+                <p>RGB:</p>
+                <p>CMYK:</p>
+              </div>
+              <div>
+                <p>#62bdba</p>
+                <p>R:98 G:189 B:186</p>
+                <p>36% 0% 1% 26%</p>
+              </div>
+            </div>
+
+          </article>
+          <article class="color" style="background-color: #ffffff;">
+            <div class="colorInfo black">
+              <div>
+                <p>Hex:</p>
+                <p>RGB:</p>
+                <p></p>
+                <p>CMYK:</p>
+              </div>
+              <div>
+                <p>#FFFFFF</p>
+                <p>R:255 G:255 B:255</p>
+                <p>0% 0% 0% 0%</p>
+              </div>
+            </div>
+          </article>
+          <article class="color" style="background-color: #2f6573; ">
+            <div class="colorInfo white">
+              <div>
+                <p>Hex:</p>
+                <p>RGB:</p>
+                <p></p>
+                <p>CMYK:</p>
+              </div>
+              <div>
+                <p>#2f6573</p>
+                <p>R:47 G:101 B:15</p>
+                <p>88,43% 47,01% 43,7% 16,37%</p>
+              </div>
+            </div>
+          </article>
+          <article class="color" style="background-color: #D5D8DD; border: 1px solid black;">
+            <div class="colorInfo black">
+              <div>
+                <p>Hex:</p>
+                <p>RGB:</p>
+                <p></p>
+                <p>CMYK:</p>
+              </div>
+              <div>
+                <p>#D5D8DD</p>
+                <p>R:212 G:215 B:220</p>
+                <p>15,91% 10,78% 8,28% 0%</p>
+              </div>
+            </div>
+          </article>
+
+        </section>
+        <section class="logoSection" id="logoSection">
+          <h1>LOGO</h1>
+          <h3>LOGO ON BLUE BACKGROUND</h3>
+          <div class="logoHvid">
+            <img src="Billeder/LOGONAVN.png" alt="" id="logo"/>
+          </div>
+        </section>
+
+<!--BUTTONS-->
+        <section class="knapperSection" id="knapperSection">
+          <article>
+
+            <h1>BUTTONS</h1>
+            <h3>STANDARD BUTTON</h3>
+            <hr />
+            <button type="button" class="standardBtn">BUTTON</button>
+
+            <h3>SECONDARY STANDARD BUTTON</h3>
+            <hr />
+            <button type="button" class="standardBtnblue">BUTTON</button>
+
+
+            <h3>NAVIGATION LINK</h3>
+            <hr />
+            <li class="navList"><a href="#">NAVIGATION</a></li>
+          </article>
+
+          <article class="ptools">
+            <h2>PRODUCTION TOOLS</h2>
+            <h3>STANDARD BUTTON</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code>&lt;button type="button"
+                class="standardBtn">BUTTON&lt;/button></code>
+            </div>
+            <h3>SECONDARY STANDARD BUTTON</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code>&lt;button type="button"
+                class="standardBtnblue">BUTTON&lt;/button></code>
+            </div>
+            <h3>NAVIGATION LINK</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code>&lt;a class="forgot" href="#">NAVIGATIONn&lt;/a></code>
+            </div>
+          </article>
+        </section>
+
+        <section class="typoSection" id="typoSection">
+
+        <h1 class="tpg">TYPOGRAPHY</h1>
+          <article>
+          <h1 style="font-size: 40px;">'Josefin Sans', sans-serif - Regular</h1>
+			       <p>'Josefin Sans', sans-serif is a Google font and is used on all headlines as well as paragrah text.</p>
+
+            <h1 style="font-size: 25px;">Example of a headline (size 25px):<br>
+            <br>THIS IS A HEADLINE</h1>
+          </article>
+
+          <article>
+            <h1 style="font-size: 20px;">
+              Example of a paragraph (size 20px): <br><br> THIS IS A PARAGRAPH
+            </h1>
+
+            <a href="https://fonts.google.com/specimen/Josefin+Sans" target="_blank">
+              <button class="standardBtn">DOWNLOAD 'JOSEFIN SANS' HERE</button></a>
+          </article>
+        </section>
+
+        <section class="inputSection" id="inputSection">
+
+          <h1>INPUTS/FORMS</h1>
+          <p>
+            Inputs are used quite often throughout the product. Both in the shape of checkboxes and text inputs. Both the styling and the size of these inputs varies from page to page.
+            <br /><br />
+            A lot of the inputs used in the product fit on one page but not the next. Therefore, we've added some diffent examples of the many different types of inputs we've used.
+            <br /><br />
+            Some have been made with a both a different background color as well as different overall colors, than others. They have also been listed as examples:
+
+          <h3>EXAMPLE OF AN INPUT [TYPE="TEXT"]</h3>
+          <form method="POST" action="main1.html" onsubmit="return Validate()" name="vform">
+          <section class="profileinp">
+          <label for="inp" class="inp">
+          	<input type="text" placeholder="&nbsp;" name="email">
+          	<span class="label"><span  class="fas fa-envelope"></span> E-MAIL</span>
+          	<span class="border"></span>
+            <div id="email_error"></div>
+          </label>
+          </section>
+
+          <h3>EXAMPLE OF INPUT [TYPE="PASSWORD"]</h3>
+          <section class="mobileinp">
+          <label for="inp" class="inp">
+          	<input type="password" placeholder="&nbsp;" name="pass">
+          	<span class="label"><span class="fas fa-lock"></span> PASSWORD</span>
+          	<span class="border"></span>
+            <div id="pass_error"></div>
+          </label>
+          </section>
+
+          <h3>EXAMPLE OF INPUT [TYPE="CHECKBOX"]</h3>
+          <label class="checkbox">THIS IS A CHECKBOX
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+
+        <section class="iconerSection" id="iconerSection">
+
+          <h1>ICONS</h1>
+          <h3>
+            Icons need to be used the <i>right</i> way. The icons in this product have therefore been used because there is meaning behind them. They add to the overall style of the products and keep the pages from turning into nothing but boxes with text. Icons help make the pages more dynamic.
+          </h3>
+          <p>
+            We have used:
+            <a href="https://fontawesome.com/icons?d=gallery">FONT AWESOME</a>.
+            It's free and it has a wide library of icons to choose from.
+          </p>
+
+          <table class="iconTable">
+            <tr>
+              <th style="font-size: 20px;">CLASS NAME:</th>
+              <th style="font-size: 20px;">IMAGE</th>
+            </tr>
+            <tr>
+              <th>FAS FA-USER-CIRCLE</th>
+              <th><i class="fas fa-user-circle"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-USER</th>
+              <th><i class="fas fa-user"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-KEY</th>
+              <th><i class="fas fa-key"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-QUESTION-CIRCLE</th>
+              <th><i class="fas fa-question-circle"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-POWER-OFF</th>
+              <th><i class="fas fa-power-off"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-ENVELOPE</th>
+              <th><i class="fas fa-envelope"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-PLUS</th>
+              <th><i class="fas fa-plus"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-PLUS-CIRCLE</th>
+              <th><i class="fas fa-plus-circle"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-LOCK</th>
+              <th><i class="fas fa-lock"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-CHEVRON-LEFT</th>
+              <th><i class="fas fa-chevron-left"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-CAMERA</th>
+              <th><i class="fas fa-camera"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-MOBILE-ALT</th>
+              <th><i class="fas fa-mobile-alt"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-STAR</th>
+              <th><i class="fas fa-star"></i></th>
+            </tr>
+            <tr>
+              <th>FAR FA-STAR</th>
+              <th><i class="far fa-star"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-BUILDING</th>
+              <th><i class="fas fa-building"></i></th>
+            </tr>
+            <tr>
+              <th>FAR FA-BUILDING</th>
+              <th><i class="far fa-building"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-FILE-ALT</th>
+              <th><i class="fas fa-file-alt"></i></th>
+            </tr>
+            <tr>
+              <th>FAR FA-FILE-ALT</th>
+              <th><i class="far fa-file-alt"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-ID-CARD</th>
+              <th><i class="fas fa-id-card"></i></th>
+            </tr>
+            <tr>
+              <th>FAR FA-ID-CARD</th>
+              <th><i class="far fa-id-card"></i></th>
+            </tr>
+            <tr>
+              <th>FAS FA-PAPER-PLANE</th>
+              <th><i class="fas fa-paper-plane"></i></th>
+            </tr>
+            <tr>
+              <th>FAR FA-PAPER-PLANE</th>
+              <th><i class="far fa-paper-plane"></i></th>
+            </tr>
+          </table>
+        </section>
+
+        <section class="navigationSection" id="navigationSection">
+
+          <h1>NAVIGATION</h1>
+          <h4>
+            THE NAVIGATION IS MAINLY FROM THE BURGER MENU.
+            HERE IS AN EXAMPLE OF NAVIGATION FROM THE MAIN PAGE AND SIDEPAGE.
+          </h4>
+          <h4>EXAMPLE OF MAIN NAVIGATION</h4>
+          <hr />
+          <section class="topsection">
+            <div id="nav-container">
+              <div class="bg">
+              </div>
+              <div class="navbutton" tabindex="0">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </div>
+              <div id="nav-content" tabindex="0">
+                <ul class="menuitems fa-ul">
+                  <li><i class="fas fa-user-circle menuuser"></i></li>
+                  <li><a href="#0"><span class="fa-li"><i class="fas fa-user"></i></span>PROFILE</a></li>
+                  <li><a href="#0"><span class="fa-li"><i class="fas fa-key"></i></span>YOUR KEYS</a></li>
+                  <li><a href="#0"><span class="fa-li"><i class="fas fa-question-circle"></i></span>HELP</a></li>
+                </ul>
+                <ul class="logout fa-ul">
+                  <li><a href="#0"><span class="fa-li"><i class="fas fa-power-off"></i></span>LOG OUT</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </section>
+
+        </section>
+
+        <section class="sprogSection" id="sprogSection">
+
+      </main>
+    </div>
+
+  </body>
+</html>
