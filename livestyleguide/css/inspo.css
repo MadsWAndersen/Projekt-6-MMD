@@ -56,6 +56,7 @@ p {
   font-size: 20px;
   color: white;
   cursor: pointer;
+  overflow: hidden;
   transition: color 0.2s ease-in-out;
 }
 
@@ -155,6 +156,7 @@ p {
   background-color: #2b3e56;;
   margin-left: 5%;
   margin-bottom: 60px;
+
 }
 
 .atomicSection h1 {
