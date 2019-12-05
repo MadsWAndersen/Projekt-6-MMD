@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0d1930;
+  background-image: url("../img/arrow.png");
+  color: #fff;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr 2fr 0.5fr 0.5fr;
+  border: 1px solid #000;
+  max-height: 100%;
+}
+
+header {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr;
+  border: 1px solid green;
+  width: 100%;
+  text-align: center;
+}
+
+.bilnavn {
+  grid-column: 2/3;
+  margin: 0;
+  font-size: 28px;
+}
+
+.indstillinger {
+  justify-self: right;
+  grid-column: 3;
+  grid-row: 1;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+}
+
+nav{
+grid-column: 1/-1;
+grid-row: 2;
+display: grid;
+grid-template-rows: 0.5fr;
+}
+
+nav p{
+  display: inline-block;
+  text-align: center;
+  grid-row: 1;
+}
+
+.dokumenter{
+  grid-column: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.teknisk-info{
+grid-column: 2;
+}
+
+.underline{
+  width: 60%;
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+  background-color: #2e3444;
+  height: 2px;
+  border-radius: 5px;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.platebig{
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+
+
+/* SECTION */
+/* SECTION */
+/* SECTION */
+
+
+main{
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.3fr 1fr;
+}
+
+#topleft{
+  grid-column: 1;
+  margin-left: 15%;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#topright{
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: 15%;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#divider{
+  grid-column: 1/-1;
+  grid-row: 2;
+  width: 84%;
+  margin-top: 3%;
+  justify-self: center;
+  background-color: #2e3444;
+  height: 2px;
+  border-radius: 5px;
+
+}
+
+#forsikring{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-column: 1/-1;
+}
+
+.forsikringsheader{
+  grid-column: 1/-1;
+  grid-row: 2;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+#botleft{
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 15%;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#botright{
+  grid-column: 2;
+  grid-row: 3;
+  margin-left: 15%;
+  font-weight: 300;
+  font-size: 14px;
+}
