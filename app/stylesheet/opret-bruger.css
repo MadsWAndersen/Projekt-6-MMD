@@ -140,13 +140,13 @@ body {
 
 /* EMAIL ICON*/
 
-.profileinp {
+.emailinp {
 	position: relative;
 	color: #fff;
 }
 
 
-.profileinp .fa-envelope {
+.emailinp .fa-envelope {
 	position: relative;
 	top: 0px;
   margin-right: 8px;
@@ -196,10 +196,9 @@ body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	text-align: right;
-  margin-top: 5%;
+	text-align: left;
+  margin-top: 10%;
   color: #fff;
-  letter-spacing: 2.5px;
 
 }
 
