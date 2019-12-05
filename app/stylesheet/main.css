@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.backbtn {
+	color: white;
+	grid-column-end: 2;
+	grid-row: 1;
+	text-align: center;
+	padding-top: 33px;
+	font-size: 100%;
+}
+
+a {
+	color: white;
+}
+
+
+.profiletitle{
+	color: white;
+	grid-column-start: 2;
+	grid-row: 1;
+	font-size: 80%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: lighter;
+}
+
+
+.profilepic {
+	color: white;
+	font-size: 170px;
+	grid-column: 2;
+	grid-row: 2;
+	text-align: center;
+	margin-top: 10%;
+	opacity: 0.5;
+}
+
+
+.editbtn {
+	color: white;
+	grid-column: 2;
+	grid-row: 2;
+	margin-top: 65%;
+	margin-right: 0%;
+	margin-left: 70%;
+	z-index: 1000;
+	font-size: 35px;
+}
+
+
+.profiletxt {
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+.forms{
+	grid-column: 2;
+	grid-row: 3;
+}
+
+
+/*FORMS*/
+
+
+body {
+	display: grid;
+	font-family: 'Josefin Sans', sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+background-color: #0d1930;
+}
