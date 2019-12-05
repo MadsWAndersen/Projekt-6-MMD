@@ -43,7 +43,12 @@ header a{
   grid-row: 1/3;
   justify-self: center;
   align-self: center;
+  text-decoration: none;
 
+}
+
+header a:visited{
+  color: #fff;
 }
 
 .advarselslamper{
@@ -70,7 +75,12 @@ section {
   height: 45px;
   border-radius: 10px;
   background-color: #fff;
+  justify-items: center;
+  align-items: center;
+
 }
+
+/* Gas knap */
 
 .knap1{
   grid-column: 1;
@@ -79,19 +89,41 @@ section {
 
 }
 
+.knap1 .gas{
+  width: 60%;
+  padding: 20%;
+  margin-left: 5%;
+}
+
+/* Olie knap */
+
 .knap2{
   grid-column: 2;
   grid-row: 1;
   background-color: #47597A;
-
 }
+
+.knap2 .oil{
+  width: 80%;
+  padding: 10%;
+  margin-left: 1%;
+}
+
+/* Battery knap */
 
 .knap3{
   grid-column: 3;
   grid-row: 1;
   background-color: #47597A;
-
 }
+
+.knap3 .battery{
+  width: 70%;
+  padding: 10%;
+  margin-left: 1%;
+}
+
+/* Masterwarning knap */
 
 .knap4{
   grid-column: 4;
@@ -100,12 +132,28 @@ section {
 
 }
 
+.knap4 .warning{
+  width: 70%;
+  padding: 10%;
+  margin-left: 1%;
+}
+
+/* Frost knap */
+
 .knap5{
   grid-column: 5;
   grid-row: 1;
   background-color: #47597A;
 
 }
+
+.knap5 .frost{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Moter knap */
 
 .knap6{
   grid-column: 1;
@@ -114,12 +162,28 @@ section {
 
 }
 
+.knap6 .moter{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Brake knap */
+
 .knap7{
   grid-column: 2;
   grid-row: 2;
   background-color: #47597A;
 
 }
+
+.knap7 .brake{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Vent knap */
 
 .knap8{
   grid-column: 3;
@@ -128,12 +192,28 @@ section {
 
 }
 
+.knap8 .vent{
+  width: 55%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
+/* Temperature knap */
+
 .knap9{
   grid-column: 4;
   grid-row: 2;
   background-color: #47597A;
 
 }
+
+.knap9 .temp{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Turn signals knap */
 
 .knap10{
   grid-column: 5;
@@ -142,12 +222,28 @@ section {
 
 }
 
+.knap10 .turn{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Hot knap */
+
 .knap11{
   grid-column: 1;
   grid-row: 3;
   background-color: #47597A;
 
 }
+
+.knap11 .hot{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Trunk knap */
 
 .knap12{
   grid-column: 2;
@@ -156,12 +252,28 @@ section {
 
 }
 
+.knap12 .trunk{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Cirkulation knap */
+
 .knap13{
   grid-column: 3;
   grid-row: 3;
   background-color: #47597A;
 
 }
+
+.knap13 .cirkulation{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+ /* Open trunk knap */
 
 .knap14{
   grid-column: 4;
@@ -170,12 +282,27 @@ section {
 
 }
 
+.knap14 .opentrunk{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Open door knap */
+
 .knap15{
   grid-column: 5;
   grid-row: 3;
   background-color: #47597A;
-
 }
+
+.knap15 .opendoors{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Windsheel knap */
 
 .knap16{
   grid-column: 1;
@@ -184,12 +311,29 @@ section {
 
 }
 
+.knap16 .windsheel{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Windsheel 1 knap */
+
 .knap17{
   grid-column: 2;
   grid-row: 4;
   background-color: #47597A;
 
 }
+
+.knap17 .windsheel1{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+
+/* Heatfront knap */
 
 .knap18{
   grid-column: 3;
@@ -198,12 +342,28 @@ section {
 
 }
 
+.knap18 .heatfront{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Heatback knap */
+
 .knap19{
   grid-column: 4;
   grid-row: 4;
   background-color: #47597A;
 
 }
+
+.knap19 .heatback{
+  width: 60%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
+/* Light knap */
 
 .knap20{
   grid-column: 5;
@@ -212,51 +372,125 @@ section {
 
 }
 
+.knap20 .light{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Light2 knap */
+
 .knap21{
   grid-column: 1;
   grid-row: 5;
   background-color: #47597A;
-
 }
+
+.knap21 .light2{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Light 3 knap */
+
 .knap22{
   grid-column: 2;
   grid-row: 5;
   background-color: #47597A;
 
 }
+
+.knap22 .light3{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Light On knap */
+
 .knap23{
   grid-column: 3;
   grid-row: 5;
   background-color: #47597A;
 
 }
+
+.knap23 .lighton{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
+}
+
+/* Passanger knap */
+
 .knap24{
   grid-column: 4;
   grid-row: 5;
   background-color: #47597A;
 
 }
+
+.knap24 .passanger{
+  width: 60%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
+/* Longlight knap */
+
 .knap25{
   grid-column: 5;
   grid-row: 5;
   background-color: #47597A;
 
 }
+
+.knap25 .longlight{
+  width: 60%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
+/* Heatoverall knap */
+
 .knap26{
   grid-column: 1;
   grid-row: 6;
   background-color: #47597A;
 
 }
+
+.knap26 .heatoverall{
+  width: 60%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
+/* Seatbelt knap */
+
 .knap27{
   grid-column: 2;
   grid-row: 6;
   background-color: #47597A;
 
 }
+
+.knap27 .seat{
+  width: 60%;
+  padding: 20%;
+  margin-left: 1%;
+}
+
 .knap28{
   grid-column: 3;
   grid-row: 6;
   background-color: #47597A;
 
+}
+
+.knap28 .p{
+  width: 60%;
+  padding: 10%;
+  margin-left: 1%;
 }
