@@ -78,11 +78,6 @@ aside {
   grid-column: 5;
 }
 
-#overblik {
-  position: absolute;
-  left: 285px;
-  top: 170px;
-}
 
 .status {
   width: 75px;

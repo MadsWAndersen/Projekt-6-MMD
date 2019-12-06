@@ -1,6 +1,6 @@
 let p1 = document.getElementById('page1');
 let p2 = document.getElementById('page2');
-let overblik = document.getElementById('overblik');
+// let overblik = document.getElementById('overblik');
 
 
 let startingX;
@@ -13,12 +13,12 @@ function p1handleTouchStart(evt) {
 function p1handleTouchMove(evt) {
   let touch = evt.touches[0];
   let change = startingX - touch.clientX;
-  let start = overblik.left;
+  // let start = overblik.left;
   if (change < 0) {
-    return;
+  return;
   }
   p1.style.left = "-" + change + "px";
-  overblik.style.left =  "-" + change + "px";
+  // overblik.style.left = "-" + change + "px";
   p2.style.display = "block";
   p2.style.left = (screen.width - change) + "px";
   evt.preventDefault();
@@ -35,8 +35,8 @@ function p1handleTouchEnd(evt) {
   } else {
     p1.style.transition = 'all .5s';
     p2.style.transition = 'all .5s';
-    overblik.style.transition = 'all .5s';
-    overblik.style.left = '-100%';
+    // overblik.style.transition = 'all .5s';
+    // overblik.style.left = '-100%';
     p1.style.left = '-100%';
     p2.style.left = '0';
     p2.style.display = 'block';
@@ -59,7 +59,7 @@ function p2handleTouchMove(evt) {
   if (change < 0) {
     return;
   }
-  p1.style.display = "block";
+  p1.style.display = "grid";
   p1.style.left = (change - screen.width) + "px";
   p2.style.left = change + "px";
   evt.preventDefault();
