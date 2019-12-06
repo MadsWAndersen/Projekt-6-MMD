@@ -22,7 +22,7 @@ pass.addEventListener("blur", passVerify, true);
 // Validation function //
 
 function Validate(){
-
+  
 // email validation //
   if (email.value == "") {
     email_error.textContent = "E-mail påkrævet";
