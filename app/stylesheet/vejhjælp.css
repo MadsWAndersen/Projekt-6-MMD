@@ -3,37 +3,53 @@
 
 body {
   font-family: "proxima-nova", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  background-color: #0d1930;
+  background: #0F192E;
   background-image: url("../img/arrow.png");
   color: #fff;
+  height: 100%;
   font-size: 16px;
-  padding: 0;
-  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
-h1{
-  font-size: 28px;
-}
-
-header{
+header {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr ;
-  grid-template-rows: 1fr;
-  width: 100%;
-  text-align: center;
-}
-
-header a{
-  grid-column: 1;
-  grid-row: 1/3;
-  justify-self: center;
-  align-self: center;
-  color: white;
-  font-size: 20px;
-}
-
-h1 {
   grid-column: 2;
+  grid-row: 2;
+  background: #0F192E;
+  height: 25%;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 5px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.title {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.bck-btn {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: none;
+}
+
+
+main {
+	grid-column: 1/-1;
 }
