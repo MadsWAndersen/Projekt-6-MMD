@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
@@ -12,6 +12,8 @@
   <link href="stylesheet/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/swipe.js" defer></script>
+
 </head>
 
 <body>
@@ -25,12 +27,12 @@
     </header>
 
     <section class="showcase">
-      <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top">
+      <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top" id="page1" ontouchstart="p1handleTouchStart(event)" ontouchmove="p1handleTouchMove(event)" ontouchend="p1handleTouchEnd(event)">
 
     </section>
 
-    <aside class="overblik">
-      <div class="gas status">
+    <aside class="overblik" id="overblik">
+      <div class="gas status" >
         <p>53%</p>
         <h3>Benzin</h3>
       </div>
@@ -52,14 +54,25 @@
 
     </aside>
 
-    <footer>
-      <div class="radio">
+    <footer class="radios">
+      <label for="input1"></label>
+      <input id="input1" name="radio" type="radio" />
+      <label for="input2">
+      <input id="input2" name="radio" type="radio" />
+      <!-- <label for="input3"></label>
+      <input  id="input3" name="radio" type="radio" />
+      <label for="input4"></label>
+      <input  id="input4" name="radio" type="radio" />
+      <label for="input5"></label>
+      <input  id="input5" name="radio" type="radio" /> -->
+      <span id="slider"></span>
 
+
+
+      <!-- <div class="radio">
       </div>
-
       <div class="radio active">
-
-      </div>
+      </div> -->
     </footer>
 
 
@@ -69,6 +82,54 @@
 
 
   </div>
+
+
+
+
+  <div class="page2" id="page2" ontouchstart="p2handleTouchStart(event)" ontouchmove="p2handleTouchMove(event)" ontouchend="p2handleTouchEnd(event)">
+
+    <div class="wrapper">
+      <header class="top">
+        <h1 class="model">OPEL ASTRA, 2012</h1>
+        <p class="nummerplade">BP23410</p>
+        <div class="burgermenu"></div>
+      </header>
+
+      <section class="showcase">
+        <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top" id="page2" ontouchstart="p2handleTouchStart(event)" ontouchmove="p2handleTouchMove(event)" ontouchend="p2handleTouchEnd(event)">
+
+      </section>
+
+      <aside class="overblik">
+        <div class="gas status">
+          <p>83%</p>
+          <h3>Benzin</h3>
+        </div>
+
+        <div class="battery status">
+          <p>98%</p>
+          <h3>Batteri</h3>
+        </div>
+
+        <div class="pressure status">
+          <p>96%</p>
+          <h3>Dæktryk</h3>
+        </div>
+
+        <div class="oil status">
+          <p>73%</p>
+          <h3>Olie</h3>
+        </div>
+
+      </aside>
+
+
+
+
+
+
+
+    </div>
 
 
 
