@@ -8,6 +8,7 @@
   <link href="stylesheet/log-ind.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
+  	<script src="js/log-ind.js" defer></script>
 
   <title>Log Ind</title>
 
@@ -26,21 +27,26 @@
 
 <main class="forms">
 
+<form method="post" action="main.html" onclick="return Validate()" name="vform">
+
 <section class="emailinp">
 <label for="inp" class="inp">
-	<input type="text" placeholder="&nbsp;">
+	<input type="text" placeholder="&nbsp;" name="email">
 	<span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
 	<span class="border"></span>
+  <div id="email_error"></div>
 </label>
 </section>
 
 <section class="passinp">
 <label for="inp" class="inp">
-	<input type="text" placeholder="&nbsp;">
+	<input type="password" placeholder="&nbsp;" name="pass">
 	<span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
 	<span class="border"></span>
+  <div id="pass_error"></div>
 </label>
 </section>
+</form>
 
 <div class="forgot">
  <a href="">GLEMT DIN ADGANGSKODE?</a>
@@ -51,7 +57,7 @@
 
 <!-- BUTTON -->
 
-<a href="main.html" class="log-ind-btn">LOG IND</a>
+<a href="main.html" type="onclick" class="log-ind-btn">LOG IND</a>
 
 <footer class="loginhere">
   <a href="opret-bruger.html">INGEN BRUGER? <u>OPRET DIG HER!</u></a>
