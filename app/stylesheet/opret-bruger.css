@@ -70,21 +70,21 @@ body {
 
 
 #email_error {
-  color: red;
+  color: #BD4444;
   position: absolute;
   top: 33px;
 
 }
 
 #phone_error {
-  color: red;
+  color: #BD4444;
   position: absolute;
   top: 33px;
 
 }
 
 #pass_error {
-  color: red;
+  color: #BD4444;
   position: absolute;
   top: 33px;
 }
@@ -155,12 +155,12 @@ body {
 
 /*MOBILE ICON*/
 
-.iconinp {
+.mobileinp {
 	position: relative;
-	color: white;
+	color: #fff;
 }
 
-.iconinp .fa-mobile-alt {
+.mobileinp .fa-mobile-alt {
 	position: relative;
 	top: 0px;
   margin-right: 8px;
@@ -169,13 +169,13 @@ body {
 
 /*PASSWORD ICON*/
 
-.mobileinp {
+.passinp {
 	position: relative;
-	color: white;
+	color: #fff;
 }
 
 
-.mobileinp .fa-lock {
+.passinp .fa-lock {
 	position: relative;
 	top: 0px;
   margin-right: 8px;
@@ -258,7 +258,7 @@ body {
 
 /*BUTTON*/
 
-.log-ind-btn {
+.sign-up-btn {
   grid-column: 2;
   grid-row: 4;
   display: block;
@@ -273,25 +273,25 @@ body {
 }
 
 
-.log-ind-btn a {
+.sign-up-btn a {
   text-decoration: none;
 }
 
 
-.loginhere a {
+.signuphere a {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
 }
 
 
-.loginhere u {
+.signuphere u {
   color: #9CD9B9;
   cursor: pointer;
 }
 
 
-.loginhere {
+.signuphere {
   grid-column: 2;
   grid-row: 5;
   text-align: right;
