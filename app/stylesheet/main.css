@@ -73,13 +73,11 @@ section {
 aside {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 10%;
-  grid-row: 3/5;
+  grid-gap: 8%;
+  grid-row: 3/6;
   grid-column: 5;
 }
-#overblik {
-  left: 0;
-}
+
 
 .status {
   width: 75px;

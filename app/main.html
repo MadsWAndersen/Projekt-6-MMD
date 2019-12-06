@@ -19,7 +19,7 @@
 <body>
 
 
-  <div class="wrapper">
+  <div class="wrapper" id="page1" ontouchstart="p1handleTouchStart(event)" ontouchmove="p1handleTouchMove(event)" ontouchend="p1handleTouchEnd(event)">
     <header class="top">
       <h1 class="model">OPEL ASTRA, 2012</h1>
       <p class="nummerplade">BP23410</p>
@@ -27,12 +27,12 @@
     </header>
 
     <section class="showcase">
-      <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top" id="page1" ontouchstart="p1handleTouchStart(event)" ontouchmove="p1handleTouchMove(event)" ontouchend="p1handleTouchEnd(event)">
+      <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top">
 
     </section>
 
-    <aside class="overblik" id="overblik">
-      <div class="gas status">
+    <aside class="overblik">
+      <div class="gas status" >
         <p>53%</p>
         <h3>Benzin</h3>
       </div>
@@ -123,15 +123,9 @@
 
       </aside>
 
-
-
-
-
-
-
     </div>
 
-
+</div>
 
 
 
