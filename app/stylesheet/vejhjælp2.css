@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 5px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  background: #0F192E;
+  background-image: url("../img/arrow.png");
+  color: #fff;
+  height: 100%;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/*header*/
+
+h1{
+  font-size: 20px;
+}
+
+header {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+header a {
+  grid-column: 1;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+
+}
+
+header a:visited {
+  color: #fff;
+}
+
+header h1 {
+  grid-column: 1/-1;
+  grid-row: 1/3;
+  position: relative;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+/*MAIN*/
+
+main {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+	grid-column: 1/-1;
+}
+
+
+/*BUTTON*/
+
+.log-ind-btn {
+  grid-column: 2;
+  grid-row: 4;
+  display: block;
+  padding: 20px 15px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.log-ind-btn a {
+  text-decoration: none;
+}
