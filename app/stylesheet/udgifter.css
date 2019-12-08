@@ -131,7 +131,7 @@ grid-column: 2;
 }
 
 
-.tilbage{
+.picktime .tilbage{
   grid-column: 2;
   grid-row: 1;
   text-align: left;
@@ -143,30 +143,20 @@ grid-column: 2;
   text-align: center;
 }
 
-.frem{
+.picktime .frem{
   grid-column: 2;
   grid-row: 1;
   text-align: right;
 }
 
-.udgiftspost{
-  grid-column: 1/-1;
-  margin-left: 8%;
-  margin-top: 5%;
-}
-
-.udgiftspost p{
-  font-size: 0.7em;
-  margin-top: -5%;
-}
 
 .rapporter {
   display: grid;
-  grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-column: 1/-1;
   height: 3.5rem;
-  width: 85%;
+  width: 100%;
   color: #fff;
   border-radius: 5px;
   background-color: #29364E;
@@ -174,4 +164,52 @@ grid-column: 2;
   text-decoration: none;
   justify-self: center;
   margin-top: 1em;
+}
+
+.rapporter p{
+  margin-left: 1rem;
+  margin-bottom: -1em;
+}
+
+.kategori{
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 1.2em;
+  font-size: 1.5em;
+}
+
+.titel{
+grid-column: 2/4;
+grid-row: 1;
+font-size: 1.2em;
+margin-top: 0.6em;
+}
+
+.tidspunkt{
+  grid-column: 2/4;
+  font-size: 0.8em;
+  margin-top: 1.2em;
+  font-weight: 300;
+}
+
+.pris{
+grid-column: 4/-1;
+grid-row: 2;
+margin: 0;
+}
+
+.fa-check-circle{
+  grid-column: 5;
+  grid-row: 2;
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.checked {
+  color: #00A300;
+}
+
+.unchecked {
+  color: #A30505;
 }
