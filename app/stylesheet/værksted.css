@@ -23,7 +23,7 @@ body {
 }
 
 
-/*header*/
+/*HEADER*/
 
 h1{
   font-size: 20px;
@@ -65,90 +65,92 @@ header h1 {
 
 }
 
+/*NAV*/
+
+
+nav{
+grid-column: 1/-1;
+grid-row: 2;
+display: grid;
+grid-template-rows: 0.5fr;
+justify-items: center;
+}
+
+nav p{
+  display: inline-block;
+  text-align: center;
+  grid-row: 1;
+  font-size: 0.7em;
+}
+
+.favorit{
+  grid-column: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.nærmeste{
+grid-column: 2;
+}
+
+.underline{
+  width: 60%;
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+  background-color: #fff;
+  height: 1px;
+  border-radius: 5px;
+  margin-top: 20%;
+  z-index: 100;
+}
+
 /*MAIN*/
 
 main {
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-
 	grid-column: 1/-1;
 }
 
-main h2 {
+
+.favorit-header{
   grid-column: 1/-1;
-  grid-row: 1;
-  position: relative;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-
-  color: #fff;
-  font-size: 16px;
-}
-
-main img {
-  grid-column: 2;
   grid-row: 2;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-}
-
-.north {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
+  margin-left: 10%;
   margin-top: 10%;
-  margin-bottom: 150%;
 }
 
-.south {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  margin-top: 140%;
-  margin-bottom: 0%;
+#topleft{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-left: 10%;
+  font-weight: 300;
+  font-size: 14px;
 }
 
-.east {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  margin-left: 90%;
+.divider {
+	width: 84%;
+	height: 25%;
+	margin-top: 25%;
+	padding: 5%;
 }
 
-.west {
-  grid-column: 2;
-  grid-row: 2;
-  justify-self: center;
-  align-self: center;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  margin-right: 90%
+#topright{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-right: 10%;
+	margin-top: 40%;
+  font-weight: 300;
+  font-size: 14px;
+	text-align: right;
 }
+
 /* CHAT BUTTON*/
 
 .chat-btn {
-  grid-column: 2;
-  grid-row: 2;
+  grid-column: 1/-1;
+  grid-row: 4;
   display: block;
   padding: 20px 15px;
   color: white;
@@ -157,18 +159,40 @@ main img {
   border: none;
   text-align: center;
   text-decoration: none;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .chat-btn a {
   text-decoration: none;
 }
 
+/*BOOKING*/
+
+.booking-header{
+  grid-column: 1/-1;
+  grid-row: 5;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#botleft{
+  grid-column: 1/-1;
+  grid-row: 5;
+	margin-left: 9%;
+	margin-top: 20%;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+
 /* BOOKING BUTTON*/
 
 
 .book-btn {
-  grid-column: 2;
-  grid-row: 3;
+  grid-column: 1/-1;
+  grid-row: 6;
   display: block;
   padding: 20px 15px;
   color: white;
@@ -177,6 +201,10 @@ main img {
   border: none;
   text-align: center;
   text-decoration: none;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .book-btn a {
