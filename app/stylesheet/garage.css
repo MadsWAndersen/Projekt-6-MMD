@@ -14,7 +14,8 @@ body {
 }
 
 h1{
-  font-size: 28px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .wrapper {
@@ -56,10 +57,16 @@ h1 {
   grid-gap: 0px;
 }
 
+h2 {
+  font-size: 16px;
+  padding-left: 10px;
+  position: absolute;
+}
+
 .car {
   background-color: #47587A;
   width: 80%;
-  height: 150px;
+  height: 80%;
   border-radius: 10px;
 }
 
@@ -68,9 +75,23 @@ h1 {
   grid-row: 1;
 }
 
+#onepic {
+  transform: rotate(270deg);
+  width: 30%;
+  position: relative;
+  margin-left: 35%;
+}
+
 .two {
   grid-column: 1/-1;
   grid-row: 2;
+}
+
+#twopic {
+  transform: rotate(180deg);
+  width: 60%;
+  position: relative;
+  margin: 5% 20%;
 }
 
 .empty {
@@ -78,4 +99,26 @@ h1 {
   grid-row: 3;
   background-color: #0F192E;
   border: 3px dashed #47587A;
+}
+
+#add {
+  border: 3px dashed #47587A;
+  background-color: none;
+  border-radius: 100px;
+  color: white;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  margin-left: 40%;
+  margin-top: 18%;
+}
+
+.kryds {
+  background-image: url("../img/kryds.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  float: right;
+  width: 30px;
+  height: 30px;
 }
