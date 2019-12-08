@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: auto;
+	grid-gap: 5px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  background: #0F192E;
+  background-image: url("../img/arrow.png");
+  color: #fff;
+  height: 100%;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/*HEADER*/
+
+h1{
+  font-size: 20px;
+}
+
+header {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+header a {
+  grid-column: 1;
+  grid-row: 1/3;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+
+}
+
+header a:visited {
+  color: #fff;
+}
+
+header h1 {
+  grid-column: 1/-1;
+  grid-row: 1/3;
+  position: relative;
+  justify-self: center;
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+/*NAV*/
+
+
+nav{
+grid-column: 1/-1;
+grid-row: 2;
+display: grid;
+grid-template-rows: 0.5fr;
+justify-items: center;
+}
+
+nav p{
+  display: inline-block;
+  text-align: center;
+  grid-row: 1;
+  font-size: 0.7em;
+}
+
+.favorit{
+  grid-column: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.nærmeste{
+grid-column: 2;
+}
+
+.underline{
+  width: 60%;
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+  background-color: #fff;
+  height: 1px;
+  border-radius: 5px;
+  margin-top: 20%;
+  z-index: 100;
+}
+
+/*MAIN*/
+
+main {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+	grid-column: 1/-1;
+}
+
+.kort {
+  grid-column: 1/-1;
+  grid-row: 2;
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  padding: 15%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#topstar{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+#topleft{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-left: 10%;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 20%;
+}
+
+.fa-star {
+  color: #fff;
+  grid-column: 1/-1;
+  grid-row: 2;
+  margin-left: 85%;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: right;
+}
+
+
+.divider {
+	width: 84%;
+	height: 25%;
+	margin-top: 25%;
+	padding: 5%;
+}
+
+#topright{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-right: 10%;
+	margin-top: 60%;
+  font-weight: 300;
+  font-size: 14px;
+	text-align: right;
+}
+
+
+
+/* CHAT BUTTON*/
+
+.find-vej-btn {
+  grid-column: 1/-1;
+  grid-row: 4;
+  display: block;
+  padding: 20px 15px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.chat-btn a {
+  text-decoration: none;
+}
