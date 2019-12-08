@@ -65,6 +65,7 @@ header h1 {
 
 }
 
+
 /*NAV*/
 
 
@@ -76,7 +77,7 @@ grid-template-rows: 0.5fr;
 justify-items: center;
 }
 
-nav p{
+nav a{
   display: inline-block;
   text-align: center;
   grid-row: 1;
@@ -85,18 +86,20 @@ nav p{
 
 .favorit{
   grid-column: 1;
-  padding-bottom: 0;
-  margin-bottom: 0;
+	color: #fff;
+	text-decoration: none;
 }
 
 .nærmeste{
 grid-column: 2;
+color: #fff;
+text-decoration: none;
 }
 
 .underline{
   width: 60%;
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
   text-align: center;
   background-color: #fff;
   height: 1px;
