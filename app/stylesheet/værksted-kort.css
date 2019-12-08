@@ -65,6 +65,7 @@ header h1 {
 
 }
 
+
 /*NAV*/
 
 
@@ -98,7 +99,7 @@ text-decoration: none;
 .underline{
   width: 60%;
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
   text-align: center;
   background-color: #fff;
   height: 1px;
@@ -115,12 +116,23 @@ main {
 	grid-column: 1/-1;
 }
 
-
-.favorit-header{
+.kort {
   grid-column: 1/-1;
   grid-row: 2;
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  padding: 15%;
+  text-align: center;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+#topstar{
+  grid-column: 1/-1;
+  grid-row: 3;
+  margin-left: 10%;
+  margin-top: 20%;
 }
 
 #topleft{
@@ -129,7 +141,19 @@ main {
   margin-left: 10%;
   font-weight: 300;
   font-size: 14px;
+  margin-top: 20%;
 }
+
+.fa-star {
+  color: #fff;
+  grid-column: 1/-1;
+  grid-row: 2;
+  margin-left: 85%;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: right;
+}
+
 
 .divider {
 	width: 84%;
@@ -142,15 +166,17 @@ main {
   grid-column: 1/-1;
   grid-row: 3;
   margin-right: 10%;
-	margin-top: 40%;
+	margin-top: 60%;
   font-weight: 300;
   font-size: 14px;
 	text-align: right;
 }
 
+
+
 /* CHAT BUTTON*/
 
-.chat-btn {
+.find-vej-btn {
   grid-column: 1/-1;
   grid-row: 4;
   display: block;
@@ -167,48 +193,5 @@ main {
 }
 
 .chat-btn a {
-  text-decoration: none;
-}
-
-/*BOOKING*/
-
-.booking-header{
-  grid-column: 1/-1;
-  grid-row: 5;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-#botleft{
-  grid-column: 1/-1;
-  grid-row: 5;
-	margin-left: 9%;
-	margin-top: 20%;
-  font-weight: 300;
-  font-size: 14px;
-}
-
-
-/* BOOKING BUTTON*/
-
-
-.book-btn {
-  grid-column: 1/-1;
-  grid-row: 6;
-  display: block;
-  padding: 20px 15px;
-  color: white;
-  border-radius: 5px;
-  background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
-  border: none;
-  text-align: center;
-  text-decoration: none;
-	margin-top: 5%;
-	margin-bottom: 10%;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.book-btn a {
   text-decoration: none;
 }
