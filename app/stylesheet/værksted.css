@@ -144,11 +144,11 @@ main img {
   font-size: 30px;
   margin-right: 90%
 }
-/*BUTTON*/
+/* CHAT BUTTON*/
 
-.log-ind-btn {
+.chat-btn {
   grid-column: 2;
-  grid-row: 4;
+  grid-row: 2;
   display: block;
   padding: 20px 15px;
   color: white;
@@ -159,6 +159,26 @@ main img {
   text-decoration: none;
 }
 
-.log-ind-btn a {
+.chat-btn a {
+  text-decoration: none;
+}
+
+/* BOOKING BUTTON*/
+
+
+.book-btn {
+  grid-column: 2;
+  grid-row: 3;
+  display: block;
+  padding: 20px 15px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.book-btn a {
   text-decoration: none;
 }

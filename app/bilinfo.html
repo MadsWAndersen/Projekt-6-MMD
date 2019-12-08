@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
 
-  <title>Main</title>
+  <title>Bilinfo</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
@@ -19,8 +19,9 @@
 
   <div class="wrapper">
     <header>
+      <i class="fas fa-chevron-left"></i>
       <h3 class="bilnavn">KATRINES BIL</h3>
-      <div class="indstillinger"></div>
+      <i class="fas fa-wrench indstillinger"></i>
     </header>
 
 <nav>
@@ -31,9 +32,9 @@
 </nav>
 
 <section class="platebig">
-  <h2 class="nummerplade">
+  <h3 class="nummerplade">
 CJ 53 188
-  </h2>
+</h3>
 </section>
 
 <main>
@@ -144,12 +145,13 @@ CJ 53 188
   <tr>
     <td>M1</td>
   </tr>
+</table>
 
-<div id="divider">
+<div class="section1" id="divider">
 </div>
-<h1 class="forsikringsheader">
+<h3 class="forsikringsheader">
   FORSIKRING
-</h1>
+</h3>
 
 <table id="botleft">
 <tr>
@@ -180,7 +182,7 @@ CJ 53 188
   <td>E-mail:</td>
 </tr>
 
-
+</table>
 
 <table id="botright">
   <tr>
@@ -210,17 +212,26 @@ CJ 53 188
   <tr>
     <td>topdan@forsikring.dk</td>
   </tr>
-
+</table>
 </main>
-<!-- <hr id="divider"> -->
 
 
+<a href="main.html" type="onclick" class="read-more-btn">LÆS MERE</a>
 
+<div class="section2" id="divider">
+</div>
 
+<div class="synrapporter">
+<h3>
+  SYNRAPPORTER
+</h3>
+<p>Næste syn: 19-02-2020</p>
+</div>
+
+<div href="main.html" type="onclick" class="rapporter" id="rapport1"><p class="dato">04-05-2019</p><p class="km">188.000km</p><p class="pdf">PDF</p><i class="far fa-check-circle checked"></i></div>
+<div href="main.html" type="onclick" class="rapporter" id="rapport2"><p class="dato">04-04-2017</p><p class="km">149.000km</p><p class="pdf">PDF</p><i class="far fa-check-circle unchecked"></i></div>
+<div href="main.html" type="onclick" class="rapporter" id="rapport3"><p class="dato">04-05-2015</p><p class="km">98.000km</p><p class="pdf">PDF</p><i class="far fa-check-circle checked"></i></div>
   </div>
-
-
-
 
 
 
