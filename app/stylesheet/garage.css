@@ -103,7 +103,7 @@ h2 {
 
 #add {
   border: 3px dashed #47587A;
-  background-color: none;
+background-color: #0F192E;
   border-radius: 100px;
   color: white;
   width: 60px;
@@ -113,12 +113,21 @@ h2 {
   margin-top: 18%;
 }
 
+.kryds1 {
+  position: relative;
+  float: right;
+  font-size: 2em;
+  color: #B11226;
+}
+
 .kryds {
-  background-image: url("../img/kryds.png");
+  background: url("../img/kryds1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
   float: right;
   width: 30px;
   height: 30px;
+  background-color: none;
+  border: none;
 }
