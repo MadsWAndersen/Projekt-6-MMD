@@ -118,8 +118,6 @@ main {
 
 .showcase{
   grid-column: 1;
-  width: 100px;
-  height: 100px;
   border-radius: 10px;
   background-color: #91ABDE;
   justify-items: center;
@@ -127,10 +125,18 @@ main {
   margin-left:
 }
 
+
+.lav {
+  position: absolute;
+  width: 20%;
+  padding-left: 3%;
+  padding-top: 1.5%;
+}
+
 .storknap {
   width: 65%;
   height: 230%;
-  top:
+
 }
 
 main p  {
@@ -166,6 +172,7 @@ section {
   align-items: center;
 
 }
+
 
 /* Gas knap */
 
