@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0d1930;
+  background-image: url("../img/arrow.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.1fr 0.1fr;
+  max-height: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+header {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 0.5fr;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+nav{
+grid-column: 1/-1;
+grid-row: 2;
+display: grid;
+grid-template-rows: 0.5fr;
+justify-items: center;
+}
+
+nav p{
+  display: inline-block;
+  text-align: center;
+  grid-row: 1;
+  font-size: 0.7em;
+
+}
+
+.dokumenter{
+  grid-column: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.teknisk-info{
+grid-column: 2;
+}
+
+.underline{
+  width: 60%;
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+  background-color: #fff;
+  height: 1px;
+  border-radius: 5px;
+  margin-top: 20%;
+}
+
+.samlet-udgift{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1em;
+}
+
+.samlet-udgift p{
+  grid-column: 1;
+  font-size: 0.8em;
+  margin-left: 3em;
+}
+
+.samlet-udgift h3{
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 2em;
+  margin-top: -0.5em;
+}
+.monthly{
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.monthly p{
+  grid-column: 1/2;
+  font-size: 0.8em;
+  margin-left: 3em;
+}
+
+.monthly h3{
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: -0.5em;
+}
+
+.section1{
+  grid-column: 1/-1;
+  grid-row: 5;
+}
+
+#divider{
+  width: 80%;
+  justify-self: center;
+  background-color: #fff ;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.picktime{
+  grid-column: 1/-1;
+  grid-row: 6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+.picktime .tilbage{
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+
+.picktime p{
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+}
+
+.picktime .frem{
+  grid-column: 2;
+  grid-row: 1;
+  text-align: right;
+}
+
+
+.rapporter {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column: 1/-1;
+  height: 3.5rem;
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #29364E;
+  border: none;
+  text-decoration: none;
+  justify-self: center;
+  margin-top: 1em;
+}
+
+.rapporter p{
+  margin-left: 1rem;
+  margin-bottom: -1em;
+}
+
+.kategori{
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 1.2em;
+  font-size: 1.5em;
+}
+
+.titel{
+grid-column: 2/4;
+grid-row: 1;
+font-size: 1.2em;
+margin-top: 0.6em;
+}
+
+.tidspunkt{
+  grid-column: 2/4;
+  font-size: 0.8em;
+  margin-top: 1.2em;
+  font-weight: 300;
+}
+
+.pris{
+grid-column: 4/-1;
+grid-row: 2;
+margin: 0;
+}
+
+.fa-check-circle{
+  grid-column: 5;
+  grid-row: 2;
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+.checked {
+  color: #00A300;
+}
+
+.unchecked {
+  color: #A30505;
+}
