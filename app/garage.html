@@ -31,8 +31,15 @@
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
       <div class="kryds popup" type="button" name="button" onclick="popupSlet()"></div>
+    </div>
     <span class="popuptext" id="popupKey">SLET BIL?</span>
-  </div>
+
+    <script>
+    function popupSlet() {
+      var popup = document.getElementById("popupKey");
+      popup.classList.toggle("show");
+    }
+    </script>
 
 
     <div class="car two">
@@ -47,7 +54,6 @@
     </div>
 
   </section>
-
 
 </body>
 
