@@ -137,7 +137,30 @@ main {
 .storknap {
   width: 65%;
   height: 230%;
+  background-size: 70%;
+  background-repeat: no-repeat;
 
+
+}
+
+.storknap img{
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+
+}
+
+#placeholder {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+
+
+.showcase .ba{
+  width: 70%;
+  padding: 14%;
+  margin-left: 1%;
 }
 
 main p  {
@@ -168,11 +191,11 @@ section {
   width: 80%;
   height: 80%;
   border-radius: 10px;
-  background-color: #fff;
   justify-items: center;
   align-items: center;
 
 }
+
 
 .trykknap{
 width: 80%;
@@ -191,7 +214,11 @@ align-items: center;
 
 }
 
-.knap1 .gas{
+.knap1:focus {
+  background-color: #91ABDE;
+}
+
+.knap1 .preview{
   width: 60%;
   padding: 20%;
   margin-left: 5%;

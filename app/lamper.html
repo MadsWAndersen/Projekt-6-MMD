@@ -22,7 +22,7 @@
 <!-- Headeren "BILHJÆLP" -->
 
 <header>
-  <a href="#">
+  <a href="main.html">
     <i class="fas fa-chevron-left"></i>
   </a>
 
@@ -42,9 +42,11 @@
 
 <main class="showcasewrap">
   <div class="showcase storknap" id="storknap">
-
+    <div id="placeholder">
+    </div>
+  <!-- <img class="ba" src="img/advarselslamper/gas.png" alt="needgas"> -->
   </div>
-  <p>Lav batteri spænding</p>
+  <p id="alt-text">Lav batteri spænding</p>
 </main>
 
 
@@ -52,114 +54,114 @@
 
 <section class="knapwrapper">
   <div class="knap1 knapper">
-    <img class="gas" src="img/advarselslamper/gas.png" alt="needgas" onclick="changeImage('')">
+    <img class="preview" src="img/advarselslamper/gas.png" alt="Benzin - Fyld på snarest" onclick="upDate(this)">
   </div>
 
   <div class="knap2 knapper">
-    <img class="oil" src="img/advarselslamper/oil.png" alt="needoil">
+    <img class="oil" src="img/advarselslamper/oil.png" alt="Olie - Mangel på olie" onclick="upDate(this)">
   </div>
 
   <div class="knap3 knapper">
-    <img class="battery" src="img/advarselslamper/battery.png" alt="batterylow">
+    <img class="battery" src="img/advarselslamper/battery.png" alt="Batteri - Skift batteri snarest" onclick="upDate(this)">
   </div>
 
   <div class="knap4 knapper">
-    <img class="warning" src="img/advarselslamper/masterwarning.png" alt="warning">
+    <img class="warning" src="img/advarselslamper/masterwarning.png" alt="warning" onclick="upDate(this)">
   </div>
 
   <div class="knap5 knapper">
-    <img class="frost" src="img/advarselslamper/frost.png" alt="frost">
+    <img class="frost" src="img/advarselslamper/frost.png" alt="Frost - Pas på glatte veje" onclick="upDate(this)">
   </div>
 
   <div class="knap6 knapper">
-    <img class="moter" src="img/advarselslamper/moter.png" alt="moter">
+    <img class="moter" src="img/advarselslamper/moter.png" alt="Motor - Problemer med moteren" onclick="upDate(this)">
   </div>
 
   <div class="knap7 knapper">
-    <img class="brake" src="img/advarselslamper/brake.png" alt="brake">
+    <img class="brake" src="img/advarselslamper/brake.png" alt="Bremsen - Problemer med bremsen" onclick="upDate(this)">
   </div>
 
   <div class="knap8 knapper">
-    <img class="vent" src="img/advarselslamper/vent.png" alt="vent">
+    <img class="vent" src="img/advarselslamper/vent.png" alt="vent" onclick="upDate(this)">
   </div>
 
   <div class="knap9 knapper">
-      <img class="temp" src="img/advarselslamper/temperature.png" alt="temperature">
+      <img class="temp" src="img/advarselslamper/temperature.png" alt="temperature" onclick="upDate(this)">
   </div>
 
   <div class="knap10 knapper">
-    <img class="turn" src="img/advarselslamper/turn.png" alt="turnsignals">
+    <img class="turn" src="img/advarselslamper/turn.png" alt="turnsignals" onclick="upDate(this)">
   </div>
 
   <div class="knap11 knapper">
-    <img class="hot" src="img/advarselslamper/hot.png" alt="hot">
+    <img class="hot" src="img/advarselslamper/hot.png" alt="hot" onclick="upDate(this)">
   </div>
 
   <div class="knap12 knapper">
-    <img class="trunk" src="img/advarselslamper/trunk.png" alt="trunk">
+    <img class="trunk" src="img/advarselslamper/trunk.png" alt="trunk" onclick="upDate(this)">
   </div>
 
   <div class="knap13 knapper">
-    <img class="cirkulation" src="img/advarselslamper/circ.png" alt="cirkulation">
+    <img class="cirkulation" src="img/advarselslamper/circ.png" alt="cirkulation" onclick="upDate(this)">
   </div>
 
   <div class="knap14 knapper">
-    <img class="opentrunk" src="img/advarselslamper/opentrunk.png" alt="opentrunk">
+    <img class="opentrunk" src="img/advarselslamper/opentrunk.png" alt="opentrunk" onclick="upDate(this)">
   </div>
 
   <div class="knap15 knapper">
-    <img class="opendoors" src="img/advarselslamper/opendoor.png" alt="opendoor">
+    <img class="opendoors" src="img/advarselslamper/opendoor.png" alt="opendoor" onclick="upDate(this)">
   </div>
 
   <div class="knap16 knapper">
-    <img class="windsheel" src="img/advarselslamper/windsheel.png" alt="windsheel">
+    <img class="windsheel" src="img/advarselslamper/windsheel.png" alt="windsheel" onclick="upDate(this)">
   </div>
 
   <div class="knap17 knapper">
-    <img class="windsheel1" src="img/advarselslamper/windsheel1.png" alt="windsheel1">
+    <img class="windsheel1" src="img/advarselslamper/windsheel1.png" alt="windsheel1" onclick="upDate(this)">
   </div>
 
   <div class="knap18 knapper">
-    <img class="heatfront" src="img/advarselslamper/heatfront.png" alt="heatfront">
+    <img class="heatfront" src="img/advarselslamper/heatfront.png" alt="heatfront" onclick="upDate(this)">
   </div>
 
   <div class="knap19 knapper">
-    <img class="heatback" src="img/advarselslamper/heat.png" alt="heat">
+    <img class="heatback" src="img/advarselslamper/heat.png" alt="heat" onclick="upDate(this)">
   </div>
 
   <div class="knap20 knapper">
-    <img class="light" src="img/advarselslamper/light1.png" alt="light">
+    <img class="light" src="img/advarselslamper/light1.png" alt="light" onclick="upDate(this)">
   </div>
 
   <div class="knap21 knapper">
-    <img class="light2" src="img/advarselslamper/light2.png" alt="light 2">
+    <img class="light2" src="img/advarselslamper/light2.png" alt="light 2" onclick="upDate(this)">
   </div>
 
   <div class="knap22 knapper">
-    <img class="light3" src="img/advarselslamper/light3.png" alt="light 3">
+    <img class="light3" src="img/advarselslamper/light3.png" alt="light 3" onclick="upDate(this)">
   </div>
 
   <div class="knap23 knapper">
-    <img class="lighton" src="img/advarselslamper/lighton.png" alt="lighton">
+    <img class="lighton" src="img/advarselslamper/lighton.png" alt="lighton" onclick="upDate(this)">
   </div>
 
   <div class="knap24 knapper">
-    <img class="passanger" src="img/advarselslamper/passanger.png" alt="passanger">
+    <img class="passanger" src="img/advarselslamper/passanger.png" alt="passanger" onclick="upDate(this)">
   </div>
 
   <div class="knap25 knapper">
-    <img class="longlight" src="img/advarselslamper/longlight.png" alt="longlight">
+    <img class="longlight" src="img/advarselslamper/longlight.png" alt="longlight" onclick="upDate(this)">
   </div>
 
   <div class="knap26 knapper">
-    <img class="heatoverall" src="img/advarselslamper/heatoverall.png" alt="heatoverall">
+    <img class="heatoverall" src="img/advarselslamper/heatoverall.png" alt="heatoverall" onclick="upDate(this)">
   </div>
 
   <div class="knap27 knapper">
-    <img class="seat" src="img/advarselslamper/seat.png" alt="seatbelt">
-  </div>
+    <img class="seat" src="img/advarselslamper/seat.png" alt="seatbelt" onclick="upDate(this)">
+  </div>  
 
-  <div class="knap28 knapper">
+  <div class="knap28 knapper" onclick="upDate(this)">
     <p>ABS</p>
   </div>
 

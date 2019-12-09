@@ -1,7 +1,7 @@
 .wrapper {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	grid-template-rows: 0.2fr 0.1fr  1fr 0.2fr 0.4fr 0.2fr;
+	grid-template-rows: 0.2fr 0.1fr 1fr 0.2fr 0.4fr 0.2fr;
 	grid-gap: 5px;
   max-height: 100%;
   max-width: 100%;
@@ -62,12 +62,8 @@ header h1 {
 }
 
 
-/* Vælg måned */
 
-i right1{
-  margin-right: 10px;
-  position: absolute;
-}
+/* Vælg måned */
 
 nav{
 grid-column: 2;
@@ -97,7 +93,13 @@ nav a:visited {
 }
 
 .kalender{
-grid-column: ;
+grid-column: 2;
+}
+
+#right1{
+  display: inline-block;
+  position: absolute;
+  right: 26.5%;
 }
 
 /* Vælg dato */
@@ -121,6 +123,7 @@ section {
   background-color: #fff;
   justify-items: center;
   align-items: center;
+  margin-bottom: -30%;
 
 }
 
