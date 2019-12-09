@@ -29,16 +29,16 @@
 
 
   <section class="garage">
-    <div class="car one">
+    <div class="car one" id="fjern">
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
       <button class="kryds" type="button" name="button">
         <div class="popup" onclick="popupSlet()">
-          <span class="popuptext" id="slet">
-            SLET BIL?
-            <button class="slet-btn" type="button" name="button">SLET</button>
+          <div class="popuptext" id="slet">
+            ER DU SIKKER PÅ DU VIL SLETTE DENNE BIL?
+            <button class="slet-btn" type="button" name="button" onclick="removeCard('fjern')">SLET</button>
             <button class="slet-btn" type="button" name="button">ANULLER</button>
-          </span>
+          </div>
         </div>
       </button>
 
