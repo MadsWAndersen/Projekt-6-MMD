@@ -54,8 +54,14 @@
           </p>
         </section>
 
+
+
+<!--ATOMIC DESIGN-->
+
 		  <section class="atomicSection" id="atomicSection">
 		  <h1>ATOMIC DESIGN</h1>
+
+<!--ATOMER-->
 
       <h3>ATOMER<h3>
       <table class="iconTable">
@@ -122,6 +128,10 @@
 
 
       </table>
+
+
+<!--MOLEKYLER-->
+
 
 	<h3>MOLEKYLER<h3>
       <table class="iconTable">
@@ -204,6 +214,12 @@
 
       </table>
 
+
+
+
+<!--ORGANISMER-->
+
+
 	<h3>ORGANISMER<h3>
       <table class="iconTable">
         <tr>
@@ -265,7 +281,11 @@
 
       </table>
 
-	<h3>SKABELONER<h3>
+
+
+<!--TEMPLATES-->
+
+	<h3>TEMPLATES<h3>
       <table class="iconTable">
         <tr>
           <th class="thHeader">TEMPLATE</th>
@@ -307,7 +327,13 @@
 
       </table>
 
-	<h3>SIDER<h3>
+
+
+
+<!--PAGES-->
+
+
+	<h3>PAGES<h3>
       <table class="iconTable">
         <tr>
           <th class="thHeader">SIDE</th>
@@ -350,6 +376,10 @@
 
 		  </section>
 
+
+
+
+<!--FARVER-->
 
         <section class="farveSection" id="farveSection">
           <h1>FARVER</h1>
@@ -443,86 +473,140 @@
             </div>
           </article>
 
+
+
+
+
+<!--LOGO-->
+
         </section>
         <section class="logoSection" id="logoSection">
+          <article>
           <h1>LOGO</h1>
           <h3>LOGO PÅ BLÅ BAGGRUND</h3>
           <div class="logoHvid">
-            <img src="Billeder/LOGONAVN.png" alt="" id="logo"/>
+            <img src="billeder/logo.png" alt="logo" id="logo"/>
           </div>
+        </article>
+
+<!-- CODE SNIPPETS-->
+
+        <article class="ptools">
+          <h2>CODE SNIPPETS</h2>
+          <h3>STANDARD LOGO</h3>
+          <hr />
+          <div class="codeEmbedLogo">
+            <code>&lt;img src="#" class="logo">&lt;/img></code>
+          </div>
+        </article>
         </section>
 
-<!--BUTTONS-->
+
+
+
+
+
+<!--KNAPPER-->
+
         <section class="knapperSection" id="knapperSection">
           <article>
 
             <h1>KNAPPER</h1>
             <h3>STANDARD KNAP</h3>
-            <hr />
+            <hr/>
             <button type="button" class="standardBtn">BUTTON</button>
 
             <h3>SEKUNDÆR STANDARD KNAP</h3>
-            <hr />
+            <hr/>
             <button type="button" class="standardBtnblue">BUTTON</button>
 
 
             <h3>NAVIGATION LINK</h3>
-            <hr />
+            <hr/>
             <li class="navList"><a href="#">NAVIGATION</a></li>
           </article>
+
+<!-- CODE SNIPPETS-->
 
           <article class="ptools">
             <h2>CODE SNIPPETS</h2>
             <h3>STANDARD KNAP</h3>
             <hr />
             <div class="codeEmbed">
-              <code>&lt;button type="button"
-                class="standardBtn">BUTTON&lt;/button></code>
+              <code>&lt;a class="standardBtn">BUTTON&lt;/a></code>
             </div>
             <h3>SEKUNDÆR STANDARD KNAP</h3>
             <hr />
             <div class="codeEmbed">
-              <code>&lt;button type="button"
-                class="standardBtnblue">BUTTON&lt;/button></code>
+              <code>&lt;a class="standardBtnblue">BUTTON&lt;/a></code>
             </div>
             <h3>NAVIGATION LINK</h3>
             <hr />
             <div class="codeEmbed">
-              <code>&lt;a class="forgot" href="#">NAVIGATIONn&lt;/a></code>
+              <code>&lt;a class="navList" href="#">NAVIGATION&lt;/a></code>
             </div>
           </article>
         </section>
 
+
+
+
+<!-- TYPOGRAFI-->
+
         <section class="typoSection" id="typoSection">
-
-        <h1 class="tpg">TYPOGRAFI</h1>
           <article>
-          <h1 id="ekstypografi">'Proxima-nova', sans-serif - Light</h1>
-			       <p>'Proxima-nova', sans-serif er en Adobe font. Den bliver brugt til alle overskrifter og al brødtekst.</p>
 
-            <h1 id="eksoverskrift">Eksempel på overskrift (25px):<br>
-            <br>DETTE ER EN OVERSKRIFT</h1>
-          </article>
+            <h1>TYPOGRAFI</h1>
+            <h3 id="ekstypografi">'Proxima-nova', sans-serif - Regular, Bold</h3>
+            <hr/>
+            <p>'Proxima-nova', sans-serif er en Adobe font. Den bliver brugt til al tekst i produktet.</p>
 
-          <article>
-            <h1 id="eksparagraf">
-              Eksempel på brødtekst (20px): <br><br> DETTE ER BRØDTEKST
-            </h1>
+            <h3 id="ekstypografi">EKSEMPEL PÅ OVERSKRIFT (20px):</h3>
+            <hr/>
+            <p>DETTE ER ET EKSEMPEL PÅ EN OVERSKRIFT</p>
+
+            <h3 id="ekstypografi">EKSEMPEL PÅ BRØDTEKST (16px):</h3>
+            <hr/>
+            <p>Dette er et eksempel på brødtekst.</p>
 
             <a href="https://fonts.adobe.com/fonts/proxima-nova" target="_blank" id="fontdl">
-              <button class="standardBtn">DOWNLOAD 'PROXIMA-NOVA' HER</button></a>
+              <button class="standardBtn">DOWNLOAD 'PROXIMA-NOVA'</button></a>
+
+          </article>
+
+<!-- CODE SNIPPETS-->
+
+          <article class="ptools">
+            <h2>CODE SNIPPETS</h2>
+            <h3>FONT HTML</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code>&lt;script src="https://kit.fontawesome.com/758f05fc43.js">
+                crossorigin="anonymous"&lt;/script></code>
+            </div>
+            <h3>FONT CSS</h3>
+            <hr />
+            <div class="codeEmbed">
+              <code>font-family: proxima-nova, sans-serif;</code>
+            </div>
+
           </article>
         </section>
 
+
+
+
+
+<!-- INPUT FELTER-->
+
         <section class="inputSection" id="inputSection">
 
-          <h1>INPUTS/FORMS SKAL RETTES</h1>
+          <h1>INPUT/TEKST FELTER</h1>
           <p>
-            Inputs are used quite often throughout the product. Both in the shape of checkboxes and text inputs. Both the styling and the size of these inputs varies from page to page.
+            Input felterne er brugt på henholdsvis "log-ind" og "opret-bruger".
+            Der er gjort brug af både tekst felter og checkbokse, som egentlig er ret ens på begge sider. Den største forskel mellem de to sider ("log-ind og "opret-bruger) ligger i antallet af input felter.
             <br /><br />
-            A lot of the inputs used in the product fit on one page but not the next. Therefore, we've added some diffent examples of the many different types of inputs we've used.
-            <br /><br />
-            Some have been made with a both a different background color as well as different overall colors, than others. They have also been listed as examples:
+          Vi har her givet et par eksempler på de input felter vi har brugt i udarbejdelsen af produktet:
 
           <h3>EKSEMPEL PÅ INPUT [TYPE="TEXT"]</h3>
           <form method="POST" action="main1.html" onsubmit="return Validate()" name="vform">
