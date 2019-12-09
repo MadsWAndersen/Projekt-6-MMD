@@ -37,7 +37,7 @@
             <li><a href="#knapperSection">KNAPPER</a></li>
             <li><a href="#typoSection">TYPOGRAFI</a></li>
             <li><a href="#inputSection">INPUTS/FORMS</a></li>
-            <li><a href="#iconerSection">IKONER</a></li>
+            <li><a href="#ikonerSection">IKONER</a></li>
             <li><a href="#navigationSection">NAVIGATION</a></li>
           </ul>
         </nav>
@@ -604,144 +604,205 @@
           <h1>INPUT/TEKST FELTER</h1>
           <p>
             Input felterne er brugt på henholdsvis "log-ind" og "opret-bruger".
-            Der er gjort brug af både tekst felter og checkbokse, som egentlig er ret ens på begge sider. Den største forskel mellem de to sider ("log-ind og "opret-bruger) ligger i antallet af input felter.
-            <br /><br />
-          Vi har her givet et par eksempler på de input felter vi har brugt i udarbejdelsen af produktet:
+            Der er gjort brug af både tekst felter<br></br>
+            og checkbokse, som egentlig er ret ens på begge sider.
+            Den største forskel mellem de to sider <br></br>
+            ("log-ind og "opret-bruger) ligger i antallet af input felter.<br></br>
+            Vi har her givet et par eksempler på de input felter vi har brugt
+            i udarbejdelsen af produktet: </p>
 
-          <h3>EKSEMPEL PÅ INPUT [TYPE="TEXT"]</h3>
-          <form method="POST" action="main1.html" onsubmit="return Validate()" name="vform">
-          <section class="profileinp">
-          <label for="inp" class="inp">
-          	<input type="text" placeholder="&nbsp;" name="email">
-          	<span class="label"><span  class="fas fa-envelope"></span> E-MAIL</span>
-          	<span class="border"></span>
-            <div id="email_error"></div>
-          </label>
+            <article>
+              <h1>INPUT</h1>
+              <h3>EKSEMPEL PÅ INPUT [TYPE="TEXT"]</h3>
+
+                <section class="emailinp">
+                <label for="inp" class="inp">
+                	<input type="text" placeholder="&nbsp;" name="email">
+                	<span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
+                	<span class="border"></span>
+                  <div id="email_error"></div>
+                </label>
+                </section>
+
+
+              <h3>EKSEMPEL PÅ INPUT [TYPE="PASSWORD"]</h3>
+
+              <section class="passinp">
+              <label for="inp" class="inp">
+              	<input type="password" placeholder="&nbsp;" name="pass">
+              	<span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
+              	<span class="border"></span>
+                <div id="pass_error"></div>
+              </label>
+              </section>
+
+
+
+              <h3>EKSEMPEL PÅ INPUT [TYPE="CHECKBOX"]</h3>
+
+              <label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </article>
+
+  <!-- CODE SNIPPETS-->
+
+            <article class="ptools">
+              <h2>CODE SNIPPETS</h2>
+              <h3>STANDARD INPUT TEXT</h3>
+              <hr />
+              <div class="codeEmbed">
+                <code>&lt;label for="inp" class="inp" &lt;>
+                  &lt;input type="password" placeholder="&nbsp;" name="pass">
+                	&lt;span class="label">&lt;span class="fas fa-lock">
+                  &lt;/span>ADGANGSKODE&lt;/span>
+                	&lt;span class="border">&lt;/span>
+                  &lt;div id="pass_error">&lt;/div>
+                &lt;/label></code>
+
+              </div>
+              <h3>STANDARD INPUT PASSWORD</h3>
+              <hr />
+              <div class="codeEmbed">
+                <code>
+                  &lt;label for="inp" class="inp">
+                  	&lt;input type="password" placeholder="&nbsp;" name="pass">
+                  	&lt;span class="label">&lt;span class="fas fa-lock">
+                    &lt;/span>ADGANGSKODE&lt;/span>
+                  	&lt;span class="border">&lt;/span>
+                    &lt;div id="pass_error">&lt;/div>
+                  &lt;/label>
+                </code>
+              </div>
+
+
+              <h3>STANDARD CHECKBOX</h3>
+              <hr />
+              <div class="codeEmbed">
+                <code>
+                  &lt;label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
+                    &lt;input type="checkbox">
+                    &lt;span class="checkmark">&lt;/span>
+                  &lt;/label>
+                </code>
+              </div>
+            </article>
           </section>
 
-          <h3>EKSEMPEL PÅ INPUT [TYPE="PASSWORD"]</h3>
-          <section class="mobileinp">
-          <label for="inp" class="inp">
-          	<input type="password" placeholder="&nbsp;" name="pass">
-          	<span class="label"><span class="fas fa-lock"></span> PASSWORD</span>
-          	<span class="border"></span>
-            <div id="pass_error"></div>
-          </label>
-          </section>
 
-          <h3>EKSEMPEL PÅ INPUT [TYPE="CHECKBOX"]</h3>
-          <label class="checkbox">DETTE ER EN CHECKBOX
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
 
-        <section class="iconerSection" id="iconerSection">
 
-          <h1>IKONER SKAL RETTES</h1>
-          <h3>
-            Icons need to be used the <i>right</i> way. The icons in this product have therefore been used because there is meaning behind them. They add to the overall style of the products and keep the pages from turning into nothing but boxes with text. Icons help make the pages more dynamic.
-          </h3>
+
+
+
+<!--IKONER-->
+
+        <section class="ikonerSection" id="ikonerSection">
+        <article>
+          <h1>IKONER</h1>
           <p>
-            We have used:
-            <a href="https://fontawesome.com/icons?d=gallery">FONT AWESOME</a>.
-            It's free and it has a wide library of icons to choose from.
-          </p>
+            Ikoner skal bruges på den <i>rigtige</i> måde. Der er derfor en mening bag placeringen af ikonerne i det endelige produkt.<br></br>
+            De bringer en overordnet stil til produktet. Derudover er det en god måde at undgå at siderne bliver for tekst-heavy.<br></br>
+            Ikonerne hjælper desuden med at gøre siderne mere dynamiske.<br></br><br></br>
 
+            Vi har brugt:
+            <a href="https://fontawesome.com/icons?d=gallery">FONT AWESOME</a>.
+            Det er gratis og har et stort bibliotek af ikoner at vælge imellem.
+          </p>
+                </article>
+
+
+<!-- CODE SNIPPETS-->
+                <article class="ptools">
+                  <h2>CODE SNIPPETS</h2>
+                  <h3>IKON HTML LINK</h3>
+                  <hr />
+                  <div class="codeEmbed">
+                  <code>&lt;link rel="stylesheet"
+                        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+                        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+                        crossorigin="anonymous"/></code>
+                  </div>
+                  <h3>IKON HTML</h3>
+                  <hr />
+                  <div class="codeEmbed">
+                  <code>&lt;i class="fas fa-power-off"></code>
+                  </div>
+                </article>
+
+
+
+<!--ICON-TABLE-->
+
+        <article class="ptools2">
+          <h2>IKONER VI HAR BRUGT</h2>
           <table class="iconTable">
+
             <tr>
               <th class="thHeader">NAVN PÅ CLASS</th>
               <th class="thHeader">OUTPUT</th>
             </tr>
-            <tr>
-              <th>FAS FA-USER-CIRCLE</th>
-              <th><i class="fas fa-user-circle"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-USER</th>
-              <th><i class="fas fa-user"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-KEY</th>
-              <th><i class="fas fa-key"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-QUESTION-CIRCLE</th>
-              <th><i class="fas fa-question-circle"></i></th>
-            </tr>
+
             <tr>
               <th>FAS FA-POWER-OFF</th>
               <th><i class="fas fa-power-off"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-ENVELOPE</th>
               <th><i class="fas fa-envelope"></i></th>
             </tr>
-            <tr>
-              <th>FAS FA-PLUS</th>
-              <th><i class="fas fa-plus"></i></th>
-            </tr>
+
             <tr>
               <th>FAS FA-PLUS-CIRCLE</th>
               <th><i class="fas fa-plus-circle"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-LOCK</th>
               <th><i class="fas fa-lock"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-CHEVRON-LEFT</th>
               <th><i class="fas fa-chevron-left"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-CAMERA</th>
               <th><i class="fas fa-camera"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-MOBILE-ALT</th>
               <th><i class="fas fa-mobile-alt"></i></th>
             </tr>
+
             <tr>
               <th>FAS FA-STAR</th>
               <th><i class="fas fa-star"></i></th>
             </tr>
+
             <tr>
               <th>FAR FA-STAR</th>
               <th><i class="far fa-star"></i></th>
             </tr>
-            <tr>
-              <th>FAS FA-BUILDING</th>
-              <th><i class="fas fa-building"></i></th>
-            </tr>
-            <tr>
-              <th>FAR FA-BUILDING</th>
-              <th><i class="far fa-building"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-FILE-ALT</th>
-              <th><i class="fas fa-file-alt"></i></th>
-            </tr>
-            <tr>
-              <th>FAR FA-FILE-ALT</th>
-              <th><i class="far fa-file-alt"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-ID-CARD</th>
-              <th><i class="fas fa-id-card"></i></th>
-            </tr>
-            <tr>
-              <th>FAR FA-ID-CARD</th>
-              <th><i class="far fa-id-card"></i></th>
-            </tr>
-            <tr>
-              <th>FAS FA-PAPER-PLANE</th>
-              <th><i class="fas fa-paper-plane"></i></th>
-            </tr>
-            <tr>
-              <th>FAR FA-PAPER-PLANE</th>
-              <th><i class="far fa-paper-plane"></i></th>
-            </tr>
+
           </table>
+        </article>
         </section>
+
+
+
+
+
+
+
+
+
+<!--NAVIGATION-->
+
 
         <section class="navigationSection" id="navigationSection">
 
