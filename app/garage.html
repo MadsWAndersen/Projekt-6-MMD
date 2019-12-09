@@ -12,6 +12,7 @@
   <link href="stylesheet/garage.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
+  <script src="js/garage.js" defer></script>
 </head>
 
 <body class="wrapper">
@@ -29,8 +30,10 @@
     <div class="car one">
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
-      <button class="kryds" type="button" name="button"></button>
-    </div>
+      <div class="kryds popup" type="button" name="button" onclick="popupSlet()"></div>
+    <span class="popuptext" id="popupKey">SLET BIL?</span>
+  </div>
+
 
     <div class="car two">
       <h2> HENRIKS BIL</h2>
