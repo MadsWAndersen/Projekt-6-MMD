@@ -128,7 +128,6 @@ background-color: #0F192E;
   float: right;
   width: 30px;
   height: 30px;
-  background-color: none;
   border: none;
 }
 
@@ -147,19 +146,15 @@ background-color: #0F192E;
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 300px;
-    background-color: #000;
+    width: 50%;
+    height: 100%;
+    background-color: #9CD9B9;
+    font-family: "proxima-nova", sans-serif;
     color: #fff;
     font-size: 20px;
     text-align: center;
-    border-radius: 6px;
-    padding: 12px 0px;
-    position: absolute;
+    border-radius: 10px;
     z-index: 1;
-    bottom: -50px;
-    margin-left: -150px;
-    align-content: center;
-    opacity: 90%;
     }
 
 /* Toggle this class - hide and show the popup */
@@ -178,4 +173,19 @@ background-color: #0F192E;
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 0,9;}
+    }
+
+/* Popup knapper*/
+    .slet-btn {
+      grid-column: 2;
+      grid-row: 4;
+      display: block;
+      padding: 20px 15px;
+      color: white;
+      border-radius: 5px;
+      background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      margin-top: 100px;
     }

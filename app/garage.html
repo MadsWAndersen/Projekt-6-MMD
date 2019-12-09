@@ -26,20 +26,32 @@
     <h1>MIN GARAGE</h1>
   </header>
 
+
+
   <section class="garage">
     <div class="car one">
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
-      <div class="kryds popup" type="button" name="button" onclick="popupSlet()"></div>
+      <button class="kryds" type="button" name="button">
+        <div class="popup" onclick="popupSlet()">
+          <span class="popuptext" id="slet">
+            SLET BIL?
+            <button class="slet-btn" type="button" name="button">SLET</button>
+            <button class="slet-btn" type="button" name="button">ANULLER</button>
+          </span>
+        </div>
+      </button>
+
     </div>
-    <span class="popuptext" id="popupKey">SLET BIL?</span>
+
 
     <script>
     function popupSlet() {
-      var popup = document.getElementById("popupKey");
+      var popup = document.getElementById("slet");
       popup.classList.toggle("show");
     }
     </script>
+
 
 
     <div class="car two">
