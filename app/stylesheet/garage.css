@@ -128,6 +128,69 @@ background-color: #0F192E;
   float: right;
   width: 30px;
   height: 30px;
-  background-color: none;
   border: none;
 }
+
+button:focus {
+  outline:0;
+}
+
+/*POP UP*/
+/* Popup container*/
+.popup {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+    background-color: #9CD9B9;
+    display: block;
+    font-family: "proxima-nova", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: -239px;
+    margin-top: 50px;
+    }
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 0,9;}
+    }
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 0,9;}
+    }
+
+/* Popup knapper*/
+.slet-btn {
+      display: block;
+      color: white;
+      border-radius: 5px;
+      background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
+      border: none;
+      text-align: center;
+      text-decoration: none;
+    }

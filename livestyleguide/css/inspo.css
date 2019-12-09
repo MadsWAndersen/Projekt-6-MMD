@@ -66,7 +66,7 @@ p {
 }
 
 .navWrapper ul li a:hover {
-  color: #75DBCD;
+  color: #fff;
 }
 
 /* stroke */
@@ -82,7 +82,7 @@ p {
   width: 0%;
   content: ".";
   color: transparent;
-  background: #75DBCD;
+  background: #fff;
   height: 2px;
 }
 
@@ -211,8 +211,8 @@ p {
   height: 120px;
   display: flex;
   flex-direction: row;
-
 }
+
 .colorInfo {
   width: 50%;
   display: flex;
@@ -231,33 +231,36 @@ p {
   font-size: 20px;
   margin-left: 0%;
 }
+
 .black div p {
   color: black;
   font-size: 20px;
   margin-left: 0%;
 }
 
-/* --- Third section / LOGO  --- */
+/* --- Logo section  --- */
 .logoSection {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   background-color: #2b3e56;
   margin-left: 5%;
 }
 
 .logoSection h1 {
-  font-size: 40px;
-  color: white;
-  text-align: left;
-  font-family: proxima-nova, sans-serif;
   margin-top: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 3%;
+  font-size: 40px;
+  width: 100%;
+  color: white;
 }
 
 .logoSection img {
   width: 400px;
+  margin-left: -8%;
+  margin-top: -10%;
 }
 
 .logoSection h3 {
@@ -276,6 +279,78 @@ p {
   width: 400px;
 }
 
+.logoSection article {
+  width: 35%;
+}
+
+.logoSection article h2 {
+  color: white;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+.logoSection article h3 {
+  color: white;
+}
+
+.logoSection article hr {
+  width: 60%;
+  margin: 10px 0;
+}
+
+.logoSection article p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*Code Snippets*/
+
+.codeEmbedLogo {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 90%;
+}
+
+.codeEmbedLogo code {
+  font-size: 20px;
+}
+
+.logoSection .ptools {
+  width: 35%;
+  margin-left: -5%;
+}
+
+.logoSection .ptools h2 {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.logoSection .ptools h3 {
+  color: white;
+  margin-left: 20%;
+
+}
+
+.logoSection .ptools hr {
+  width: 60%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.logoSection .ptools p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 
 /* --- Knapper section  --- */
 .knapperSection {
@@ -292,7 +367,7 @@ p {
 
 .knapperSection h1 {
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 3%;
   font-size: 40px;
   width: 100%;
   color: white;
@@ -322,6 +397,8 @@ p {
   font-size: 20px;
   margin: 10px 0;
 }
+
+/*CODE SNIPPETS*/
 
 .knapperSection .ptools {
   width: 35%;
@@ -357,7 +434,7 @@ p {
 .codeEmbed {
   position: relative;
   padding: 20px;
-  border-left: 3px solid #d8764e;
+  border-left: 3px solid #9CD9B9;
   background-image: linear-gradient(to right, rgb(236, 236, 236), white);
   margin-bottom: 40px;
   margin-left: 20%;
@@ -372,18 +449,17 @@ p {
 /* NAV knap */
 .navList {
   width: 300px;
-  padding: 15px 25px;
   box-sizing: border-box;
   background-color: #2b3e56;
   list-style: none;
-  text-align: center;
+  text-align: left;
+  margin-top: 5%;
 }
 
 .navList a {
   top: 54%;
-  left: 60%;
   text-decoration: underline;
-  color: #70D0C4;
+  color: #9CD9B9;
   font-size: 15px;
 }
 
@@ -391,73 +467,85 @@ p {
 
 /* Standard BTN */
 .standardBtn {
-  grid-column: 2;
-  grid-row: 4;
   display: block;
-  padding: 20px 15px;
+  padding: 20px 170px;
   color: white;
   border-radius: 5px;
   background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
   border: none;
   text-align: center;
   text-decoration: none;
-  margin-top: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .standardBtnblue {
-  background-color: #2b3e56;
   display: block;
-	height: 44px;
-	width: 300px;
-	color: white;
-	background-color: #3E6D7C;
-	border: none;
-	margin-bottom: 8%;
-	font-family: proxima-nova, sans-serif;
-	font-size: 100%;
-	outline: 0;
+  padding: 20px 170px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #394C6E 0%, #000 300%);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-/* --- Fourth section / Typografi  --- */
+/* --- Typografi  --- */
+
 .typoSection {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #2b3e56;
   margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
   margin-top: 60px;
 }
 
-.tpg {
-	margin-bottom: 40px;
-}
-
-.typoSection article {
-  width: 55%;
-}
-
 .typoSection h1 {
-  margin: 30px 0;
+  margin-top: 60px;
+  margin-bottom: 3%;
   font-size: 40px;
+  width: 100%;
   color: white;
 }
 
-.typoSection p {
-  margin: 14px 0;
-  font-size: 20px;
+.typoSection article {
+  width: 35%;
 }
 
-#ekstypografi{
+.typosection article h2 {
+  color: white;
+  margin-top: 10%;
   font-size: 40px;
 }
 
+.typoSection article hr {
+  width: 60%;
+}
+
+.typoSection article p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+
+#ekstypografi{
+  font-size: 30px;
+}
+
 #eksoverskrift{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #eksparagraf{
-font-size: 20px;
+font-size: 16px;
 }
 
 #fontdl{
@@ -465,7 +553,61 @@ font-size: 20px;
   display: inline-block;
 }
 
-/* femte section - input */
+
+/*CODE SNIPPETS*/
+
+.typoSection .ptools {
+  width: 35%;
+  margin-left: -5%;
+}
+
+.typoSection .ptools h2 {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.typoSection .ptools h3 {
+  color: white;
+  margin-left: 20%;
+
+}
+
+.typoSection .ptools hr {
+  width: 60%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.typoSection .ptools p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 90%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+/* input */
 
 
 .inputSection {
