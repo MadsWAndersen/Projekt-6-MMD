@@ -29,8 +29,7 @@ p {
 .asideWrapper {
 	height: 100%;
 	min-width: 20%;
-	background-color: black;
-	opacity: 90%;
+	background-color: #2A364E;
     position: fixed;
 	flex-direction: column;
 	justify-content: center;
@@ -104,7 +103,7 @@ p {
   left: 20%;
   height: auto;
   max-width: 100%;
-  background-color: #2b3e56;
+  background-color: #121B2E;
 }
 
 /* --- First section / Landing section  --- */
@@ -148,14 +147,20 @@ p {
 
 /* --- ATOMIC DESIGN SECTION -- */
 
+.atomBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .atomicSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #2b3e56;;
+  background-color: #121B2E;
   margin-left: 5%;
-  margin-bottom: 60px;
+  margin-bottom: 5%;
 
 }
 
@@ -184,15 +189,22 @@ p {
 	text-align: left;
 }
 
-/* --- Section section / Farver  --- */
+/* --- Farver  --- */
+
+.farverBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .farveSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
-  margin-bottom: 60px;
+  margin-bottom: 5%;
 }
 
 .farveSection h1 {
@@ -239,14 +251,22 @@ p {
 }
 
 /* --- Logo section  --- */
+
+.logoBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .logoSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .logoSection h1 {
@@ -274,7 +294,7 @@ p {
 
 .logoHvid {
   margin-top: 30px;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   padding: 14px 16px;
   width: 400px;
 }
@@ -353,16 +373,23 @@ p {
 
 
 /* --- Knapper section  --- */
+
+
+.knapperBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
 .knapperSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
   font-family: proxima-nova, sans-serif;
-  margin-top: 60px;
+  margin-top: 5%;
 }
 
 .knapperSection h1 {
@@ -450,7 +477,7 @@ p {
 .navList {
   width: 300px;
   box-sizing: border-box;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   list-style: none;
   text-align: left;
   margin-top: 5%;
@@ -494,16 +521,22 @@ p {
 
 /* --- Typografi  --- */
 
+.typoBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .typoSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
   font-family: proxima-nova, sans-serif;
-  margin-top: 60px;
+  margin-top: 5%;
 }
 
 .typoSection h1 {
@@ -511,7 +544,7 @@ p {
   margin-bottom: 3%;
   font-size: 40px;
   width: 100%;
-  color: white;
+  color: #fff;
 }
 
 .typoSection article {
@@ -519,7 +552,13 @@ p {
 }
 
 .typoSection article h2 {
-  color: white;
+  color: #fff;
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+.typoSection article h3 {
+  color: #fff;
   margin-top: 10%;
   font-size: 40px;
 }
@@ -529,7 +568,7 @@ p {
 }
 
 .typoSection article p {
-  color: white;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 5%;
   margin-top: 2%;
@@ -605,13 +644,12 @@ font-size: 16px;
 
 
 
-
-
-
-
-
-
 /* input */
+
+.inputBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
 
 
 .inputSection {
@@ -620,10 +658,10 @@ font-size: 16px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
   font-family: proxima-nova, sans-serif;
-  margin-top: 60px;
+  margin-top: 5%;
 }
 
 .inputSection h1 {
@@ -743,9 +781,6 @@ font-size: 16px;
   position: absolute;
   top: 33px;
 }
-
-
-
 
 
 /* EMAIL ICON*/
@@ -907,16 +942,22 @@ font-size: 16px;
 
 /* ---  Ikoner  --- */
 
+.ikonerBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .ikonerSection {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   margin-left: 5%;
   font-family: proxima-nova, sans-serif;
-  margin-top: 60px;
+  margin-top: 5%;
 }
 
 .ikonerSection h1 {
@@ -1030,7 +1071,7 @@ font-size: 16px;
   margin-top: 10%;
   font-size: 22px;
   color: white;
-  background-color: #2b3e56;
+  background-color: #121B2E;
   font-family: proxima-nova, sans-serif;
 
 }
@@ -1062,183 +1103,55 @@ font-size: 16px;
 
 /* ---  Navigation  --- */
 
+.navigationBorder {
+    padding-bottom: 5%;
+    border-bottom: 2px solid white;
+}
+
+
 .navigationSection {
-  height: 650px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #121B2E;
+  margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
+  margin-top: 5%;
 }
 
 .navigationSection h1 {
   margin-top: 60px;
-}
-.topsection {
-  display: grid;
-  grid-column: 1/-1;
-  grid-row: 1;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  font-size: 36px;
-}
-
-#nav-container {
-  margin-top: 20px;
-  width: 85%;
-  pointer-events: none;
-  display: grid;
-  position: relative;
-}
-
-#nav-container .bg {
-  position: absolute;
-  left: 0;
+  margin-bottom: 5%;
+  font-size: 40px;
   width: 100%;
-  visibility: hidden;
-  opacity: 0;
-  transition: .5s;
-  background: #000;
+  color: #fff;
 }
 
-#nav-container:focus-within .bg {
-  visibility: visible;
-  opacity: .45;
-  outline: none;
-  display: block;
+.navigationSection p {
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
 }
 
-#nav-container * {
-  visibility: visible;
+.navigationSection article {
+  width: 35%;
 }
 
-.navbutton {
-  grid-column: 1;
-  position: absolute;
-  display: inline-block;
-  -webkit-appearance: none;
-  border: 0;
-  background: transparent;
-  border-radius: 0;
-  height: 70px;
-  width: 30px;
-  cursor: pointer;
-  pointer-events: auto;
+.navigationSection article h2 {
+  color: #fff;
   margin-top: 5%;
-  margin-left: 5%;
-  touch-action: manipulation;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 40px;
 }
 
-.icon-bar {
-  display: block;
-  width: 100%;
-  height: 3px;
-  background: #fff;
-  transition: .3s;
-  z-index: 1001 !important;
-  position: relative;
-}
-
-.icon-bar+.icon-bar {
-  margin-top: 5px;
-}
-
-#nav-container:focus-within .navbutton {
-  pointer-events: none;
-}
-
-#nav-container:focus-within .icon-bar:nth-of-type(1) {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
-}
-
-#nav-container:focus-within .icon-bar:nth-of-type(2) {
-  opacity: 0;
-}
-
-#nav-container:focus-within .icon-bar:nth-of-type(3) {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
-}
-
-#nav-content {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: auto;
-  padding: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  width: 90%;
-  max-width: 50%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  z-index: 1000 !important;
-}
-
-.menuitems {
-  grid-column: 1/-1;
-  height: 100%;
+.navigationSection article h3 {
+  color: #fff;
   margin-top: 10%;
-  margin-left: 30% !important;
-  pointer-events: auto;
-}
-
-.logout {
-  height: 100%;
-  pointer-events: auto;
-}
-
-.menuuser {
-  font-size: 100px;
-  color: white;
-}
-
-#nav-content li a {
-  padding: 10px 5px;
-  margin-top: 8%;
-  display: block;
-  text-transform: uppercase;
-  font-size: 16px;
-  transition: color .1s;
-}
-
-#nav-content li:hover {
-  color: #BF7497;
-}
-
-.fa-li {
-  font-size: 10px;
-}
-
-#nav-content li .fa-graduation-cap {
-  font-size: 12px;
-}
-
-#nav-container:focus-within #nav-content {
-  transform: none;
-}
-
-a,
-a:visited,
-a:focus,
-a:active,
-a:link {
   text-decoration: none;
-  outline: 0;
 }
 
-a {
+.navigationSection article a {
+  font-size: 16px;
   color: white;
-  transition: .2s ease-in-out;
-}
-
-h1, h2, h3, h4 {
-  color: white;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  vertical-align: middle;
-  height: auto;
-  width: 100%;
 }
