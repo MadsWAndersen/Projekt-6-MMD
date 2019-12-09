@@ -51,10 +51,14 @@
       <a href="#">HJÆLP</a>
       <a class="type2" href="#"><p>VEJHJÆLP</p></a>
       <a class="type2" href="#"><p>INSTRUKSIONER</p></a>
-      <div class="logout"><a href="#"
+      <div class="logout"><a href="#">
       <i class="fas fa-power-off log-ud"></i><p class="logout-text">LOG UD</p>
 </div></a>
     </div>
+
+
+
+
 
 
     <script>
@@ -146,7 +150,48 @@
         <div class="burgermenu"></div>
       </header>
 
+      <nav class="navbar-right">
+        <span class="open-slide-right">
+          <a href="#" onclick="openSlideMenuRight()">
+          <i class="fas fa-bars"></i>
+          </a>
+        </span>
 
+
+
+
+        <ul class="navbar-nav-right">
+          <li><a href="#">MIN GARAGE</a></li>
+          <li><a href="#">VÆRKSTED</a></li>
+          <li><a href="#">UDGIFTER</a></li>
+          <li><a href="#">HJÆLP</a></li>
+        </ul>
+      </nav>
+
+      <div id="side-menu-right" class="side-nav-right">
+        <a href="#" class="btn-close-right" onclick="closeSlideMenuRight()"><i class="fas fa-bars"></i></a>
+        <a href="#">MIN GARAGE</a>
+        <a href="#">VÆRKSTED</a>
+        <a href="#">UDGIFTER</a>
+        <a href="#">HJÆLP</a>
+        <a class="type2" href="#"><p>VEJHJÆLP</p></a>
+        <a class="type2" href="#"><p>INSTRUKSIONER</p></a>
+        <div class="logout"><a href="#">
+        <i class="fas fa-power-off log-ud"></i><p class="logout-text">LOG UD</p>
+  </div></a>
+      </div>
+
+      <script>
+        function openSlideMenuRight(){
+          document.getElementById('side-menu-right').style.width = '10em';
+          document.getElementById('main-right').style.marginLeft = '10em';
+        }
+
+        function closeSlideMenuRight(){
+          document.getElementById('side-menu-right').style.width = '0';
+          document.getElementById('main-right').style.marginLeft = '0';
+        }
+      </script>
 
 
 
