@@ -518,7 +518,7 @@ p {
   width: 35%;
 }
 
-.typosection article h2 {
+.typoSection article h2 {
   color: white;
   margin-top: 10%;
   font-size: 40px;
@@ -594,12 +594,16 @@ font-size: 16px;
   background-image: linear-gradient(to right, rgb(236, 236, 236), white);
   margin-bottom: 40px;
   margin-left: 20%;
-  width: 90%;
+  width: 35%;
 }
 
 .codeEmbed code {
   font-size: 20px;
 }
+
+
+
+
 
 
 
@@ -614,119 +618,111 @@ font-size: 16px;
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #2b3e56;
   margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
   margin-top: 60px;
 }
 
 .inputSection h1 {
-  margin: 40px 0;
+  margin-top: 60px;
+  margin-bottom: 1%;
   font-size: 40px;
-  color: white;
+  width: 100%;
+  color: #fff;
 }
 
 .inputSection p {
-  margin: 14px 0px;
-  font-size: 20px;
-  width: 700px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    font-size: 16px;
+    color: #fff;
 }
 
-.inputSection h3 {
-  font-size: 20px;
-  margin-top: 50px;
-  margin-bottom: -30px;
-  color: white;
+.inputSection article {
+  width: 35%;
 }
 
-.inputSection hr {
-  width: 600px;
-  margin-bottom: 10px;
+.inputSection article h2 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 40px;
 }
+
+.inputSection article h3 {
+  color: #fff;
+  margin-top: 10%;
+  text-decoration: none;
+}
+
+
 
 /*INPUT PASSWORD & TEXT*/
+
+
 .inp {
-  -webkit-text-size-adjust: 100%;
-	-webkit-font-smoothing: antialiased;
 	position: relative;
 	margin: auto;
-	width: 50%;
-  font-family: proxima-nova, sans-serif;
+	width: 100%;
+	max-width: 35%;
 }
+
 
 .inp .label {
 	position: absolute;
 	top: 10px;
 	left: 0;
-	font-size: 100%;
-	color: white;
-	font-weight: 500;
+	color: #fff;
 	transform-origin: 0 0;
 	transition: all 0.2s ease;
-	text-indent: 0px;
-}
-.label {
-  top: 20px;
 }
 
-#email_error {
-  color: red;
-  position: absolute;
-  top: 33px;
-}
-
-#phone_error {
-  color: red;
-  position: absolute;
-  top: 33px;
-}
-
-#pass_error {
-  color: red;
-  position: absolute;
-  top: 33px;
-}
 
 .inp .border {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	height: 2px;
-	width: 10px;
+	width: 100%;
 	background: none;
 	transform: scaleX(0);
 	transition: all 0.15s ease;
 }
 
+
 .inp input {
 	-webkit-appearance: none;
-	width: 30%;
+	width: 60%;
 	border: 0;
-	font-family: proxima-nova, sans-serif;
 	padding: 12px 0 0px;
 	height: 60px;
-  word-spacing: 20%;
-	font-size: 16px;
 	border-bottom: 1px solid white;
 	background: none;
+  color: #fff;
 	border-radius: 0;
-	color: white;
 	transition: all 0.15s ease;
+  font-size: 16px;
 }
+
 
 .inp input:hover {
 	background: rgba(34,50,84,0.03);
 }
+
 
 .inp input:not(:placeholder-shown) + span {
 	color: #c8ccd4;
 	transform: translateY(-26px) scale(0.75);
 }
 
+
 .inp input:focus {
 	background: none;
 	outline: none;
 }
+
 
 .inp input:focus + span {
 	color: #c8ccd4;
@@ -734,24 +730,76 @@ font-size: 16px;
 }
 
 
-/* CHECKBOX */
+#email_error {
+  color: #BD4444;
+  position: absolute;
+  top: 33px;
+
+}
+
+
+#pass_error {
+  color: #BD4444;
+  position: absolute;
+  top: 33px;
+}
+
+
+
+
+
+/* EMAIL ICON*/
+
+.emailinp {
+	position: relative;
+	color: white;
+}
+
+
+.emailinp .fa-envelope {
+	position: relative;
+	top: 0px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+/*PASSWORD ICON*/
+
+.passinp {
+	position: relative;
+	color: white;
+}
+
+
+.passinp .fa-lock {
+	position: relative;
+	top: 0px;
+  margin-right: 8px;
+    font-size: 16px;
+}
+
+
+/* Checkbox */
+
 
 .checkbox {
 	display: block;
-  position: absolute;
+	position: relative;
 	text-indent: 24px;
  	cursor: pointer;
-	font-size: 75%;
-	padding-top: 3px;
+	font-size: 12px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 	text-align: left;
+  margin-top: 5%;
   color: #fff;
-  margin-top: 40px;
-  font-family: proxima-nova, sans-serif;
-  font-size: 15px;
+
+}
+
+.checkbox u {
+  color: #9CD9B9;
 }
 
 .checkbox input {
@@ -762,6 +810,7 @@ font-size: 16px;
   width: 0;
 }
 
+
 .checkmark {
   position: absolute;
   top: 0;
@@ -771,9 +820,11 @@ font-size: 16px;
   background-color: #747474;
 }
 
+
 .checkbox input:checked ~ .checkmark {
-  background-color: #75DBCD;
+  background-color: #9CD9B9;
 }
+
 
 .checkmark:after {
   content: "";
@@ -781,9 +832,11 @@ font-size: 16px;
   display: none;
 }
 
+
 .checkbox input:checked ~ .checkmark:after {
   display: block;
 }
+
 
 .checkbox .checkmark:after {
   left: 4.5px;
@@ -798,62 +851,214 @@ font-size: 16px;
 }
 
 
+
+/*CODE SNIPPETS*/
+
+.inputSection .ptools {
+  width: 35%;
+  margin-left: -5%;
+}
+
+.inputSection .ptools h2 {
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-left: 20%;
+}
+
+.inputSection .ptools h3 {
+  color: white;
+  margin-left: 20%;
+
+}
+
+.inputSection .ptools hr {
+  width: 60%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.inputSection .ptools p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 35%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
 /* ---  Ikoner  --- */
-.iconerSection {
+
+.ikonerSection {
   width: 100%;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #2b3e56;
+  margin-left: 5%;
+  font-family: proxima-nova, sans-serif;
   margin-top: 60px;
 }
 
-.iconerSection h1 {
-  margin-top: 70px;
-  margin-bottom: -30px;
+.ikonerSection h1 {
+  margin-top: 60px;
+  margin-bottom: 5%;
   font-size: 40px;
-  color: white;
+  width: 100%;
+  color: #fff;
 }
 
-.iconerSection h3 {
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: white;
-  width: 60%;
+.ikonerSection p {
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
 }
 
-.iconerSection p {
-  margin: 20px 0;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
+.ikonerSection article {
+  width: 35%;
 }
-.iconerSection a {
+
+.ikonerSection article h2 {
+  color: #fff;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.ikonerSection article h3 {
+  color: #fff;
+  margin-top: 10%;
+  text-decoration: none;
+}
+
+.ikonerSection article a {
   font-size: 16px;
   color: white;
 }
-.iconerSection .iconTable {
-  width: 50%;
-  text-align: left;
+
+
+
+/*CODE SNIPPETS*/
+
+.ikonerSection .ptools {
+  width: 35%;
+  margin-left: -5%;
+}
+
+.ikonerSection .ptools h2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 20%;
+  margin-top: 60px;
+}
+
+.ikonerSection .ptools h3 {
+  color: white;
+  margin-left: 20%;
+  margin-top: 5%;
+
+}
+
+.ikonerSection .ptools hr {
+  width: 100%;
+  margin: 10px 0;
+  margin-left: 20%;
+}
+
+.ikonerSection .ptools p {
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.codeEmbed {
+  position: relative;
+  padding: 20px;
+  border-left: 3px solid #9CD9B9;
+  background-image: linear-gradient(to right, rgb(236, 236, 236), white);
+  margin-bottom: 40px;
+  margin-left: 20%;
+  width: 100%;
+}
+
+.codeEmbed code {
+  font-size: 20px;
+}
+
+
+
+/*icon-table*/
+
+.ikonerSection .ptools2 {
+  width: 35%;
+  margin-left: -5%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -5%;
+}
+
+.ikonerSection .ptools2 h2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 5%;
+}
+
+.ikonerSection .iconTable {
+  width: 35%;
+  margin-left: -22.5%;
+  margin-top: 10%;
   font-size: 22px;
   color: white;
   background-color: #2b3e56;
   font-family: proxima-nova, sans-serif;
+
 }
 
 .iconTable tr th {
   border: 1px solid white;
   padding: 1em;
   font-size: 15px;
+  color: #fff;
+  text-align: left;
   font-family: proxima-nova, sans-serif;
 }
 
 .fas {
   font-size: 25px;
+  text-align: center;
 }
 .far {
   font-size: 25px;
+  text-align: center;
 }
+
+
+
+
+
+
+
 
 /* ---  Navigation  --- */
 
