@@ -15,9 +15,10 @@ body {
   font-family: "proxima-nova", sans-serif;
   background: #0F192E;
   background-image: url("../img/arrow.png");
+	background-size: 100vw;
   color: #fff;
   height: 100%;
-  font-size: 16px;
+  font-size: 3vw;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,7 +27,7 @@ body {
 /*header*/
 
 h1{
-  font-size: 20px;
+  font-size: 130%;
 }
 
 header {
@@ -83,7 +84,7 @@ main h2 {
   text-decoration: none;
 
   color: #fff;
-  font-size: 16px;
+  font-size: 3vw;
 }
 
 main img {
@@ -93,6 +94,9 @@ main img {
   align-self: center;
   text-decoration: none;
   text-align: center;
+	weight: 40%;
+	height: 40%;
+
 }
 
 .north {
