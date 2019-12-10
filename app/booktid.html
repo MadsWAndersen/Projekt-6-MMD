@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body onload="renderDate()">
 
   <div class="wrapper">
 
@@ -30,13 +30,13 @@
 
 <nav>
 
-  <a href="#" class="left">
+  <a href="#" class="left" onclick="moveDate('prev')">
     <i class="fas fa-chevron-left"></i>
   </a>
     <h3 id="month"></h3>
     <p class="date_string" id="date_string"></p>
 
-  <a href="#" class="right">
+  <a href="#" class="right"  onclick="moveDate('next')">
       <i class="fas fa-chevron-right" id="right1"></i>
   </a>
 

@@ -9,7 +9,8 @@ body {
   background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 16px;
+  font-size: 4.5vw;
+  /* 16px */
   padding: 0;
   margin: 0;
 }
@@ -63,7 +64,8 @@ section {
 }
 
 .bil-top {
-  margin-left: 10%;
+  margin-left: 10vw;
+  width: 50vw;
 }
 
 aside {
@@ -75,8 +77,8 @@ aside {
 }
 
 .status {
-  width: 75px;
-  height: 75px;
+  width: 15vw;
+  height: 15vw;
   border-radius: 10%;
   background-color: #47597A;
   text-align: center;
