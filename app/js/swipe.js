@@ -15,7 +15,7 @@ function p1handleTouchMove(evt) {
   let change = startingX - touch.clientX;
   // let start = overblik.left;
   if (change < 0) {
-  return;
+    return;
   }
   p1.style.left = "-" + change + "px";
   // overblik.style.left = "-" + change + "px";

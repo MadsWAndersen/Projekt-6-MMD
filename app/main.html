@@ -23,8 +23,66 @@
     <header class="top">
       <h1 class="model">OPEL ASTRA, 2012</h1>
       <p class="nummerplade">BP23410</p>
-      <div class="burgermenu"></div>
     </header>
+
+    <nav class="navbar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <i class="fas fa-bars"></i>
+        </a>
+      </span>
+      <!--
+
+
+
+      <ul class="navbar-nav">
+        <li><a href="#">MIN GARAGE</a></li>
+        <li><a href="#">VÆRKSTED</a></li>
+        <li><a href="#">UDGIFTER</a></li>
+        <li><a href="#">HJÆLP</a></li>
+      </ul> -->
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+      <a href="#" class="btn-close" onclick="closeSlideMenu()"><i class="fas fa-bars"></i></a>
+      <a href="#">MIN GARAGE</a>
+      <a href="#">VÆRKSTED</a>
+      <a href="#">UDGIFTER</a>
+      <a href="#">HJÆLP</a>
+      <a class="type2" href="#">
+        <p>VEJHJÆLP</p>
+      </a>
+      <a class="type2" href="#">
+        <p>INSTRUKSIONER</p>
+      </a>
+      <div class="logout"><a href="#">
+          <i class="fas fa-power-off log-ud"></i>
+          <p class="logout-text">LOG UD</p>
+      </div></a>
+    </div>
+
+
+
+
+
+
+    <script>
+      function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '10em';
+      }
+
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0';
+      }
+    </script>
+
+
+
+
+
+
+
+
 
     <section class="showcase">
       <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top">
@@ -32,7 +90,7 @@
     </section>
 
     <aside class="overblik">
-      <div class="gas status" >
+      <div class="gas status">
         <p>53%</p>
         <h3>Benzin</h3>
       </div>
@@ -58,18 +116,18 @@
       <label for="input1"></label>
       <input id="input1" name="radio" type="radio" />
       <label for="input2">
-      <input id="input2" name="radio" type="radio" />
-      <!-- <label for="input3"></label>
+        <input id="input2" name="radio" type="radio" />
+        <!-- <label for="input3"></label>
       <input  id="input3" name="radio" type="radio" />
       <label for="input4"></label>
       <input  id="input4" name="radio" type="radio" />
       <label for="input5"></label>
       <input  id="input5" name="radio" type="radio" /> -->
-      <span id="slider"></span>
+        <span id="slider"></span>
 
 
 
-      <!-- <div class="radio">
+        <!-- <div class="radio">
       </div>
       <div class="radio active">
       </div> -->
@@ -94,6 +152,46 @@
         <p class="nummerplade">BP23410</p>
         <div class="burgermenu"></div>
       </header>
+
+      <nav class="navbar-right">
+        <span class="open-slide-right">
+          <a href="#" onclick="openSlideMenuRight()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </span>
+
+      </nav>
+
+      <div id="side-menu-right" class="side-nav-right">
+        <a href="#" class="btn-close-right" onclick="closeSlideMenuRight()"><i class="fas fa-bars"></i></a>
+        <a href="#">MIN GARAGE</a>
+        <a href="#">VÆRKSTED</a>
+        <a href="#">UDGIFTER</a>
+        <a href="#">HJÆLP</a>
+        <a class="type2" href="#">
+          <p>VEJHJÆLP</p>
+        </a>
+        <a class="type2" href="#">
+          <p>INSTRUKSIONER</p>
+        </a>
+        <div class="logout-right"><a href="#">
+            <i class="fas fa-power-off log-ud-right"></i>
+            <p class="logout-text-right">LOG UD</p>
+        </div></a>
+      </div>
+
+      <script>
+        function openSlideMenuRight() {
+          document.getElementById('side-menu-right').style.width = '10em';
+        }
+
+        function closeSlideMenuRight() {
+          document.getElementById('side-menu-right').style.width = '0';
+        }
+      </script>
+
+
+
 
       <section class="showcase">
         <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top" id="page2" ontouchstart="p2handleTouchStart(event)" ontouchmove="p2handleTouchMove(event)" ontouchend="p2handleTouchEnd(event)">
@@ -125,7 +223,7 @@
 
     </div>
 
-</div>
+  </div>
 
 
 
