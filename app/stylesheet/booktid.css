@@ -96,6 +96,7 @@ nav a:visited {
 	grid-column: 1;
 	grid-row: 1/3;
 	align-self: center;
+		color: #fff;
 }
 
 .right{
@@ -103,6 +104,7 @@ nav a:visited {
 	grid-row: 1/3;
 	align-self: center;
 	justify-self: end;
+	color: #fff;
 
 }
 
@@ -137,6 +139,14 @@ section {
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.nemlig{
+
+}
+
+.today {
+	background-color: #000;
 }
 
 .kald{
