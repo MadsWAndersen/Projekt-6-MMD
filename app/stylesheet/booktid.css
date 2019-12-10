@@ -70,8 +70,7 @@ grid-column: 2;
 grid-row: 2;
 grid-template-columns: 1fr 3fr 1fr;
 display: grid;
-grid-template-rows: 0.5fr;
-grid-gap: 20px;
+grid-template-rows: 0.5fr 0.5fr;
 margin-top: 0;
 }
 
@@ -86,21 +85,43 @@ nav p{
 
 nav a{
   text-decoration: none;
+	align-items: center;
 }
 
 nav a:visited {
   color: #fff;
 }
 
-.month{
-grid-column: 2;
+.left{
+	grid-column: 1;
+	grid-row: 1/3;
+	align-self: center;
 }
 
-#right1{
+.right{
+	grid-column: 3;
+	grid-row: 1/3;
+	align-self: center;
+	justify-self: end;
+
+}
+
+.date_string{
+grid-column: 2;
+grid-row: 2;
+}
+
+.month{
+grid-column: 2;
+grid-row: 1;
+}
+
+
+/* #right1{
   display: inline-block;
   position: absolute;
   right: 26.5%;
-}
+} */
 
 /* Vælg dato */
 
