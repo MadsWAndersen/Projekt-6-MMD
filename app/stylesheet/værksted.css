@@ -5,7 +5,7 @@
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
 	grid-template-rows: auto;
-	grid-gap: 5px;
+	grid-gap: 0px;
   max-height: 100%;
   max-width: 100%;
 }
@@ -13,11 +13,13 @@
 
 body {
   font-family: "proxima-nova", sans-serif;
+	font-weight: 400;
   background: #0F192E;
   background-image: url("../img/arrow.png");
+	background-size: 100vw;
   color: #fff;
   height: 100%;
-  font-size: 16px;
+  font-size: 3vw;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,7 +28,7 @@ body {
 /*HEADER*/
 
 h1{
-  font-size: 20px;
+  font-size: 150%;
 }
 
 header {
@@ -80,7 +82,8 @@ nav a{
   display: inline-block;
   text-align: center;
   grid-row: 1;
-  font-size: 0.7em;
+  font-size: 3.3vw;
+	margin-top: 10%;
 }
 
 .favorit{
@@ -103,7 +106,7 @@ text-decoration: none;
   background-color: #fff;
   height: 1px;
   border-radius: 5px;
-  margin-top: 20%;
+  margin-top: 25%;
   z-index: 100;
 }
 
@@ -128,7 +131,7 @@ main {
   grid-row: 3;
   margin-left: 10%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 .divider {
@@ -142,9 +145,9 @@ main {
   grid-column: 1/-1;
   grid-row: 3;
   margin-right: 10%;
-	margin-top: 40%;
+	margin-top: 36%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 	text-align: right;
 }
 
@@ -182,10 +185,10 @@ main {
 #botleft{
   grid-column: 1/-1;
   grid-row: 5;
-	margin-left: 9%;
+	margin-left: 9.5%;
 	margin-top: 20%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 
