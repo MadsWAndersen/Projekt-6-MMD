@@ -34,19 +34,28 @@ header {
   align-items: center;
 }
 
+header h3 {
+  font-size: 6vw;
+}
+
+.fas {
+  font-size: 5vw;
+}
+
 nav{
 grid-column: 1/-1;
 grid-row: 2;
 display: grid;
 grid-template-rows: 0.5fr;
 justify-items: center;
+
 }
 
 nav p{
   display: inline-block;
   text-align: center;
   grid-row: 1;
-  font-size: 0.7em;
+  font-size: 3.3vw;
 
 }
 
@@ -80,14 +89,14 @@ grid-column: 2;
 
 .samlet-udgift p{
   grid-column: 1;
-  font-size: 0.8em;
+  font-size: 3.3vw;
   margin-left: 3em;
 }
 
 .samlet-udgift h3{
   grid-column: 1/-1;
   text-align: center;
-  font-size: 2em;
+  font-size: 7vw;
   margin-top: -0.5em;
 }
 .monthly{
@@ -98,14 +107,14 @@ grid-column: 2;
 
 .monthly p{
   grid-column: 1/2;
-  font-size: 0.8em;
+  font-size: 3.3vw;
   margin-left: 3em;
 }
 
 .monthly h3{
   grid-column: 1/-1;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 6.5vw;
   margin-top: -0.5em;
 }
 
@@ -141,6 +150,7 @@ grid-column: 2;
   grid-column: 2;
   grid-row: 1;
   text-align: center;
+  font-size: 3.5vw;
 }
 
 .picktime .frem{
@@ -155,7 +165,7 @@ grid-column: 2;
   grid-template-columns: 0.5fr 1fr 1fr 0.5fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-column: 1/-1;
-  height: 3.5rem;
+  height: 15vw;
   width: 100%;
   color: #fff;
   border-radius: 5px;
@@ -175,19 +185,19 @@ grid-column: 2;
   grid-column: 1;
   grid-row: 2;
   margin-left: 1.2em;
-  font-size: 1.5em;
+  font-size: 6vw;
 }
 
 .titel{
 grid-column: 2/4;
 grid-row: 1;
-font-size: 1.2em;
+font-size: 4vw;
 margin-top: 0.6em;
 }
 
 .tidspunkt{
   grid-column: 2/4;
-  font-size: 0.8em;
+  font-size: 3.5vw;
   margin-top: 1.2em;
   font-weight: 300;
 }
@@ -196,15 +206,10 @@ margin-top: 0.6em;
 grid-column: 4/-1;
 grid-row: 2;
 margin: 0;
+font-size: 4vw;
 }
 
-.fa-check-circle{
-  grid-column: 5;
-  grid-row: 2;
-  margin: 0;
-  font-size: 1em;
-  text-align: center;
-}
+
 
 .checked {
   color: #00A300;

@@ -2,6 +2,7 @@
 body {
   background: #0F192E;
   background-image: url("../img/arrow.png");
+  background-size: 100vw;
 }
 
 
@@ -22,7 +23,10 @@ body {
   padding: 0;
   grid-column: 2;
   text-align: center;
+  width: 80vw;
 }
+
+
 
 .logo-place {
   grid-column: 2;
