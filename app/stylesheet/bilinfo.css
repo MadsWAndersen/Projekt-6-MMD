@@ -15,6 +15,8 @@ body {
   margin: 0;
 }
 
+
+
 h1 {
   font-size: 6vw;
   text-align: center;
@@ -239,7 +241,7 @@ grid-column: 1/-1;
 }
 
 .synrapporter p{
-  font-size: 12px;
+  font-size: 4vw;
   margin-top: -5%;
 }
 
@@ -248,7 +250,7 @@ grid-column: 1/-1;
   grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-column: 1/-1;
-  height: 3.5rem;
+  height: 13vw;
   width: 85%;
   color: #fff;
   border-radius: 5px;
@@ -260,7 +262,7 @@ grid-column: 1/-1;
 }
 
 .rapporter p{
-  font-size: 12px;
+  font-size: 3vw;
   margin-left: 1rem;
   margin-bottom: -1em;
 }
@@ -280,12 +282,20 @@ grid-row: 2;
 margin: 0;
 }
 
+.pdf p {
+  font-size: 1vw;
+}
+
 .fa-check-circle{
   grid-column: 4;
   grid-row: 2;
   margin: 0;
-  font-size: 1em;
+  font-size: 5vw;
   text-align: center;
+}
+
+.fas {
+  font-size: 5vw;
 }
 
 .checked {
