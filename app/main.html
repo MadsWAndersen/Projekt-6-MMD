@@ -28,10 +28,10 @@
     <nav class="navbar">
       <span class="open-slide">
         <a href="#" onclick="openSlideMenu()">
-        <i class="fas fa-bars"></i>
+          <i class="fas fa-bars"></i>
         </a>
       </span>
-<!--
+      <!--
 
 
 
@@ -49,11 +49,16 @@
       <a href="#">VÆRKSTED</a>
       <a href="#">UDGIFTER</a>
       <a href="#">HJÆLP</a>
-      <a class="type2" href="#"><p>VEJHJÆLP</p></a>
-      <a class="type2" href="#"><p>INSTRUKSIONER</p></a>
+      <a class="type2" href="#">
+        <p>VEJHJÆLP</p>
+      </a>
+      <a class="type2" href="#">
+        <p>INSTRUKSIONER</p>
+      </a>
       <div class="logout"><a href="#">
-      <i class="fas fa-power-off log-ud"></i><p class="logout-text">LOG UD</p>
-</div></a>
+          <i class="fas fa-power-off log-ud"></i>
+          <p class="logout-text">LOG UD</p>
+      </div></a>
     </div>
 
 
@@ -62,11 +67,11 @@
 
 
     <script>
-      function openSlideMenu(){
+      function openSlideMenu() {
         document.getElementById('side-menu').style.width = '10em';
       }
 
-      function closeSlideMenu(){
+      function closeSlideMenu() {
         document.getElementById('side-menu').style.width = '0';
       }
     </script>
@@ -85,7 +90,7 @@
     </section>
 
     <aside class="overblik">
-      <div class="gas status" >
+      <div class="gas status">
         <p>53%</p>
         <h3>Benzin</h3>
       </div>
@@ -111,18 +116,18 @@
       <label for="input1"></label>
       <input id="input1" name="radio" type="radio" />
       <label for="input2">
-      <input id="input2" name="radio" type="radio" />
-      <!-- <label for="input3"></label>
+        <input id="input2" name="radio" type="radio" />
+        <!-- <label for="input3"></label>
       <input  id="input3" name="radio" type="radio" />
       <label for="input4"></label>
       <input  id="input4" name="radio" type="radio" />
       <label for="input5"></label>
       <input  id="input5" name="radio" type="radio" /> -->
-      <span id="slider"></span>
+        <span id="slider"></span>
 
 
 
-      <!-- <div class="radio">
+        <!-- <div class="radio">
       </div>
       <div class="radio active">
       </div> -->
@@ -151,7 +156,7 @@
       <nav class="navbar-right">
         <span class="open-slide-right">
           <a href="#" onclick="openSlideMenuRight()">
-          <i class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </a>
         </span>
 
@@ -163,19 +168,24 @@
         <a href="#">VÆRKSTED</a>
         <a href="#">UDGIFTER</a>
         <a href="#">HJÆLP</a>
-        <a class="type2" href="#"><p>VEJHJÆLP</p></a>
-        <a class="type2" href="#"><p>INSTRUKSIONER</p></a>
+        <a class="type2" href="#">
+          <p>VEJHJÆLP</p>
+        </a>
+        <a class="type2" href="#">
+          <p>INSTRUKSIONER</p>
+        </a>
         <div class="logout-right"><a href="#">
-        <i class="fas fa-power-off log-ud-right"></i><p class="logout-text-right">LOG UD</p>
-  </div></a>
+            <i class="fas fa-power-off log-ud-right"></i>
+            <p class="logout-text-right">LOG UD</p>
+        </div></a>
       </div>
 
       <script>
-        function openSlideMenuRight(){
+        function openSlideMenuRight() {
           document.getElementById('side-menu-right').style.width = '10em';
         }
 
-        function closeSlideMenuRight(){
+        function closeSlideMenuRight() {
           document.getElementById('side-menu-right').style.width = '0';
         }
       </script>
@@ -213,7 +223,7 @@
 
     </div>
 
-</div>
+  </div>
 
 
 

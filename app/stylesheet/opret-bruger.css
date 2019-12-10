@@ -263,6 +263,7 @@ body {
   grid-row: 4;
   display: block;
   padding: 20px 15px;
+  width: 100%;
   color: white;
   border-radius: 5px;
   background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
@@ -270,10 +271,11 @@ body {
   text-align: center;
   text-decoration: none;
   margin-top: 50px;
+  font-size: 4vw;
 }
 
 
-.sign-up-btn a {
+.sign-up-btn button {
   text-decoration: none;
 }
 
