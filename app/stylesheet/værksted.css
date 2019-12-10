@@ -157,7 +157,8 @@ main {
   grid-column: 1/-1;
   grid-row: 4;
   display: block;
-  padding: 20px 15px;
+  padding: 20px 30%;
+	font-size: 4vw;
   color: white;
   border-radius: 5px;
   background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);

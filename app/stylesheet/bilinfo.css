@@ -123,7 +123,7 @@ main{
   grid-column: 1;
   margin-left: 15%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 #topright{
@@ -131,7 +131,7 @@ main{
   grid-row: 1;
   margin-left: 15%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 .section1{
@@ -168,7 +168,7 @@ grid-column: 1/-1;
   grid-row: 3;
   margin-left: 15%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 #botright{
@@ -176,13 +176,14 @@ grid-column: 1/-1;
   grid-row: 3;
   margin-left: 15%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 4vw;
 }
 
 
 .read-more-btn {
   grid-column: 1/-1;
-  padding: 20px 32%;
+  padding: 20px 30%;
+  display: block;
   color: white;
   border-radius: 5px;
   background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
@@ -190,6 +191,10 @@ grid-column: 1/-1;
   text-align: center;
   text-decoration: none;
   justify-self: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 4vw;
 }
 
 
