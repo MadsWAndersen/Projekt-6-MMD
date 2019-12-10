@@ -377,7 +377,7 @@ p {
 }
 
 .grafikSection .ptools hr {
-  width: 60%;
+  width: 100%;
   margin: 10px 0;
   margin-left: 20%;
 }
@@ -519,7 +519,7 @@ p {
 }
 
 .logoSection .ptools hr {
-  width: 60%;
+  width: 100%;
   margin: 10px 0;
   margin-left: 20%;
 }
@@ -625,7 +625,7 @@ p {
 }
 
 .knapperSection .ptools hr {
-  width: 60%;
+  width: 100%;
   margin: 10px 0;
   margin-left: 20%;
 }
@@ -792,7 +792,7 @@ font-size: 16px;
 }
 
 .typoSection .ptools hr {
-  width: 60%;
+  width: 100%;
   margin: 10px 0;
   margin-left: 20%;
 }
@@ -811,7 +811,7 @@ font-size: 16px;
   margin-bottom: 40px;
   margin-left: 20%;
   width: 75%;
-}
+  }
 
 .codeEmbed code {
   font-size: 20px;
@@ -1086,7 +1086,7 @@ font-size: 16px;
 }
 
 .inputSection .ptools hr {
-  width: 60%;
+  width: 100%;
   margin: 10px 0;
   margin-left: 20%;
 }
