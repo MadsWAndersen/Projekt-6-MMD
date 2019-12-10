@@ -8,6 +8,7 @@ body {
   background-color: #0d1930;
   background-image: url("../img/arrow.png");
   background-repeat: no-repeat;
+background-size: 100vw;
   color: #fff;
   font-size: 4.5vw;
   /* 16px */
@@ -16,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 8vw;
 }
 
 h3 {
@@ -49,7 +50,7 @@ header {
 
 .nummerplade {
   grid-row: 2;
-  font-size: 24px;
+  font-size: 8vw;
   margin: 0;
 }
 
@@ -57,7 +58,7 @@ header {
 
 section {
   display: grid;
-  margin-top: 40%;
+  margin-top: 10vh;
   grid-column: 1/5;
   grid-row: 2/5;
   padding-bottom: 20%;
@@ -65,7 +66,8 @@ section {
 
 .bil-top {
   margin-left: 10vw;
-  width: 50vw;
+  width: 32vh;
+  height: auto;
 }
 
 aside {
@@ -77,8 +79,8 @@ aside {
 }
 
 .status {
-  width: 15vw;
-  height: 15vw;
+  width: 20vw;
+  height: 20vw;
   border-radius: 10%;
   background-color: #47597A;
   text-align: center;
@@ -86,7 +88,7 @@ aside {
 
 .status h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 4.5vw;
 }
 
 .status p {
