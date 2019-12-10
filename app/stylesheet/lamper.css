@@ -16,13 +16,13 @@ body {
 }
 
 h1{
-  font-size: 130%;
+  font-size: 150%;
 }
 
 .wrapper{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 0.20fr 0.15fr 0.2fr 1fr;
+  grid-template-rows: 0.20fr 0.20fr 0.2fr 1fr;
 }
 
 
@@ -77,7 +77,8 @@ nav p{
   display: inline-block;
   text-align: center;
   grid-row: 1;
-  font-size: 3vw;
+  font-size: 3.3vw;
+  font-weight: 0;
 }
 
 .lampertext{
@@ -92,15 +93,15 @@ grid-column: 2;
 
 .underline{
   position: relative;
-  top: 8vw;
-  width: 60%;
+  top: 10vw;
+  width: 70%;
   grid-row: 1;
   grid-column: 1;
   text-align: center;
   background-color: #fff;
-  height: 2px;
+  height: 1px;
   border-radius: 5px;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 
 /* SHOW CASE BOKSEN */
@@ -164,7 +165,7 @@ main {
 }
 
 main p  {
-  font-size: 3vw;
+  font-size: 3.1vw;
   position: relative;
   margin: 0;
   right: 20%;
