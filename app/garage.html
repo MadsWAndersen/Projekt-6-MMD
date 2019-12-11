@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
@@ -7,8 +7,7 @@
   <title>Min Garage</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-
+  <meta name="description" content="Oversigt over dine biler. Slet, tilføj og rediger din garage."/>
   <link href="stylesheet/garage.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
@@ -17,17 +16,15 @@
 
 <body class="wrapper">
 
+<!-- HEADER -->
   <header>
-
     <a href="#">
       <i class="fas fa-chevron-left"></i>
     </a>
-
     <h1>MIN GARAGE</h1>
   </header>
 
-
-
+<!-- BIL KORT 1 -->
   <section class="garage">
     <div class="car one" id="fjern1">
       <h2> KATRINES BIL</h2>
@@ -45,7 +42,7 @@
 
     </div>
 
-
+<!-- POPUP JAVASCRIPT (virker kun inline)-->
     <script>
     function popupSlet() {
       var popup = document.getElementById("slet");
@@ -53,6 +50,7 @@
     }
     </script>
 
+<!-- BIL KORT 2 -->
     <div class="car two" id="fjern2">
       <h2> HENRIKS BIL</h2>
       <button class="kryds" class="krydstwo" type="button" name="button" onclick="popupSlet()">
@@ -66,7 +64,7 @@
       <img id="twopic" src="img/car.png" alt="bil 2 top view">
     </div>
 
-
+<!-- TILFØJ BIL KORT -->
     <div class="car empty">
       <h2> TILFØJ BIL</h2>
       <button id="add" class="fas fa-plus"></button>
