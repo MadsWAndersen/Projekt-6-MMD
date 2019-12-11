@@ -30,29 +30,30 @@
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
       <button class="kryds" type="button" name="button" onclick="popupSlet('slet')">
-        <div class="popup">
-          <div class="popuptext" id="slet">
+        <span class="popup">
+          <span class="popuptext" id="slet">
             ER DU SIKKER PÅ DU VIL SLETTE KATRINES BIL?
-            <div class="slet-btn top" type="button" name="button" onclick="fjernKort1('fjern1')">SLET</div>
-            <div class="slet-btn" type="button" name="button">ANULLER</div>
-            <div class="page-mask"></div>
-          </div>
+            <span class="slet-btn top" onclick="fjernKort1('fjern1')">SLET</span>
+            <span class="slet-btn">ANULLER</span>
+            <span class="page-mask"></span>
+            </span>
+          </span>
+        </button>
         </div>
-      </button>
 
-    </div>
 
 <!-- BIL KORT 2 -->
     <div class="car two" id="fjern2">
       <h2> HENRIKS BIL</h2>
-      <button class="kryds" class="krydstwo" type="button" name="button" onclick="popupSlet2('slet2')">
-        <div class="popup2">
-          <div class="popuptext2" id="slet2">
+      <button class="kryds krydstwo" type="button" name="button" onclick="popupSlet2('slet2')">
+        <span class="popup2">
+          <span class="popuptext2" id="slet2">
             ER DU SIKKER PÅ DU VIL SLETTE HENRIKS BIL?
-            <div class="slet-btn" type="button" name="button" onclick="fjernKort2('fjern2')">SLET</div>
-            <div class="slet-btn" type="button" name="button">ANULLER</div>
-            <div class="page-mask"></div>
-          </div>
+            <span class="slet-btn" onclick="fjernKort2('fjern2')">SLET</span>
+            <span class="slet-btn">ANULLER</span>
+            <span class="page-mask"></span>
+          </span>
+        </span>
       </button>
       <img id="twopic" src="img/car.png" alt="bil 2 top view">
     </div>
