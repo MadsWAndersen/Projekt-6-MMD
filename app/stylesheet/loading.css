@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+/*BAGGRUND*/
+
 body {
   background: #0F192E;
   background-image: url("../img/arrow.png");
@@ -16,6 +19,7 @@ body {
   max-width: 100%;
 }
 
+/*LOGO*/
 
 .logo {
   position:relative;
@@ -37,6 +41,4 @@ body {
   grid-column: 2;
   text-align: center;
 
-.center{
-  max-width: 100%;
 }
