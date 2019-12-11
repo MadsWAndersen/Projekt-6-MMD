@@ -132,6 +132,7 @@ main {
 .kort iframe {
 	width: 80vw;
 	height: 50vw;
+	border: none;
 }
 
 #topstar{
@@ -211,6 +212,7 @@ main {
 	margin-right: 10%;
 }
 
-.chat-btn a {
+.find-vej-btn {
   text-decoration: none;
+	font-size: 4vw;
 }
