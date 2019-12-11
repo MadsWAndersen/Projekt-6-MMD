@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+/* Grid wrapper */
+
+
 .wrapper {
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
@@ -24,7 +28,7 @@ body {
 }
 
 
-/*header*/
+/* HEADER*/
 
 h1{
   font-size: 6vw;
@@ -66,7 +70,7 @@ header h1 {
 
 }
 
-/*MAIN*/
+/* MAIN */
 
 main {
   display: grid;
@@ -147,6 +151,7 @@ main img {
   font-size: 30px;
   margin-right: 90%
 }
+
 /*BUTTON*/
 
 .log-ind-btn {

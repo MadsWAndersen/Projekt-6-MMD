@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Wrapper */
+
 .wrapper {
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
@@ -212,7 +214,7 @@ main {
 	margin-bottom: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
-	font-size: 4vw;	
+	font-size: 4vw;
 }
 
 .book-btn a {

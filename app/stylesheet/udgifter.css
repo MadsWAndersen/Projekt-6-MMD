@@ -24,6 +24,8 @@ body {
   margin-bottom: 1em;
 }
 
+/* Header */
+
 header {
   display: grid;
   grid-column: 1/-1;
@@ -41,6 +43,8 @@ header h3 {
 .fas {
   font-size: 5vw;
 }
+
+/* Navigation */
 
 nav{
 grid-column: 1/-1;
@@ -79,6 +83,8 @@ grid-column: 2;
   border-radius: 5px;
   margin-top: 20%;
 }
+
+/* Udgifter */
 
 .samlet-udgift{
   grid-column: 1/-1;
@@ -131,6 +137,8 @@ grid-column: 2;
   border-radius: 5px;
 }
 
+/* Vælg måned */
+
 .picktime{
   grid-column: 1/-1;
   grid-row: 6;
@@ -159,6 +167,7 @@ grid-column: 2;
   text-align: right;
 }
 
+/* Selve udgifterne */
 
 .rapporter {
   display: grid;
