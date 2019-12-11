@@ -7,6 +7,7 @@
   <title>Book tid</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book tid med dit værksted her og nu. Vælg dato, tidspunkt og skriv hvad din bil fejler">
   <link href="stylesheet/vejhjælp.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <link rel="stylesheet" href="stylesheet/booktid.css" type="text/css">
@@ -15,9 +16,16 @@
 
 </head>
 
+<!-- Java funktion -->
+
 <body onload="renderDate()">
 
+
+<!-- Wrapper -->
+
   <div class="wrapper">
+
+<!-- Header -->
 
   <header>
   <a href="main.html">
@@ -27,6 +35,7 @@
     <h1>BOOK TID</h1>
   </header>
 
+<!-- Navigation -->
 
 <nav>
 
@@ -42,24 +51,27 @@
 
 </nav>
 
+<!-- Kalenderen -->
+
 <section class="kalenderwrapper" id="days">
 
 </section>
 
+<!-- Vælg tidspunkt -->
 
 <form action="#" id="tidspunkt">
   VÆLG TIDSPUNKT
   <input type="time" id="appt" min="09:00" max="18:00" required>
 </form>
 
-
+<!-- Skriv kommentar -->
 
 <form action="#" id="usrform">
   SKRIV KOMMENTAR <br>
   <input type="text" name="usrname">
 </form>
 
-
+<!-- Knap -->
 
 <a href="main.html" class="log-ind-btn">FORSÆT</a>
 
