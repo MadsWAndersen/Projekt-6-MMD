@@ -16,7 +16,7 @@ body {
 }
 
 h1{
-  font-size: 150%;
+  font-size: 6vw;
 }
 
 .wrapper{
@@ -35,7 +35,8 @@ header{
   width: 80%;
   text-align: center;
   margin-left: 10%;
-  margin-right: 10%
+  margin-right: 10%;
+  margin-top: 4%;
 }
 
 header a{
@@ -44,11 +45,14 @@ header a{
   justify-self: center;
   align-self: center;
   text-decoration: none;
-
 }
 
 header a:visited{
   color: #fff;
+}
+
+.fas {
+  font-size: 4vw;
 }
 
 header .titel{

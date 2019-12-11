@@ -61,7 +61,7 @@ header a {
   align-self: center;
   text-decoration: none;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 4vw;
 }
 
 header h1 {
@@ -79,6 +79,7 @@ header h1 {
 .fa-chevron-left {
   grid-column: 1;
   grid-row: 1;
+  font-size: 4vw;
 }
 
 /*SIDE TITEL*/
@@ -93,9 +94,7 @@ header h1 {
 .indstillinger {
   grid-column: 3;
   grid-row: 1;
-  font-size: 1.5em;
-  transform: scaleX(-1);
-  position: relative;
+  font-size: 4vw;
   justify-self: center;
   align-self: center;
   text-align: center;

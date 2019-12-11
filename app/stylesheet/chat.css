@@ -50,6 +50,15 @@ header a {
   text-decoration: none;
 }
 
+h1{
+  font-size: 6vw;
+}
+
+.fas {
+	font-size: 4vw
+}
+
+
 /* Chat grid */
 
 .chatwrapper{

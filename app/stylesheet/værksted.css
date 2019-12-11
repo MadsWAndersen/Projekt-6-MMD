@@ -33,6 +33,10 @@ h1{
   font-size: 6vw;
 }
 
+.fas {
+	font-size: 4vw;
+}
+
 header {
   display: grid;
   grid-column: 1/-1;

@@ -59,6 +59,10 @@ header a:visited {
   color: #fff;
 }
 
+.fas {
+	font-size: 4vw;
+}
+
 header h1 {
   grid-column: 1/-1;
   grid-row: 1/3;
