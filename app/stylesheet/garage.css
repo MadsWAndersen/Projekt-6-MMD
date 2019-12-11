@@ -191,6 +191,55 @@ button:focus {
     to {opacity: 0,9;}
     }
 
+/*POP UP 2222222222222222222222222*/
+/* Popup container*/
+    .popup2 {
+        position: absolute;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 60vw;
+        height: 50vw;
+        margin-left: -71.5vw;
+        }
+
+    /* The actual popup */
+    .popup2 .popuptext2 {
+        width: 60vw;
+        padding: 20px;
+        height: 100%;
+        background-color: #47587A;
+        display: none;
+        font-family: "proxima-nova", sans-serif;
+        color: #fff;
+        font-size: 4vw;
+        text-align: center;
+        border-radius: 10px;
+        z-index: 2;
+        margin-top: 50px;
+        }
+
+    /* Toggle this class - hide and show the popup */
+    .popup2 .show {
+        display: block;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+        }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 0,9;}
+        }
+
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 0,9;}
+        }
+
 /* Popup knapper*/
 .slet-btn {
       display: block;
@@ -210,7 +259,7 @@ button:focus {
   margin-top: 10vw;
 }
 
-#page-mask {
+.page-mask {
   position: fixed;
   left: 0;
   right: 0;
