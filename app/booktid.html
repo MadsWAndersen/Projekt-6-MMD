@@ -7,6 +7,7 @@
   <title>Book tid</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book tid med dit værksted her og nu. Vælg dato, tidspunkt og skriv hvad din bil fejler">
   <link href="stylesheet/vejhjælp.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <link rel="stylesheet" href="stylesheet/booktid.css" type="text/css">
@@ -15,11 +16,17 @@
 
 </head>
 
+<!-- Java funktion -->
+
 <body onload="renderDate()">
+
+
+<!-- Wrapper -->
 
   <div class="wrapper">
 
 <!--HEADER-->
+
   <header>
   <a href="main.html">
     <i class="fas fa-chevron-left"></i>
@@ -28,7 +35,8 @@
     <h1>BOOK TID</h1>
   </header>
 
-<!--NAV-->
+<!-- Navigation -->
+
 <nav>
 
   <a href="#" class="left" onclick="moveDate('prev')">
@@ -43,18 +51,24 @@
 
 </nav>
 
+<!-- Kalenderen -->
+
 <section class="kalenderwrapper" id="days">
 
 </section>
 
-<!--TIDSPUNKT-->
+
+<!-- Vælg tidspunkt -->
+
+
 <form action="#" id="tidspunkt">
   VÆLG TIDSPUNKT
   <input type="time" id="appt" min="09:00" max="18:00" required>
 </form>
 
 
-<!--SKRIV KOMMENTAR-->
+<!-- Skriv kommentar -->
+
 <form action="#" id="usrform">
   SKRIV KOMMENTAR <br>
   <input type="text" name="usrname">
@@ -63,5 +77,6 @@
 
 <!-- KNAP-->
 <a href="main.html" class="log-ind-btn">FORTSÆT</a>
+
 
 </div>
