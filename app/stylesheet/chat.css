@@ -45,6 +45,11 @@ header {
   font-size: 1em;
 }
 
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Chat grid */
 
 .chatwrapper{
