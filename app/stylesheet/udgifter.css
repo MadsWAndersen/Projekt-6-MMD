@@ -44,6 +44,11 @@ header h3 {
   font-size: 5vw;
 }
 
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Navigation */
 
 nav{
@@ -61,6 +66,11 @@ nav p{
   grid-row: 1;
   font-size: 3.3vw;
 
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .dokumenter{
