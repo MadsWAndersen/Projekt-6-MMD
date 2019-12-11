@@ -122,6 +122,10 @@ background-color: #0F192E;
   color: #B11226;
 }
 
+.krydstwo {
+  z-index: -1;
+}
+
 .kryds {
   background: url("../img/kryds1.png");
   background-repeat: no-repeat;
@@ -158,7 +162,7 @@ button:focus {
     width: 60vw;
     padding: 20px;
     height: 100%;
-    background-color: #fff;
+    background-color: #47587A;
     display: none;
     font-family: "proxima-nova", sans-serif;
     color: #fff;
@@ -204,4 +208,14 @@ button:focus {
 
 .top {
   margin-top: 10vw;
+}
+
+#page-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: -1;
 }
