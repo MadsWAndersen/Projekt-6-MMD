@@ -8,6 +8,7 @@ body {
   background-color: #0d1930;
   background-image: url("../img/arrow.png");
   background-size: 100vw;
+  background-repeat: no-repeat;
   color: #fff;
   font-size: 16px;
   padding: 0;
@@ -127,8 +128,8 @@ background-color: #0F192E;
   background-size: 100%;
   position: relative;
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 7vw;
+  height: 7vw;
   border: none;
   z-index: 1;
 }
@@ -152,19 +153,18 @@ button:focus {
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: 200px;
+    width: 60vw;
     padding: 20px;
-    padding-bottom: 40px;
     height: 100%;
     background-color: #9CD9B9;
     display: block;
     font-family: "proxima-nova", sans-serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 4vw;
     text-align: center;
     border-radius: 10px;
     z-index: 2;
-    margin-left: -239px;
+    margin-left: -330px;
     margin-top: 50px;
     }
 
@@ -189,9 +189,10 @@ button:focus {
 /* Popup knapper*/
 .slet-btn {
       display: block;
-      height: 50px;
+      padding: 20px 15px;
+      font-size: 4vw;
       margin-bottom: 10px;
-      margin-top: 10px;
+      margin-top: 2vw;
       color: white;
       border-radius: 5px;
       background-image: linear-gradient(to bottom, #92ABDA 0%, #242D3D 200%);
