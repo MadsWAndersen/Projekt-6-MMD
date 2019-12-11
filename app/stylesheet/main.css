@@ -34,6 +34,8 @@ h3 {
   width: 95vw;
 }
 
+/*HEADER*/
+
 .top {
   display: grid;
   grid-column: 1/-1;
@@ -55,6 +57,8 @@ h3 {
   font-size: 5vw;
   margin: 0 0 0 5vw;
 }
+
+/*MAIN NAV*/
 
 nav {
   grid-column: 5;
@@ -163,6 +167,8 @@ grid-row: 1;
   font-size: 0.8em;
   justify-self: start;
 }
+
+/* BIIL + BIL STATUS*/
 
 .showcase {
   display: grid;
@@ -287,13 +293,9 @@ PAGE 2PAGE 2 */
 
 
 
+/* SKJULT SLIDER SIDE 2 */
 
-
-
-
-
-
-
+/* HEADER 2 */
 
 .wrapper-right {
   display: grid;
@@ -328,7 +330,7 @@ PAGE 2PAGE 2 */
 }
 
 
-
+/*MAIN NAV*/
 
 .navbar-right {
   overflow: hidden;
@@ -438,7 +440,7 @@ grid-row: 1;
 }
 
 
-
+/*BIL + BIL STATUS 2*/
 
 .showcase-right {
   display: grid;

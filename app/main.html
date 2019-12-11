@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Main screen for FTZ DriveClever app">
 
   <title>Main</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
 
   <link href="stylesheet/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
@@ -18,6 +18,7 @@
 
 <body>
 
+<!-- HEADER-->
 
   <div class="wrapper" id="page1" ontouchstart="p1handleTouchStart(event)" ontouchmove="p1handleTouchMove(event)" ontouchend="p1handleTouchEnd(event)">
     <header class="top">
@@ -32,6 +33,8 @@
         </a>
       </span>
     </nav>
+
+<!--MAIN NAV-->
 
     <div id="side-menu" class="side-nav">
       <a href="#" class="btn-close" onclick="closeSlideMenu()"><i class="fas fa-bars"></i></a>
@@ -54,7 +57,7 @@
 
 
 
-
+<!--OPENSLIDE JS-->
 
     <script>
       function openSlideMenu() {
@@ -72,7 +75,7 @@
 
 
 
-
+<!-- BIL + BIL STATUS-->
 
     <section class="showcase">
       <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top">
@@ -134,8 +137,11 @@ ewqewqewqwqewqewq
 ewqewqewqwqewqewq
 </em> -->
 
+<!--SKJULT SLIDER SIDE-->
+
   <div class="page2" id="page2" ontouchstart="p2handleTouchStart(event)" ontouchmove="p2handleTouchMove(event)" ontouchend="p2handleTouchEnd(event)">
 
+<!--HEADER 2-->
     <div class="wrapper-right">
       <header class="top-right">
         <h1 class="model-right">OPEL ASTRA, 2012</h1>
@@ -151,6 +157,7 @@ ewqewqewqwqewqewq
 
       </nav>
 
+<!--MAIN NAV 2-->
       <div id="side-menu-right" class="side-nav-right">
         <a href="#" class="btn-close-right" onclick="closeSlideMenuRight()"><i class="fas fa-bars"></i></a>
         <a href="#">MIN GARAGE</a>
@@ -169,6 +176,8 @@ ewqewqewqwqewqewq
         </a></div>
       </div>
 
+
+<!--SLIDE JS 2-->
       <script>
         function openSlideMenuRight() {
           document.getElementById('side-menu-right').style.width = '10em';
@@ -181,7 +190,7 @@ ewqewqewqwqewqewq
 
 
 
-
+<!--BIL + BIL STATUS 2-->
       <section class="showcase-right">
         <img src="img/top-bil.png" alt="Overblik over din bil" class="bil-top-right">
       </section>
