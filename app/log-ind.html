@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheet/log-ind.css" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
@@ -29,20 +29,20 @@
 <form method="post" action="main.html" onsubmit="return Validate()" name="vform">
 
 <section class="emailinp">
-<label for="inp" class="inp">
+<label class="inp">
 	<input type="text" placeholder="&nbsp;" name="email">
 	<span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
 	<span class="border"></span>
-  <div id="email_error"></div>
+  <span id="email_error"></span>
 </label>
 </section>
 
 <section class="passinp">
-<label for="inp" class="inp">
+<label class="inp">
 	<input type="password" placeholder="&nbsp;" name="pass">
 	<span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
 	<span class="border"></span>
-  <div id="pass_error"></div>
+  <span id="pass_error"></span>
 </label>
 </section>
 
@@ -53,7 +53,7 @@
 
 
 <!-- BUTTON -->
-<button href="main.html" type="submit" class="log-ind-btn">LOG IND</button>
+<button type="submit" class="log-ind-btn">LOG IND</button>
 </form>
 </main>
 
