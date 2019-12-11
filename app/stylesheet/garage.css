@@ -148,29 +148,30 @@ button:focus {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    width: 60vw;
+    height: 50vw;
+    margin-left: -71.5vw;
     }
 
 /* The actual popup */
 .popup .popuptext {
-    visibility: hidden;
     width: 60vw;
     padding: 20px;
     height: 100%;
-    background-color: #9CD9B9;
-    display: block;
+    background-color: #fff;
+    display: none;
     font-family: "proxima-nova", sans-serif;
     color: #fff;
     font-size: 4vw;
     text-align: center;
     border-radius: 10px;
     z-index: 2;
-    margin-left: -330px;
     margin-top: 50px;
     }
 
 /* Toggle this class - hide and show the popup */
 .popup .show {
-    visibility: visible;
+    display: block;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
     }
@@ -189,9 +190,9 @@ button:focus {
 /* Popup knapper*/
 .slet-btn {
       display: block;
-      padding: 20px 15px;
+      padding: 4vw 3vw;
       font-size: 4vw;
-      margin-bottom: 10px;
+      margin-bottom: 2vw;
       margin-top: 2vw;
       color: white;
       border-radius: 5px;
@@ -200,3 +201,7 @@ button:focus {
       text-align: center;
       text-decoration: none;
     }
+
+.top {
+  margin-top: 10vw;
+}
