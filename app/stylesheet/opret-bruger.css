@@ -70,21 +70,21 @@ header img {
 
 #email_error {
   color: #BD4444;
-  position: absolute;
+  /* position: absolute; */
   top: 33px;
 
 }
 
 #phone_error {
   color: #BD4444;
-  position: absolute;
+  /* position: absolute; */
   top: 33px;
 
 }
 
 #pass_error {
   color: #BD4444;
-  position: absolute;
+  /* position: absolute; */
   top: 33px;
 }
 
