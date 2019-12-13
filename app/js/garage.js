@@ -5,11 +5,12 @@ function popupSlet() {
   popup.classList.toggle("show");
 }
 
-//Show hiiden popup for bil 2
+//Show hidden popup for bil 2
 function popupSlet2() {
   var popup2 = document.getElementById("slet2");
   popup2.classList.toggle("show");
 }
+
 //Slet kort 1
   let fjernKort1 = function(fjern1) {
     let cardElement = document.getElementById(fjern1);
@@ -21,3 +22,6 @@ function popupSlet2() {
      let cardElement = document.getElementById(fjern2);
    cardElement.parentNode.removeChild(cardElement);
   }
+
+
+//opret if/else 
