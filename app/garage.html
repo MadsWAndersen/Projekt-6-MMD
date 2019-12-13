@@ -30,37 +30,39 @@
       <h2> KATRINES BIL</h2>
       <img id="onepic" src="img/top-bil.png" alt="bil 1 top view">
       <button class="kryds" type="button" name="button" onclick="popupSlet('slet')">
+
+        </button>
         <span class="popup">
           <span class="popuptext" id="slet">
             ER DU SIKKER PÅ DU VIL SLETTE KATRINES BIL?
             <span class="slet-btn top" onclick="fjernKort1('fjern1')">SLET</span>
-            <span class="slet-btn">ANULLER</span>
+            <span class="slet-btn" onclick="annuller()">ANULLER</span>
             <span class="page-mask"></span>
             </span>
           </span>
-        </button>
     </div>
 
 <!-- BIL KORT 2 -->
     <div class="car two" id="fjern2">
       <h2> HENRIKS BIL</h2>
       <button class="kryds krydstwo" type="button" name="button" onclick="popupSlet2('slet2')">
-        <span class="popup2">
-          <span class="popuptext2" id="slet2">
-            ER DU SIKKER PÅ DU VIL SLETTE HENRIKS BIL?
-            <span class="slet-btn" onclick="fjernKort2('fjern2')">SLET</span>
-            <span class="slet-btn">ANULLER</span>
-            <span class="page-mask"></span>
-          </span>
-        </span>
+
       </button>
+      <span class="popup2">
+        <span class="popuptext2" id="slet2">
+          ER DU SIKKER PÅ DU VIL SLETTE HENRIKS BIL?
+          <span class="slet-btn top" onclick="fjernKort2('fjern2')">SLET</span>
+          <span class="slet-btn" onclick="annuller2()">ANULLER</span>
+          <span class="page-mask"></span>
+        </span>
+      </span>
       <img id="twopic" src="img/car.png" alt="bil 2 top view">
     </div>
 
 <!-- TILFØJ BIL KORT -->
     <div class="car empty">
       <h2> TILFØJ BIL</h2>
-      <button id="add" class="fas fa-plus"></button>
+      <button id="add" class="fas fa-plus" onclick="alert('Se venligst XD Prototypen for yderligere funktioner')"></button>
     </div>
 
   </section>

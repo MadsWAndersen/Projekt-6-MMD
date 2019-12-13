@@ -11,6 +11,18 @@ function popupSlet2() {
   popup2.classList.toggle("show");
 }
 
+//Show hidden popup for bil 1
+function annuller() {
+  var popup = document.getElementById("slet");
+  popup.classList.toggle("show");
+}
+
+//Show hidden popup for bil 2
+function annuller2() {
+  var popup2 = document.getElementById("slet2");
+  popup2.classList.toggle("show");
+}
+
 //Slet kort 1
   let fjernKort1 = function(fjern1) {
     let cardElement = document.getElementById(fjern1);
@@ -24,4 +36,4 @@ function popupSlet2() {
   }
 
 
-//opret if/else 
+//opret if/else

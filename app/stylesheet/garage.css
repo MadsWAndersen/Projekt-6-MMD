@@ -83,6 +83,7 @@ h2 {
   width: 30%;
   position: relative;
   margin-left: 35%;
+  outline: 0;
 }
 
 .two {
@@ -95,6 +96,7 @@ h2 {
   width: 60%;
   position: relative;
   margin: 5vw 20%;
+  outline: 0;
 }
 
 .empty {
@@ -155,7 +157,9 @@ button:focus {
     user-select: none;
     width: 60vw;
     height: 50vw;
-    margin-left: -71.5vw;
+    margin-left: -47vw;
+    z-index: 500;
+    pointer-events: none;
     }
 
 /* The actual popup */
@@ -204,7 +208,8 @@ button:focus {
         user-select: none;
         width: 60vw;
         height: 50vw;
-        margin-left: -71.5vw;
+        margin-left: 5vw;
+        z-index: 499;
         }
 
     /* The actual popup */
@@ -254,6 +259,7 @@ button:focus {
       border: none;
       text-align: center;
       text-decoration: none;
+      pointer-events: auto;
     }
 
 .top {
@@ -268,4 +274,16 @@ button:focus {
   top: 0;
   background-color: rgba(0,0,0,0.6);
   z-index: -1;
+}
+
+@media only screen and (min-width:768px) {
+.popup{
+  margin-left: -44.7vw;
+}
+
+.popup2{
+  margin-left: 7vw;
+}
+
+.
 }
