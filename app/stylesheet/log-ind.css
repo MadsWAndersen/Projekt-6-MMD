@@ -155,7 +155,7 @@ main{
 
 #email_error {
   color: #BD4444;
-  position: absolute;
+  /* position: absolute; */
   top: 33px;
 	font-size: 3.5vw;
 
@@ -164,7 +164,7 @@ main{
 
 #pass_error {
   color: #BD4444;
-  position: absolute;
+  /* position: absolute; */
   top: 33px;
 	font-size: 3.5vw;
 }
