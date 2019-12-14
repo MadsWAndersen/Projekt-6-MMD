@@ -77,6 +77,7 @@ function p2handleTouchEnd(evt) {
     p2.style.transition = "all .5s";
     p1.style.left = "0";
     p2.style.left = "100%";
+    p2.style.display = "none";
 
   }
 };
