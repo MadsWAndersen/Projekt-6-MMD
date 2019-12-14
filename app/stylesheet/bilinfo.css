@@ -2,19 +2,7 @@
 
 /* CSS Document */
 
-body {
-  font-family: "proxima-nova", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #0d1930;
-  background-image: url("../img/arrow.png");
-  background-size: auto;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-}
+
 
 /*HEADER TITLER*/
 
@@ -351,4 +339,32 @@ margin: 0;
 
 .unchecked {
   color: #BF4245;
+}
+
+@media only screen and (min-width:768px) {
+.fa-chevron-left{
+  margin-left: -12vw;
+}
+
+.indstillinger {
+  margin-right: -9vw;
+}
+.underline{
+  width: 68%;
+}
+
+/* #topleft{
+  margin-left: 19%;
+}
+
+.forsikringsheader{
+  margin-left: 10%;
+}
+
+#botleft{
+  margin-left: 19%;
+} */
+
+
+
 }

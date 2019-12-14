@@ -1,20 +1,6 @@
-@charset "utf-8";
+
 
 /* CSS Document */
-body {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  background-color: #0d1930;
-  background-image: url("../img/arrow.png");
-  background-repeat: no-repeat;
-background-size: 100vw;
-  color: #fff;
-  font-size: 4.5vw;
-  /* 16px */
-  padding: 0;
-  margin: 0;
-}
 
 h1 {
   font-size: 8vw;
@@ -259,36 +245,6 @@ border: 0.8vw solid #000;
   background-color: rgba(255, 0, 0, 0);
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-PAGE 2
-PAGE 2
-PAGE 2
-PAGE 2
-PAGE 2
-PAGE 2PAGE 2
-PAGE 2
-PAGE 2
-PAGE 2
-PAGE 2PAGE 2 */
-
-
-
-
-
-
 
 
 

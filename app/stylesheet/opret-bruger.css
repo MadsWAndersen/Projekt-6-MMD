@@ -13,16 +13,6 @@
 	grid-gap: 5px;
 }
 
-
-body {
-  background: #0F192E;
-  background-image: url("../img/arrow.png");
-  background-size: 100vw;
-	height: 100%;
-	display: grid;
-  font-family: proxima-nova, sans-serif;
-}
-
 /* LOGO */
 
 .logo-place {
