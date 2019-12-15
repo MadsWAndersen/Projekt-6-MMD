@@ -239,11 +239,8 @@ function passVerify() {
 
 // MAIN // MAIN // MAIN // MAIN // MAIN // MAIN // MAIN // MAIN // MAIN // MAIN
 
-let p1 = document.getElementById('page1');
-let p2 = document.getElementById('page2');
-// let overblik = document.getElementById('overblik');
-
-
+const p1 = document.getElementById('page1');
+const p2 = document.getElementById('page2');
 let startingX;
 
 function p1handleTouchStart(evt) {
@@ -254,12 +251,10 @@ function p1handleTouchStart(evt) {
 function p1handleTouchMove(evt) {
   let touch = evt.touches[0];
   let change = startingX - touch.clientX;
-  // let start = overblik.left;
   if (change < 0) {
     return;
   }
   p1.style.left = "-" + change + "px";
-  // overblik.style.left = "-" + change + "px";
   p2.style.display = "block";
   p2.style.left = (screen.width - change) + "px";
   evt.preventDefault();
@@ -281,9 +276,6 @@ function p1handleTouchEnd(evt) {
     p1.style.left = '-100%';
     p2.style.left = '0';
     p2.style.display = 'block';
-
-
-
   }
 }
 
@@ -319,6 +311,5 @@ function p2handleTouchEnd(evt) {
     p1.style.left = "0";
     p2.style.left = "100%";
     p2.style.display = "none";
-
   }
 }
