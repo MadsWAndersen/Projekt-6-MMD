@@ -4,14 +4,10 @@ let dt = new Date();
 
 function renderDate() {
   let endDate = new Date(dt.getFullYear(), dt.getMonth() + 1, 0).getDate();
-
   let months = ["Januar", "Februar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"];
-
-
 
   document.getElementById("date_string").innerHTML = dt.toDateString();
   document.getElementById("month").innerHTML = months[dt.getMonth()];
-
 
   let cells = "";
   const currentDay = dt.getDate();
@@ -40,10 +36,6 @@ function moveDate(para) {
   }
   renderDate();
 }
-
-
-
-
 
 
 
@@ -87,27 +79,22 @@ let fjernKort2 = function(fjern2) {
 };
 
 
-//opret if/else
-
-
-
-
 
 
 // LAMPER // LAMPER // LAMPER // LAMPER // LAMPER // LAMPER // LAMPER
 
 // Select lamp function //
-
 function upDate(previewPic) {
   let div = document.getElementById('placeholder');
   div.style.backgroundImage = "url('" + previewPic.src + "')";
   document.getElementById('alt-text').innerHTML = previewPic.alt;
-
 }
 
 
 
+
 // LOG-IND // LOG-IND  // LOG-IND  // LOG-IND  // LOG-IND  // LOG-IND  // LOG-IND
+
 // Selecting all text elements //
 function ValidateLogInd() {
   var email = document.forms["vform"]["email"];
@@ -119,14 +106,8 @@ function ValidateLogInd() {
 
 
   // Setting all event listeners //
-
   email.addEventListener("blur", emailVerify, true);
   pass.addEventListener("blur", passVerify, true);
-
-
-
-  // Validation function //
-
 
 
   // email validation //
@@ -136,7 +117,6 @@ function ValidateLogInd() {
     return false;
   }
 
-
   // password validation
   if (pass.value == "") {
     pass_error.textContent = "Adgangskode påkrævet";
@@ -144,6 +124,7 @@ function ValidateLogInd() {
     return false;
   }
 }
+
 
 // Event handler functions
 function emailVerify() {
@@ -164,24 +145,17 @@ function passVerify() {
 
 
 // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER
-// Selecting all text elements //
-// Laver en funktion, der hedder signeLoop med i som paramter.
-// Funktionen bliver indlæst når man loader body via eventen onload i HTML L18
+
 function signeLoop(i) {
-  // For loop. i bliver sat til 0 (initializer), så længe i er mindre end eller lig med
-  // 10, kører den blokken af kode (conition). Efter koden er kørt, plusser vi i værdien med 1.
-  for (i = 1; i <= 10; ++i)
-    console.log(i);
+  // for (i = 1; i <= 10; ++i)
+  //   console.log(i);
 }
 
 
 
-// setTimeout(function() {
-//   console.log(i);
-// }, i * 1000);
 
+// Selecting all text elements //
 function ValidateSignUp() {
-
   var email = document.forms["vform"]["email"];
   var phone = document.forms["vform"]["phone"];
   var pass = document.forms["vform"]["pass"];
@@ -191,18 +165,10 @@ function ValidateSignUp() {
   var phone_error = document.getElementById('phone_error');
   var pass_error = document.getElementById('pass_error');
 
-
   // Setting all event listeners //
-
   email.addEventListener("blur", emailVerify, true);
   phone.addEventListener("blur", phoneVerify, true);
   pass.addEventListener("blur", passVerify, true);
-
-
-
-  // Validation function //
-
-
 
   // email validation //
   if (email.value == "") {
@@ -241,7 +207,6 @@ function phoneVerify() {
   }
 }
 
-
 function passVerify() {
   if (pass.value != "") {
     pass_error.innerHTML = "";
@@ -260,7 +225,6 @@ let startingX;
 
 function p1handleTouchStart(evt) {
   startingX = evt.touches[0].clientX;
-
 }
 
 function p1handleTouchMove(evt) {
@@ -274,7 +238,6 @@ function p1handleTouchMove(evt) {
   p2.style.left = (screen.width - change) + "px";
   evt.preventDefault();
 }
-
 
 function p1handleTouchEnd(evt) {
   let change = startingX - evt.changedTouches[0].clientX;
@@ -328,3 +291,11 @@ function p2handleTouchEnd(evt) {
     p2.style.display = "none";
   }
 }
+
+// function arrayLoop() {
+//   let array = ["Dette", "er", "et", "eksempel", "på", "et", "loop"];
+//   for (let i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+//     //Do something
+//   }
+// }
