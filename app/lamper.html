@@ -2,171 +2,172 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
   <title>Advarselslamper</title>
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Find hurtigt ud af din advarselslampe i bilen betyder! Alle bil alamer findes her">
-	<link href="stylesheet/lamper.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="stylesheet/lamper.css" type="text/css">
   <link rel="stylesheet" href="stylesheet/master.css" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
-	<script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/app.js" defer></script>
+  <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
+  <script src="js/app.js" defer></script>
 
 
 </head>
+
 <body>
-<div class="wrapper">
+  <div class="wrapper">
 
 
-<!-- Headeren "BILHJÆLP" -->
+    <!-- Headeren "BILHJÆLP" -->
 
-<header>
-  <a href="main.html">
-    <i class="fas fa-chevron-left"></i>
-  </a>
+    <header>
+      <a href="main.html">
+        <i class="fas fa-chevron-left"></i>
+      </a>
 
-  <h1 class="titel"> BILHJÆLP</h1>
-</header>
+      <h1 class="titel"> BILHJÆLP</h1>
+    </header>
 
-<!-- Menuen -->
+    <!-- Menuen -->
 
-<nav>
-  <p class="lampertext">LAMPER</p>
-    <div class="underline"></div>
-    <p onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="bilmanual">BILMANUAL</p>
-    <p onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="videomanual">VIDEOHJÆLP</p>
-</nav>
+    <nav>
+      <p class="lampertext">LAMPER</p>
+      <div class="underline"></div>
+      <p onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="bilmanual">BILMANUAL</p>
+      <p onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="videomanual">VIDEOHJÆLP</p>
+    </nav>
 
-<!-- Kassen som viser den valgte advarselslampe -->
+    <!-- Kassen som viser den valgte advarselslampe -->
 
-<main class="showcasewrap">
-  <div class="showcase storknap" id="storknap">
-    <div id="placeholder">
-    </div>
-  <!-- <img class="ba" src="img/advarselslamper/gas.png" alt="needgas"> -->
+    <main class="showcasewrap">
+      <div class="showcase storknap" id="storknap">
+        <div id="placeholder">
+        </div>
+        <!-- <img class="ba" src="img/advarselslamper/gas.png" alt="needgas"> -->
+      </div>
+      <p id="alt-text"></p>
+    </main>
+
+
+    <!-- Alle knapperne -->
+
+    <section class="knapwrapper">
+      <div class="knap1 knapper">
+        <img class="preview" src="img/advarselslamper/gas.png" alt="Benzin - Fyld på snarest" onclick="upDate(this)">
+      </div>
+
+      <div class="knap2 knapper">
+        <img class="oil" src="img/advarselslamper/oil.png" alt="Olie - Mangel på olie" onclick="upDate(this)">
+      </div>
+
+      <div class="knap3 knapper">
+        <img class="battery" src="img/advarselslamper/battery.png" alt="Batteri - Skift batteri snarest" onclick="upDate(this)">
+      </div>
+
+      <div class="knap4 knapper">
+        <img class="warning" src="img/advarselslamper/masterwarning.png" alt="Master advarsel - Et eller flere systemer har problemer" onclick="upDate(this)">
+      </div>
+
+      <div class="knap5 knapper">
+        <img class="frost" src="img/advarselslamper/frost.png" alt="Frost - Pas på glatte veje" onclick="upDate(this)">
+      </div>
+
+      <div class="knap6 knapper">
+        <img class="moter" src="img/advarselslamper/moter.png" alt="Motor - Problemer med moteren" onclick="upDate(this)">
+      </div>
+
+      <div class="knap7 knapper">
+        <img class="brake" src="img/advarselslamper/brake.png" alt="Håndbremsen - Problemer med bremsen" onclick="upDate(this)">
+      </div>
+
+      <div class="knap8 knapper">
+        <img class="vent" src="img/advarselslamper/vent.png" alt="Aircondition - Tændt" onclick="upDate(this)">
+      </div>
+
+      <div class="knap9 knapper">
+        <img class="temp" src="img/advarselslamper/temperature.png" alt="Moter temperatur - Har højere temperatur end den skal" onclick="upDate(this)">
+      </div>
+
+      <div class="knap10 knapper">
+        <img class="turn" src="img/advarselslamper/turn.png" alt="Blink lys - En af disse virker ikke" onclick="upDate(this)">
+      </div>
+
+      <div class="knap11 knapper">
+        <img class="hot" src="img/advarselslamper/hot.png" alt="For varme lamper" onclick="upDate(this)">
+      </div>
+
+      <div class="knap12 knapper">
+        <img class="trunk" src="img/advarselslamper/trunk.png" alt="Forklappen - Denne er åben" onclick="upDate(this)">
+      </div>
+
+      <div class="knap13 knapper">
+        <img class="cirkulation" src="img/advarselslamper/circ.png" alt="Luften bliver genanvendt i bilen" onclick="upDate(this)">
+      </div>
+
+      <div class="knap14 knapper">
+        <img class="opentrunk" src="img/advarselslamper/opentrunk.png" alt="Bagklappen - Denne er ikke lukket ordentligt" onclick="upDate(this)">
+      </div>
+
+      <div class="knap15 knapper">
+        <img class="opendoors" src="img/advarselslamper/opendoor.png" alt="Åbne døre - En dør er ikke lukket" onclick="upDate(this)">
+      </div>
+
+      <div class="knap16 knapper">
+        <img class="windsheel" src="img/advarselslamper/windsheel.png" alt="Vinduesvisker" onclick="upDate(this)">
+      </div>
+
+      <div class="knap17 knapper">
+        <img class="windsheel1" src="img/advarselslamper/windsheel1.png" alt="Sprinklervæske" onclick="upDate(this)">
+      </div>
+
+      <div class="knap18 knapper">
+        <img class="heatfront" src="img/advarselslamper/heatfront.png" alt="Varme på ved forruden" onclick="upDate(this)">
+      </div>
+
+      <div class="knap19 knapper">
+        <img class="heatback" src="img/advarselslamper/heat.png" alt="Varme på ved baggrunden" onclick="upDate(this)">
+      </div>
+
+      <div class="knap20 knapper">
+        <img class="light" src="img/advarselslamper/light1.png" alt="Lys tændt i bilen" onclick="upDate(this)">
+      </div>
+
+      <div class="knap21 knapper">
+        <img class="light2" src="img/advarselslamper/light2.png" alt="Tågelygter" onclick="upDate(this)">
+      </div>
+
+      <div class="knap22 knapper">
+        <img class="light3" src="img/advarselslamper/light3.png" alt="Lygter tændt - Sluk disse inden du forlader bilen" onclick="upDate(this)">
+      </div>
+
+      <div class="knap23 knapper">
+        <img class="lighton" src="img/advarselslamper/lighton.png" alt="Lys i bilen" onclick="upDate(this)">
+      </div>
+
+      <div class="knap24 knapper">
+        <img class="passanger" src="img/advarselslamper/passanger.png" alt="Airbag - Front airbag er slået fra" onclick="upDate(this)">
+      </div>
+
+      <div class="knap25 knapper">
+        <img class="longlight" src="img/advarselslamper/longlight.png" alt="Fjernlys" onclick="upDate(this)">
+      </div>
+
+      <div class="knap26 knapper">
+        <img class="heatoverall" src="img/advarselslamper/heatoverall.png" alt="Luft på ben og krop" onclick="upDate(this)">
+      </div>
+
+      <div class="knap27 knapper">
+        <img class="seat" src="img/advarselslamper/seat.png" alt="Seler - Spænd sikkerhedsselen" onclick="upDate(this)">
+      </div>
+
+
+
+
+
+    </section>
+
   </div>
-  <p id="alt-text"></p>
-</main>
-
-
-<!-- Alle knapperne -->
-
-<section class="knapwrapper">
-  <div class="knap1 knapper">
-    <img class="preview" src="img/advarselslamper/gas.png" alt="Benzin - Fyld på snarest" onclick="upDate(this)">
-  </div>
-
-  <div class="knap2 knapper">
-    <img class="oil" src="img/advarselslamper/oil.png" alt="Olie - Mangel på olie" onclick="upDate(this)">
-  </div>
-
-  <div class="knap3 knapper">
-    <img class="battery" src="img/advarselslamper/battery.png" alt="Batteri - Skift batteri snarest" onclick="upDate(this)">
-  </div>
-
-  <div class="knap4 knapper">
-    <img class="warning" src="img/advarselslamper/masterwarning.png" alt="Master advarsel - Et eller flere systemer har problemer" onclick="upDate(this)">
-  </div>
-
-  <div class="knap5 knapper">
-    <img class="frost" src="img/advarselslamper/frost.png" alt="Frost - Pas på glatte veje" onclick="upDate(this)">
-  </div>
-
-  <div class="knap6 knapper">
-    <img class="moter" src="img/advarselslamper/moter.png" alt="Motor - Problemer med moteren" onclick="upDate(this)">
-  </div>
-
-  <div class="knap7 knapper">
-    <img class="brake" src="img/advarselslamper/brake.png" alt="Håndbremsen - Problemer med bremsen" onclick="upDate(this)">
-  </div>
-
-  <div class="knap8 knapper">
-    <img class="vent" src="img/advarselslamper/vent.png" alt="Aircondition - Tændt" onclick="upDate(this)">
-  </div>
-
-  <div class="knap9 knapper">
-      <img class="temp" src="img/advarselslamper/temperature.png" alt="Moter temperatur - Har højere temperatur end den skal" onclick="upDate(this)">
-  </div>
-
-  <div class="knap10 knapper">
-    <img class="turn" src="img/advarselslamper/turn.png" alt="Blink lys - En af disse virker ikke" onclick="upDate(this)">
-  </div>
-
-  <div class="knap11 knapper">
-    <img class="hot" src="img/advarselslamper/hot.png" alt="For varme lamper" onclick="upDate(this)">
-  </div>
-
-  <div class="knap12 knapper">
-    <img class="trunk" src="img/advarselslamper/trunk.png" alt="Forklappen - Denne er åben" onclick="upDate(this)">
-  </div>
-
-  <div class="knap13 knapper">
-    <img class="cirkulation" src="img/advarselslamper/circ.png" alt="Luften bliver genanvendt i bilen" onclick="upDate(this)">
-  </div>
-
-  <div class="knap14 knapper">
-    <img class="opentrunk" src="img/advarselslamper/opentrunk.png" alt="Bagklappen - Denne er ikke lukket ordentligt" onclick="upDate(this)">
-  </div>
-
-  <div class="knap15 knapper">
-    <img class="opendoors" src="img/advarselslamper/opendoor.png" alt="Åbne døre - En dør er ikke lukket" onclick="upDate(this)">
-  </div>
-
-  <div class="knap16 knapper">
-    <img class="windsheel" src="img/advarselslamper/windsheel.png" alt="Vinduesvisker" onclick="upDate(this)">
-  </div>
-
-  <div class="knap17 knapper">
-    <img class="windsheel1" src="img/advarselslamper/windsheel1.png" alt="Sprinklervæske" onclick="upDate(this)">
-  </div>
-
-  <div class="knap18 knapper">
-    <img class="heatfront" src="img/advarselslamper/heatfront.png" alt="Varme på ved forruden" onclick="upDate(this)">
-  </div>
-
-  <div class="knap19 knapper">
-    <img class="heatback" src="img/advarselslamper/heat.png" alt="Varme på ved baggrunden" onclick="upDate(this)">
-  </div>
-
-  <div class="knap20 knapper">
-    <img class="light" src="img/advarselslamper/light1.png" alt="Lys tændt i bilen" onclick="upDate(this)">
-  </div>
-
-  <div class="knap21 knapper">
-    <img class="light2" src="img/advarselslamper/light2.png" alt="Tågelygter" onclick="upDate(this)">
-  </div>
-
-  <div class="knap22 knapper">
-    <img class="light3" src="img/advarselslamper/light3.png" alt="Lygter tændt - Sluk disse inden du forlader bilen" onclick="upDate(this)">
-  </div>
-
-  <div class="knap23 knapper">
-    <img class="lighton" src="img/advarselslamper/lighton.png" alt="Lys i bilen" onclick="upDate(this)">
-  </div>
-
-  <div class="knap24 knapper">
-    <img class="passanger" src="img/advarselslamper/passanger.png" alt="Airbag - Front airbag er slået fra" onclick="upDate(this)">
-  </div>
-
-  <div class="knap25 knapper">
-    <img class="longlight" src="img/advarselslamper/longlight.png" alt="Fjernlys" onclick="upDate(this)">
-  </div>
-
-  <div class="knap26 knapper">
-    <img class="heatoverall" src="img/advarselslamper/heatoverall.png" alt="Luft på ben og krop" onclick="upDate(this)">
-  </div>
-
-  <div class="knap27 knapper">
-    <img class="seat" src="img/advarselslamper/seat.png" alt="Seler - Spænd sikkerhedsselen" onclick="upDate(this)">
-  </div>
-
-
-
-
-
-  </section>
-
-</div>
 </body>
+
 </html>

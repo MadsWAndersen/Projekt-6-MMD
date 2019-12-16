@@ -2,6 +2,7 @@
 <html lang="da" dir="ltr">
 
 <head>
+  <title>Log Ind</title>
   <meta charset="UTF-8">
   <meta name="description" content="Log-ind screen for FTZ DriveClever app">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,61 +10,60 @@
   <link rel="stylesheet" href="stylesheet/master.css" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/app.js" defer></script>
-
-  <title>Log Ind</title>
-
+  <script src="js/app.js" defer></script>
 </head>
+
 <body>
   <div class="wrapper">
 
-<!--LOGO-->
+    <!--LOGO-->
 
-<header class="logo-place">
-  <img src="img/logo.png" alt="logo" class="logo">
-</header>
-
-
-<!-- FORMS -->
-
-<main class="forms">
-
-<form method="post" action="main.html" onsubmit="return ValidateLogInd()" name="vform">
-
-<section class="emailinp">
-<label class="inp">
-	<input type="text" placeholder="&nbsp;" name="email">
-	<span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
-	<span class="border"></span>
-  <span id="email_error"></span>
-</label>
-</section>
-
-<section class="passinp">
-<label class="inp">
-	<input type="password" placeholder="&nbsp;" name="pass">
-	<span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
-	<span class="border"></span>
-  <span id="pass_error"></span>
-</label>
-</section>
-
-<!--GLEMT ADGANGSKODE-->
-<div class="forgot">
- <a href="">GLEMT DIN ADGANGSKODE?</a>
-</div>
+    <header class="logo-place">
+      <img src="img/logo.png" alt="logo" class="logo">
+    </header>
 
 
-<!-- BUTTON -->
-<button type="submit" class="log-ind-btn">LOG IND</button>
-</form>
-</main>
+    <!-- FORMS -->
 
-<!--opret-bruger re-direct-->
-<footer class="signinhere">
-  <a href="opret-bruger.html" >INGEN BRUGER? <u>OPRET DIG HER!</u></a>
-</footer>
+    <main class="forms">
 
-</div>
+      <form method="post" action="main.html" onsubmit="return ValidateLogInd()" name="vform">
+
+        <section class="emailinp">
+          <label class="inp">
+            <input type="text" placeholder="&nbsp;" name="email">
+            <span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
+            <span class="border"></span>
+            <span id="email_error"></span>
+          </label>
+        </section>
+
+        <section class="passinp">
+          <label class="inp">
+            <input type="password" placeholder="&nbsp;" name="pass">
+            <span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
+            <span class="border"></span>
+            <span id="pass_error"></span>
+          </label>
+        </section>
+
+        <!--GLEMT ADGANGSKODE-->
+        <div class="forgot">
+          <a href="">GLEMT DIN ADGANGSKODE?</a>
+        </div>
+
+
+        <!-- BUTTON -->
+        <button type="submit" class="log-ind-btn">LOG IND</button>
+      </form>
+    </main>
+
+    <!--opret-bruger re-direct-->
+    <footer class="signinhere">
+      <a href="opret-bruger.html">INGEN BRUGER? <u>OPRET DIG HER!</u></a>
+    </footer>
+
+  </div>
 </body>
+
 </html>

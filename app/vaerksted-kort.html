@@ -2,10 +2,8 @@
 <html lang="da" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-
   <title>Værksted-Kort</title>
-
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Find dit nærmeste auto værksted hurtigt og enkelt">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
@@ -16,119 +14,120 @@
 
 <body>
 
-<!-- Wrapper -->
+  <!-- Wrapper -->
 
   <div class="wrapper">
 
-<!-- Header -->
+    <!-- Header -->
 
-  <header>
-  <a href="vaerksted.html">
-    <i class="fas fa-chevron-left"></i>
-  </a>
+    <header>
+      <a href="vaerksted.html">
+        <i class="fas fa-chevron-left"></i>
+      </a>
 
-    <h1>VÆRKSTED</h1>
-  </header>
+      <h1>VÆRKSTED</h1>
+    </header>
 
-<!-- Navigation -->
+    <!-- Navigation -->
 
-  <nav>
-  <a href="vaerksted.html" class="favorit">FAVORIT</a>
-  <div class="underline">
-    </div>
-    <a href="vaerksted-kort.html" class="nærmeste">NÆRMESTE</a>
-  </nav>
+    <nav>
+      <a href="vaerksted.html" class="favorit">FAVORIT</a>
+      <div class="underline">
+      </div>
+      <a href="vaerksted-kort.html" class="nærmeste">NÆRMESTE</a>
+    </nav>
 
-<!-- Kortet -->
+    <!-- Kortet -->
 
-<main>
+    <main>
 
-  <div class="kort">
-      <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=islandsgade10&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+      <div class="kort">
+        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=islandsgade10&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+
+      <!-- Favorit icon -->
+
+      <table id="topstar">
+        <tr>
+          <td>
+            <label class="listbtnlabel">
+              <input id="inputstar" class="listbtninp" type="checkbox" />
+              <span id="star">BN</span>
+            </label>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Tekst indhold -->
+
+      <table id="topleft">
+
+        <tr>
+          <td><b>Center Auto</b></td>
+        </tr>
+
+        <tr>
+          <td>Islandsgade 10</td>
+        </tr>
+
+        <tr>
+          <td>5000 Odense C</td>
+        </tr>
+
+        <tr>
+          <td>Tlf. 66 13 60 60</td>
+        </tr>
+
+
+        <tr>
+          <td class="divider"></td>
+        </tr>
+
+        <tr>
+          <td><b>Åbningstider</b></td>
+        </tr>
+
+        <tr>
+          <td>Man/Fre</td>
+        </tr>
+
+        <tr>
+          <td>Lørdag</td>
+        </tr>
+
+        <tr>
+          <td>Søndag</td>
+        </tr>
+
+      </table>
+
+
+      <table id="topright">
+
+        <tr>
+          <td>08-16:30</td>
+        </tr>
+
+        <tr>
+          <td>Lukket</td>
+        </tr>
+
+        <tr>
+          <td>Lukket</td>
+        </tr>
+
+
+      </table>
+
+
+    </main>
+
+    <!-- CHAT BUTTON-->
+
+    <a onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="find-vej-btn">FIND VEJ</a>
+
+
   </div>
+</body>
 
-<!-- Favorit icon -->
-
-<table id="topstar">
-  <tr>
-    <td>
-      <label class="listbtnlabel">
-        <input id="inputstar" class="listbtninp" type="checkbox" />
-        <span id="star">BN</span>
-      </label>
-    </td>
-  </tr>
-</table>
-
-<!-- Tekst indhold -->
-
-  <table id="topleft">
-
-  <tr>
-    <td><b>Center Auto</b></td>
-  </tr>
-
-  <tr>
-    <td>Islandsgade 10</td>
-  </tr>
-
-  <tr>
-    <td>5000 Odense C</td>
-  </tr>
-
-  <tr>
-    <td>Tlf. 66 13 60 60</td>
-  </tr>
-
-
-  <tr>
-    <td class="divider"></td>
-  </tr>
-
-  <tr>
-    <td><b>Åbningstider</b></td>
-  </tr>
-
-  <tr>
-    <td>Man/Fre</td>
-  </tr>
-
-  <tr>
-    <td>Lørdag</td>
-  </tr>
-
-  <tr>
-    <td>Søndag</td>
-  </tr>
-
-  </table>
-
-
-  <table id="topright">
-
-    <tr>
-      <td>08-16:30</td>
-    </tr>
-
-    <tr>
-      <td>Lukket</td>
-    </tr>
-
-    <tr>
-      <td>Lukket</td>
-    </tr>
-
-
-  </table>
-
-
-</main>
-
-<!-- CHAT BUTTON-->
-
-<a onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="find-vej-btn">FIND VEJ</a>
-
-
-  </div>
-  </body>
-  </html>
+</html>
