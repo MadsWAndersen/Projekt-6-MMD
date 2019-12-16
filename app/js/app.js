@@ -44,36 +44,36 @@ function moveDate(para) {
 
 //Show hidden popup for bil 1
 function popupSlet() {
-  var popup = document.getElementById("slet");
+  let popup = document.getElementById("slet");
   popup.classList.toggle("show");
 }
 
 //Show hidden popup for bil 2
 function popupSlet2() {
-  var popup2 = document.getElementById("slet2");
+  let popup2 = document.getElementById("slet2");
   popup2.classList.toggle("show");
 }
 
 //Show hidden popup for bil 1
 function annuller() {
-  var popup = document.getElementById("slet");
+  let popup = document.getElementById("slet");
   popup.classList.toggle("show");
 }
 
 //Show hidden popup for bil 2
 function annuller2() {
-  var popup2 = document.getElementById("slet2");
+  let popup2 = document.getElementById("slet2");
   popup2.classList.toggle("show");
 }
 
 //Slet kort 1
-let fjernKort1 = function(fjern1) {
+function fjernKort1 (fjern1) {
   let cardElement = document.getElementById(fjern1);
   cardElement.parentNode.removeChild(cardElement);
 };
 
 //Slet kort 2
-let fjernKort2 = function(fjern2) {
+function fjernKort2 (fjern2) {
   let cardElement = document.getElementById(fjern2);
   cardElement.parentNode.removeChild(cardElement);
 };
