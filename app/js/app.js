@@ -165,6 +165,21 @@ function passVerify() {
 
 // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER // OPRET-BRUGER
 // Selecting all text elements //
+// Laver en funktion, der hedder signeLoop med i som paramter.
+// Funktionen bliver indlæst når man loader body via eventen onload i HTML L18
+function signeLoop(i) {
+  // For loop. i bliver sat til 0 (initializer), så længe i er mindre end eller lig med
+  // 10, kører den blokken af kode (conition). Efter koden er kørt, plusser vi i værdien med 1.
+  for (i = 1; i <= 10; ++i)
+    console.log(i);
+}
+
+
+
+// setTimeout(function() {
+//   console.log(i);
+// }, i * 1000);
+
 function ValidateSignUp() {
 
   var email = document.forms["vform"]["email"];
