@@ -2,16 +2,15 @@
 <html lang="da" dir="ltr">
 
 <head>
+  <title>Bilinfo</title>
   <meta charset="UTF-8">
-  <meta name="description" content="Booktid screen for FTZ DriveClever app">
-  <title>Book tid</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Book tid med dit værksted her og nu. Vælg dato, tidspunkt og skriv hvad din bil fejler">
   <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
   <link rel="stylesheet" href="stylesheet/master.css" type="text/css">
   <link rel="stylesheet" href="stylesheet/booktid.css" type="text/css">
   <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/app.js" defer></script>
+  <script src="js/app.js" defer></script>
 
 </head>
 
@@ -20,62 +19,62 @@
 <body onload="renderDate()">
 
 
-<!-- Wrapper -->
+  <!-- Wrapper -->
 
   <div class="wrapper">
 
-<!--HEADER-->
+    <!--HEADER-->
 
-  <header>
-  <a href="vaerksted.html">
-    <i class="fas fa-chevron-left"></i>
-  </a>
+    <header>
+      <a href="vaerksted.html">
+        <i class="fas fa-chevron-left"></i>
+      </a>
 
-    <h1>BOOK TID</h1>
-  </header>
+      <h1>BOOK TID</h1>
+    </header>
 
-<!-- Navigation -->
+    <!-- Navigation -->
 
-<nav>
+    <nav>
 
-  <a href="#" class="left" onclick="moveDate('prev')">
-    <i class="fas fa-chevron-left"></i>
-  </a>
-    <h3 id="month"></h3>
-    <p class="date_string" id="date_string"></p>
+      <a href="#" class="left" onclick="moveDate('prev')">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <h3 id="month"></h3>
+      <p class="date_string" id="date_string"></p>
 
-  <a href="#" class="right"  onclick="moveDate('next')">
-      <i class="fas fa-chevron-right" id="right1"></i>
-  </a>
+      <a href="#" class="right" onclick="moveDate('next')">
+        <i class="fas fa-chevron-right" id="right1"></i>
+      </a>
 
-</nav>
+    </nav>
 
-<!-- Kalenderen -->
+    <!-- Kalenderen -->
 
-<section class="kalenderwrapper" id="days">
+    <section class="kalenderwrapper" id="days">
 
-</section>
-
-
-<!-- Vælg tidspunkt -->
+    </section>
 
 
-<form action="#" id="tidspunkt">
-  VÆLG TIDSPUNKT
-  <input type="time" id="appt" min="09:00" max="18:00" required>
-</form>
+    <!-- Vælg tidspunkt -->
 
 
-<!-- Skriv kommentar -->
-
-<form action="#" id="usrform">
-  SKRIV KOMMENTAR <br>
-  <input type="text" name="usrname">
-</form>
+    <form action="#" id="tidspunkt">
+      VÆLG TIDSPUNKT
+      <input type="time" id="appt" min="09:00" max="18:00" required>
+    </form>
 
 
-<!-- KNAP-->
-<a onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="log-ind-btn">FORTSÆT</a>
+    <!-- Skriv kommentar -->
+
+    <form action="#" id="usrform">
+      SKRIV KOMMENTAR <br>
+      <input type="text" name="usrname">
+    </form>
 
 
-</div>
+    <!-- KNAP-->
+    <a onclick="alert('Se venligst XD Prototypen for yderligere funktioner')" class="log-ind-btn">FORTSÆT</a>
+
+
+  </div>

@@ -2,82 +2,81 @@
 <html lang="da" dir="ltr">
 
 <head>
+  <title>Opret Bruger</title>
   <meta charset="UTF-8">
   <meta name="description" content="Opret-bruger screen for FTZ DriveClever app">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="stylesheet/opret-bruger.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="stylesheet/opret-bruger.css" type="text/css">
   <link rel="stylesheet" href="stylesheet/master.css" type="text/css">
-	<link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
-	<script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/app.js" defer></script>
-
-  <title>Opret Bruger</title>
-
+  <link rel="stylesheet" href="https://use.typekit.net/chf0dep.css">
+  <script src="https://kit.fontawesome.com/758f05fc43.js" crossorigin="anonymous"></script>
+  <script src="js/app.js" defer></script>
 </head>
 
 <body onload="signeLoop()">
   <div class="wrapper">
 
-<!--LOGO-->
+    <!--LOGO-->
 
-<header class="logo-place">
-  <img src="img/logo.png" alt="logo" class="logo">
-</header>
-
-
-
-<!-- FORMS -->
-
-<main class="forms">
-
-<form method="post" action="main.html" onsubmit="return ValidateSignUp()" name="vform">
-
-<section class="emailinp">
-<label class="inp">
-	<input type="text" placeholder="&nbsp;" name="email">
-	<span class="label"><span  class="fas fa-envelope"></span>E-MAIL</span>
-	<span class="border"></span>
-  <span id="email_error"></span>
-</label>
-</section>
-
-<section class="mobileinp">
-<label class="inp">
-	<input type="text" placeholder="&nbsp;" name="phone">
-	<span class="label"><span class="fas fa-mobile-alt"></span>TELEFON NUMMER</span>
-	<span class="border"></span>
-  <span id="phone_error"></span>
-</label>
-</section>
-
-<section class="passinp">
-<label class="inp">
-	<input type="password" placeholder="&nbsp;" name="pass">
-	<span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
-	<span class="border"></span>
-  <span id="pass_error"></span>
-</label>
-</section>
-
-<!--CHECKBOX-->
-
-<label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
-  <input type="checkbox">
-  <span class="checkmark"></span>
-</label>
-
-<button type="submit" class="sign-up-btn">OPRET BRUGER</button>
-</form>
-</main>
-
-<!-- BUTTON-->
-
-<footer class="signuphere">
-  <a href="log-ind.html">HAR DU ALLEREDE EN BRUGER? <u>LOG IND HER!</u></a>
-  <p id="counter"> </p>
-</footer>
+    <header class="logo-place">
+      <img src="img/logo.png" alt="logo" class="logo">
+    </header>
 
 
-</div>
+
+    <!-- FORMS -->
+
+    <main class="forms">
+
+      <form method="post" action="main.html" onsubmit="return ValidateSignUp()" name="vform">
+
+        <section class="emailinp">
+          <label class="inp">
+            <input type="text" placeholder="&nbsp;" name="email">
+            <span class="label"><span class="fas fa-envelope"></span>E-MAIL</span>
+            <span class="border"></span>
+            <span id="email_error"></span>
+          </label>
+        </section>
+
+        <section class="mobileinp">
+          <label class="inp">
+            <input type="text" placeholder="&nbsp;" name="phone">
+            <span class="label"><span class="fas fa-mobile-alt"></span>TELEFON NUMMER</span>
+            <span class="border"></span>
+            <span id="phone_error"></span>
+          </label>
+        </section>
+
+        <section class="passinp">
+          <label class="inp">
+            <input type="password" placeholder="&nbsp;" name="pass">
+            <span class="label"><span class="fas fa-lock"></span>ADGANGSKODE</span>
+            <span class="border"></span>
+            <span id="pass_error"></span>
+          </label>
+        </section>
+
+        <!--CHECKBOX-->
+
+        <label class="checkbox"> ACCEPTER <u>VILKÅR OG BETINGELSER</u>
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <button type="submit" class="sign-up-btn">OPRET BRUGER</button>
+      </form>
+    </main>
+
+    <!-- BUTTON-->
+
+    <footer class="signuphere">
+      <a href="log-ind.html">HAR DU ALLEREDE EN BRUGER? <u>LOG IND HER!</u></a>
+      <p id="counter"> </p>
+    </footer>
+
+
+  </div>
 </body>
+
 </html>

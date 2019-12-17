@@ -293,9 +293,9 @@ function p2handleTouchEnd(evt) {
 }
 
 function arrayLoop() {
-//   let array = ["Dette", "er", "et", "eksempel", "på", "et", "loop"];
-//   for (let i = 0; i < array.length; i++) {
-//     console.log(array[i]);
-//     //Do something
-//   }
+  let array = ["Dette", "er", "et", "eksempel", "på", "et", "loop"];
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+    //Do something
+  }
 }
