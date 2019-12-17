@@ -67,13 +67,13 @@ function annuller2() {
 }
 
 //Slet kort 1
-function fjernKort1 (fjern1) {
+function fjernKort1(fjern1) {
   let cardElement = document.getElementById(fjern1);
   cardElement.parentNode.removeChild(cardElement);
 };
 
 //Slet kort 2
-function fjernKort2 (fjern2) {
+function fjernKort2(fjern2) {
   let cardElement = document.getElementById(fjern2);
   cardElement.parentNode.removeChild(cardElement);
 };
